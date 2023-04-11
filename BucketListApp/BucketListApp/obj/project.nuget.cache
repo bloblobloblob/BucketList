@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "VA1JF+6WZ9UmYk9cOw9JwmGl5eDYDFcGwKH6pNPdtjNbk7iOr43VRQQ4NPA6pGXLsX3hm1VIKCh+SC/IJ5e0pQ==",
+  "success": true,
+  "projectFilePath": "D:\\GitHub Repository\\BucketList\\BucketListApp\\BucketListApp\\BucketListApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Idrmi\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Idrmi\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Idrmi\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Idrmi\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\Idrmi\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
