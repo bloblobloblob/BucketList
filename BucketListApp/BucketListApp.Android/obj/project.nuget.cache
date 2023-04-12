@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Y6VaQDROpSzS8grrl1A27IbI0OEg1YUwJX1b4snNYlKiYo3IXv0fsHJoa+wgFVFmqNWkipm5vBZcB9D09sRkJQ==",
+  "dgSpecHash": "iVH8xqEormh+Jdzql77yKY/gyNLHKXnOXk5eQdigRWGF0YYfNF+SDA+L0FvDEtBwr+C5hn3x1QazH4u3wKA2yQ==",
   "success": true,
   "projectFilePath": "D:\\GitHub Repository\\BucketList\\BucketListApp\\BucketListApp.Android\\BucketListApp.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Idrmi\\.nuget\\packages\\nunit3testadapter\\4.4.2\\nunit3testadapter.4.4.2.nupkg.sha512",
     "C:\\Users\\Idrmi\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Idrmi\\.nuget\\packages\\xamarin.androidx.activity\\1.2.4.1\\xamarin.androidx.activity.1.2.4.1.nupkg.sha512",
     "C:\\Users\\Idrmi\\.nuget\\packages\\xamarin.androidx.annotation\\1.2.0.1\\xamarin.androidx.annotation.1.2.0.1.nupkg.sha512",
