@@ -5,9 +5,9 @@ using System.Text;
 
 namespace BucketListApp
 {
-    internal static class GoalList
+    internal class GoalList
     {
-        private static HashSet<Goal> goals = new HashSet<Goal>();
+        private HashSet<Goal> goals = new HashSet<Goal>();
 
         public static void AddCustomGoal(string title, string descript, Category category, List<SubTask> subTasks)
         {
@@ -34,29 +34,28 @@ namespace BucketListApp
                 changeSubTasks(goal);
         }
 
-        public static List<Goal> GetGoals()
+        public List<Goal> GetGoals()
         {
-            return goals.SortGoals();
+            return SortGoals(this.goals).ToList();
         }
 
-        public static List<Goal> GetFilteredGoals(Category filter)
+        public List<Goal> GetFilteredGoals(Category filter)
         {
-            return goals
+            return SortGoals(this.goals)
                 .Where(goal => goal.Category == filter)
-                .SortGoals();
+                .ToList();
         }
 
-        public static void DeleteGoal(Goal goal)
+        public void DeleteGoal(Goal goal)
         {
-            goals.Remove(goal);
+            this.goals.Remove(goal);
         }
 
-        private static List<Goal> SortGoals(this IEnumerable<Goal> goals)
+        private static IEnumerable<Goal> SortGoals(IEnumerable<Goal> goals)
         {
             return goals
                 .OrderBy(goal => goal.CreationDate)
-                .ThenBy(goal => goal.Status)
-                .ToList();
+                .ThenBy(goal => goal.Status);
         }
     }
 }
