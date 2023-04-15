@@ -9,12 +9,12 @@ namespace BucketListApp
     {
         private HashSet<Goal> goals = new HashSet<Goal>();
 
-        public static void AddCustomGoal(string title, string descript, Category category, List<SubTask> subTasks)
+        public void AddCustomGoal(string title, string descript, Category category, List<SubTask> subTasks)
         {
             goals.Add(new Goal(title, descript, category, subTasks));
         }
 
-        public static void AddExampleGoal(Goal exampleGoal, string customTitle,
+        public void AddExampleGoal(Goal exampleGoal, string customTitle,
             string customDescript, Category customCategory, List<SubTask> customSubTasks)
         {
             var title = customTitle ?? exampleGoal.Title;
