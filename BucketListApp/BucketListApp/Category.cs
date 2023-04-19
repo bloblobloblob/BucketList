@@ -5,9 +5,9 @@ using System.Text;
 
 namespace BucketListApp
 {
-    internal class Category
+    public class Category
     {
-        public string Name { get; set; }
+        public string Name { get; }
 
         public Category(string name)
         { 

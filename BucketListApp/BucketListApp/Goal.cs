@@ -6,7 +6,7 @@ using System.Text;
 
 namespace BucketListApp
 {
-    internal class Goal
+    public class Goal
     {
         public static Dictionary<string, Goal> ExampleGoals = new Dictionary<string, Goal>();
 
@@ -37,21 +37,26 @@ namespace BucketListApp
         {
             var goal = obj as Goal;
             return goal != null
-                && this.Title == goal.Title
-                && this.Status == goal.Status
-                && this.Description == goal.Description
-                && this.Category.Equals(goal.Category)
-                && this.SubTasks.Equals(goal.SubTasks);
+                && Title == goal.Title
+                && Status == goal.Status
+                && Description == goal.Description
+                && Category.Equals(goal.Category)
+                && SubTasks.Equals(goal.SubTasks);
         }
 
         public void AddSubTask(SubTask subtask)
         {
-            this.SubTasks.Add(subtask);
+            SubTasks.Add(subtask);
         }
 
         public void DeleteSubTask(SubTask subtask)
         {
-            this.SubTasks.Remove(subtask);
+            SubTasks.Remove(subtask);
+        }
+
+        public void ChangeCompletionState()
+        {
+            Status = !Status;
         }
     }
 }

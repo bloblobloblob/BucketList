@@ -5,10 +5,18 @@ using System.Text;
 
 namespace BucketListApp
 {
-    internal class GoalList
+    public class GoalList
     {
-        private HashSet<Goal> goals = new HashSet<Goal>();
+        private List<Goal> goals;
 
+        public GoalList(IEnumerable<Goal> goals)
+        {
+            this.goals = goals.ToList();
+        }
+        public GoalList()
+        {
+            goals = new List<Goal>();
+        }
         public void AddCustomGoal(string title, string descript, Category category, List<SubTask> subTasks)
         {
             goals.Add(new Goal(title, descript, category, subTasks));
@@ -36,21 +44,34 @@ namespace BucketListApp
 
         public List<Goal> GetGoals()
         {
-            return SortGoals(this.goals).ToList();
+            return SortGoals(goals).ToList();
         }
 
         public List<Goal> GetFilteredGoals(Category filter)
         {
-            return SortGoals(this.goals)
+            return SortGoals(goals)
                 .Where(goal => goal.Category == filter)
                 .ToList();
         }
 
         public void DeleteGoal(Goal goal)
         {
-            this.goals.Remove(goal);
+            goals.Remove(goal);
         }
 
+        public int Completed()
+        {
+            if (!goals.Any())
+                return 0;
+            return goals.Where(goal => goal.Status == true).Count();
+        }
+
+        public int InProgress()
+        {
+            if (!goals.Any())
+                return 0;
+            return goals.Where(goal => goal.Status == false).Count();
+        }
         private static IEnumerable<Goal> SortGoals(IEnumerable<Goal> goals)
         {
             return goals
