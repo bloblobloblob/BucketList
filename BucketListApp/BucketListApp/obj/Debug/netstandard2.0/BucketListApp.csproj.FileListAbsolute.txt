@@ -1,0 +1,15 @@
+D:\GitHub Repository\BucketList\BucketListApp\BucketListApp\bin\Debug\netstandard2.0\BucketListApp.deps.json
+D:\GitHub Repository\BucketList\BucketListApp\BucketListApp\bin\Debug\netstandard2.0\BucketListApp.dll
+D:\GitHub Repository\BucketList\BucketListApp\BucketListApp\bin\Debug\netstandard2.0\BucketListApp.pdb
+D:\GitHub Repository\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\BucketListApp.csproj.AssemblyReference.cache
+D:\GitHub Repository\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\BucketListApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub Repository\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\GitHub Repository\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\GitHub Repository\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\BucketListApp.AssemblyInfoInputs.cache
+D:\GitHub Repository\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\BucketListApp.AssemblyInfo.cs
+D:\GitHub Repository\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\BucketListApp.csproj.CoreCompileInputs.cache
+D:\GitHub Repository\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\XamlC.stamp
+D:\GitHub Repository\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\BucketListApp.dll
+D:\GitHub Repository\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\refint\BucketListApp.dll
+D:\GitHub Repository\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\BucketListApp.pdb
+D:\GitHub Repository\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\ref\BucketListApp.dll

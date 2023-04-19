@@ -6,7 +6,7 @@ using System.Text;
 
 namespace BucketListApp
 {
-    internal class SubTask
+    public class SubTask
     {
         public string Name { get; set; }
         public bool Status { get; set; }
