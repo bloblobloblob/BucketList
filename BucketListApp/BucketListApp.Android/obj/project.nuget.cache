@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "MecTobIJXBgUKD5W+y5z55zpSJ1M0xGAtJGO79ubr0qXF1fXphRe3T+WSJEoGhUKxjZMhS3v83BcqR2iFEHt8A==",
+  "dgSpecHash": "An2vSLRfu4XIfz98orvA5uNgYuBvnQ02QYNljCw4LJNUA7GvBowK77o92qHvHuzpnFu7TD30dWLfBXAzQP8jvg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Arina Topor\\Documents\\GitHub\\BucketList\\BucketListApp\\BucketListApp.Android\\BucketListApp.Android.csproj",
   "expectedPackageFiles": [
@@ -67,10 +67,22 @@
     "C:\\Users\\Arina Topor\\.nuget\\packages\\xamarin.androidx.versionedparcelable\\1.1.1.8\\xamarin.androidx.versionedparcelable.1.1.1.8.nupkg.sha512",
     "C:\\Users\\Arina Topor\\.nuget\\packages\\xamarin.androidx.viewpager\\1.0.0.8\\xamarin.androidx.viewpager.1.0.0.8.nupkg.sha512",
     "C:\\Users\\Arina Topor\\.nuget\\packages\\xamarin.androidx.viewpager2\\1.0.0.10\\xamarin.androidx.viewpager2.1.0.0.10.nupkg.sha512",
+    "C:\\Users\\Arina Topor\\.nuget\\packages\\xamarin.communitytoolkit\\2.0.5\\xamarin.communitytoolkit.2.0.5.nupkg.sha512",
     "C:\\Users\\Arina Topor\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\Arina Topor\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512",
     "C:\\Users\\Arina Topor\\.nuget\\packages\\xamarin.google.android.material\\1.4.0.2\\xamarin.google.android.material.1.4.0.2.nupkg.sha512",
     "C:\\Users\\Arina Topor\\.nuget\\packages\\xamarin.google.guava.listenablefuture\\1.0.0.2\\xamarin.google.guava.listenablefuture.1.0.0.2.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Обнаружено понижение версии пакета Xamarin.Forms с 5.0.0.2291 на 5.0.0.2196. Чтобы выбрать другую версию, создайте ссылку на пакет напрямую из проекта. \r\n BucketListApp.Android -> BucketListApp -> Xamarin.Forms (>= 5.0.0.2291) \r\n BucketListApp.Android -> Xamarin.Forms (>= 5.0.0.2196)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "MonoAndroid,Version=v13.0"
+      ]
+    }
+  ]
 }

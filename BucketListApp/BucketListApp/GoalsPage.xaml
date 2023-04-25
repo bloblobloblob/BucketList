@@ -1,11 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="BucketListApp.GoalsPage"
-             Title="GoalPage">
-    <ContentPage.Content>
-        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
-            <Label Text="Welcome to GoalPage"></Label>
+             x:Class="BucketListApp.GoalsPage"        
+             IconImageSource="Goals">
+    <StackLayout>
+        <Label Text="Мои цели" FontSize="24" TextColor="Black" FontAttributes="Bold" Margin ="0, 20, 0, 20" HorizontalOptions="Center"></Label >
+        <StackLayout Orientation="Horizontal" Margin="16, 0, 16, 18" HeightRequest="16">
+            
         </StackLayout>
-    </ContentPage.Content>
+
+        <ScrollView  BindingContext="places">
+            <StackLayout Padding="18, 0, 18 ,16" Orientation="Horizontal">
+                <Frame HeightRequest="56" WidthRequest="345" 
+               BackgroundColor="#292D32" 
+               CornerRadius="10" Opacity="1"
+               Margin="0, 0, 0, 16">
+                    <Grid>
+                        <RelativeLayout>
+                            <Image Source="Fon" HorizontalOptions='FillAndExpand' HeightRequest="55"></Image>
+                            <Label Margin="67, 8, 0, 12" Text="Слетать в Париж" FontSize="16" TextColor="#FFF3E2" VerticalOptions="EndAndExpand"></Label>
+                            <ProgressBar Margin="67, 40, 0, 0" Progress="1" ProgressColor="#FBAB57" HeightRequest="12" WidthRequest="250"></ProgressBar>
+                        </RelativeLayout>
+                    </Grid>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
 </ContentPage>
