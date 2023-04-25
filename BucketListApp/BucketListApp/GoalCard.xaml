@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BucketListApp.GoalCard"
+    BackgroundColor="#FFF3E2">
+    <ContentPage.Content>
+        <StackLayout >
+            <Grid>
+                <StackLayout HeightRequest="350" Margin="0, 60, 0, 0">
+                    <Grid>
+                        <Label Text="Слетать в Париж" FontSize="64" TextColor="Black" FontAttributes="Bold" Margin="24, 0, 24, 0"></Label>
+                        <StackLayout Margin="0, 95, 0, 0">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="3*"/>
+                                    <ColumnDefinition Width="5*"/>
+                                </Grid.ColumnDefinitions>
+                                <Image Source="Plane" Grid.Column="1"/>
+                            </Grid>
+                        </StackLayout>
+                    </Grid>
+                </StackLayout>
+            </Grid>
+
+            <Frame BackgroundColor="#292D32" CornerRadius="20" VerticalOptions="FillAndExpand" Margin="0, 0, 0, -20">
+                <StackLayout Margin="24, 12, 24, 12">
+                    <ProgressBar Progress="0.2" ProgressColor="#FBAB57"/>
+                    <Label Text="16.04.23" TextColor="#FFF3E2" FontAttributes="Bold" FontSize="16"></Label>
+                    <Label Text="Я хочу слетать в Париж" TextColor="#FFF3E2"></Label>
+                    <Button ImageSource="EditGoal"  BackgroundColor="#292D32" Padding="0, 0, 0, 0"></Button>
+                    <Frame Margin="16, 24, 16, 24" BackgroundColor ="#868686">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                
+                            </Grid.ColumnDefinitions>
+                                
+                        </Grid>
+                    </Frame>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

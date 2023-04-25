@@ -31,3 +31,4 @@ C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp\obj
 C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\CreateGoalPage.xaml.g.cs
 C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\GoalsPage.xaml.g.cs
 C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\ProfilePage.xaml.g.cs
+C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\GoalCard.xaml.g.cs

@@ -18,6 +18,13 @@ namespace BucketListApp
         {
             InitializeComponent();
             On<Android>().SetToolbarPlacement(ToolbarPlacement.Bottom);
+            On<Android>().SetBarItemColor(Color.Gray);
+            On<Android>().SetBarSelectedItemColor(Color.Black);
         }
+        public async void ToCardGoalPage(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new GoalCard());
+        }
+
     }
 }
