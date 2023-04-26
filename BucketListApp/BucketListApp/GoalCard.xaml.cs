@@ -15,6 +15,7 @@ namespace BucketListApp
         public GoalCard()
         {
             InitializeComponent();
+            NavigationPage.SetHasNavigationBar(this, false);
         }
     }
 }
