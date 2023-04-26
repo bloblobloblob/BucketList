@@ -17,5 +17,9 @@ namespace BucketListApp
             InitializeComponent();
         }
         
+        async void OnButtonClicked(object sender, EventArgs args)
+        {
+            await Navigation.PushAsync(new GoalCard());
+        }
     }
 }
