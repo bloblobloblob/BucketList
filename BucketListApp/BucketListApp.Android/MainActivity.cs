@@ -18,6 +18,7 @@ namespace BucketListApp.Droid
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             LoadApplication(new App());
             Window.SetStatusBarColor(Android.Graphics.Color.Rgb(251, 171, 87));
+            // Window.SetStatusBarColor(Android.Graphics.Color.Rgb(41, 45, 50));
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
