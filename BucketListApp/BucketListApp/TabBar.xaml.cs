@@ -17,6 +17,7 @@ namespace BucketListApp
         public TabBar()
         {
             InitializeComponent();
+            NavigationPage.SetHasNavigationBar(this, false);
             On<Android>().SetToolbarPlacement(ToolbarPlacement.Bottom);
             On<Android>().SetBarItemColor(Color.Gray);
             On<Android>().SetBarSelectedItemColor(Color.Black);
