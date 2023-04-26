@@ -11,7 +11,7 @@ namespace BucketListApp
         {
             InitializeComponent();
 
-            MainPage = new TabBar();
+            MainPage = new NavigationPage(new TabBar());
         }
 
         protected override void OnStart()
