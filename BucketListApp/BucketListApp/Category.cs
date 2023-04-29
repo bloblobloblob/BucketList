@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.IO;
+using Xamarin.Forms;
 
 namespace BucketListApp
 {
@@ -9,11 +11,19 @@ namespace BucketListApp
     {
         public string Name { get; }
 
-        public Category(string name)
+        public Image Icon { get; }
+
+        public Category(string name, string imageName = null)
         { 
             Name = name;
+            Icon = new Image() { Source = imageName };
         }
 
+        public Category(string name, Image image)
+        {
+            Name = name;
+            Icon = image;
+        }
         public override int GetHashCode()
         {
             return Name.GetHashCode();
@@ -26,7 +36,6 @@ namespace BucketListApp
                 && this.Name == category.Name;
         }
 
-        public static Category Create(string name) => new Category(name);
-
+        public static Category Create(string name, string imageName) => new Category(name, imageName);
     }
 }

@@ -12,7 +12,22 @@ namespace BucketListApp
     public partial class App : Application
     {
         private static ProfilesDatabase database;
+        private List<string> motivationalPhrases = new List<string>() { };
 
+        public List<Category> Categories {
+            get
+            {
+                if (Categories == null)
+                {
+                    Categories = new List<Category>()
+                    {
+                        new Category("без категории")
+                    };
+                }
+                return Categories;
+            }
+            private set { }
+        }
         public (int InProgress, int Completed) Statistics
         {
             get
@@ -103,6 +118,12 @@ namespace BucketListApp
                 CurrentProfile.Name = name;
         }
 
+        public string GetMotivationPhrase()
+        {
+            var random = new Random();
+            return motivationalPhrases[random.Next(0, motivationalPhrases.Count)];
+        }
+
         private void SetProfile(Profile profile)
         {
              CurrentProfile = profile;    
@@ -112,5 +133,6 @@ namespace BucketListApp
         {
             return CurrentProfile.Login != null;
         }
+
     }
 }

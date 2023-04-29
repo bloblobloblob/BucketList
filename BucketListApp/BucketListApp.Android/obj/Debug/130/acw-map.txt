@@ -1,6 +1,9 @@
 BucketListApp.Droid.MainActivity, BucketListApp.Android;crc642ce1396c99d27488.MainActivity
 BucketListApp.Droid.MainActivity;crc642ce1396c99d27488.MainActivity
 bucketlistapp.droid.MainActivity;crc642ce1396c99d27488.MainActivity
+Vaxyi.Droid.SplashActivity, BucketListApp.Android;crc64c078b250e2282f89.SplashActivity
+Vaxyi.Droid.SplashActivity;crc64c078b250e2282f89.SplashActivity
+vaxyi.droid.SplashActivity;crc64c078b250e2282f89.SplashActivity
 AndroidX.Activity.IOnBackPressedDispatcherOwner, Xamarin.AndroidX.Activity;androidx.activity.OnBackPressedDispatcherOwner
 AndroidX.Activity.IOnBackPressedDispatcherOwner;androidx.activity.OnBackPressedDispatcherOwner
 androidx.activity.OnBackPressedDispatcherOwner;androidx.activity.OnBackPressedDispatcherOwner

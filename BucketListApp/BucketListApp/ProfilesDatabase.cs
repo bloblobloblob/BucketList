@@ -14,7 +14,7 @@ namespace BucketListApp
         public ProfilesDatabase(string databasaPath)
         {
             database = new SQLiteAsyncConnection(databasaPath);
-            database.CreateTableAsync<Profile>();
+            database.CreateTableAsync<Profile>();   
         }
 
         public Task<List<Profile>> GetProfilesAsync()

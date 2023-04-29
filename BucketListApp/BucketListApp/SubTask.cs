@@ -8,28 +8,38 @@ namespace BucketListApp
 {
     public class SubTask
     {
-        public string Name { get; set; }
-        public bool Status { get; set; }
+        public string Description { get; private set; }
+        public bool Status { get; private set; }
 
         public SubTask(string name)
         { 
-            Name = name;
+            Description = name;
             Status = false;
         }
 
+        public static SubTask Create(string name) => new SubTask(name);
+
+        public void ChangeState()
+        {
+            Status = !Status;
+        }
+
+        public void ChangeName(string description)
+        {
+            Description = description;
+        }
         public override int GetHashCode()
         {
-            return Name.GetHashCode();
+            return Description.GetHashCode();
         }
 
         public override bool Equals(object obj)
         {
             var subTask = obj as SubTask;
             return subTask != null
-                && this.Name == subTask.Name
+                && this.Description == subTask.Description
                 && this.Status == subTask.Status;
         }
 
-        public static SubTask Create(string name) => new SubTask(name);
     }
 }

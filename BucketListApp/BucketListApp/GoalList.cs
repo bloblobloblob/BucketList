@@ -38,6 +38,7 @@ namespace BucketListApp
             goal.Title = customTitle ?? goal.Title;
             goal.Description = customDescript ?? goal.Description;
             goal.Category = customCategory ?? goal.Category;
+            goal.Image = goal.Category.Icon;
             if (changeSubTasks != null) 
                 changeSubTasks(goal);
         }
