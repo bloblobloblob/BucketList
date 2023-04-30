@@ -2020,3 +2020,8 @@ C:\Users\Nikita\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\
 C:\Users\Nikita\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\stamp\_GenerateJavaStubs.stamp
 C:\Users\Nikita\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Nikita\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\bf.png
+C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\android\src\crc64c078b250e2282f89\SplashActivity.java
+C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\_goals.png
+C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\medal.png
+C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\add.png
