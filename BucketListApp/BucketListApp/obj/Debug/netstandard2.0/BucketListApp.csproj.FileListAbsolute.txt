@@ -36,3 +36,22 @@ D:\GitHub Repository\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandar
 D:\GitHub Repository\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\GoalsPage.xaml.g.cs
 D:\GitHub Repository\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\ProfilePage.xaml.g.cs
 D:\GitHub Repository\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\TabBar.xaml.g.cs
+C:\Users\Nikita\Documents\GitHub\BucketList\BucketListApp\BucketListApp\bin\Debug\netstandard2.0\BucketListApp.deps.json
+C:\Users\Nikita\Documents\GitHub\BucketList\BucketListApp\BucketListApp\bin\Debug\netstandard2.0\BucketListApp.dll
+C:\Users\Nikita\Documents\GitHub\BucketList\BucketListApp\BucketListApp\bin\Debug\netstandard2.0\BucketListApp.pdb
+C:\Users\Nikita\Documents\GitHub\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\BucketListApp.csproj.AssemblyReference.cache
+C:\Users\Nikita\Documents\GitHub\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\BucketListApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nikita\Documents\GitHub\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Nikita\Documents\GitHub\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\CreateGoalPage.xaml.g.cs
+C:\Users\Nikita\Documents\GitHub\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\GoalCard.xaml.g.cs
+C:\Users\Nikita\Documents\GitHub\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\GoalsPage.xaml.g.cs
+C:\Users\Nikita\Documents\GitHub\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\ProfilePage.xaml.g.cs
+C:\Users\Nikita\Documents\GitHub\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\TabBar.xaml.g.cs
+C:\Users\Nikita\Documents\GitHub\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\BucketListApp.AssemblyInfoInputs.cache
+C:\Users\Nikita\Documents\GitHub\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\BucketListApp.AssemblyInfo.cs
+C:\Users\Nikita\Documents\GitHub\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\BucketListApp.csproj.CoreCompileInputs.cache
+C:\Users\Nikita\Documents\GitHub\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Nikita\Documents\GitHub\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\BucketListApp.dll
+C:\Users\Nikita\Documents\GitHub\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\refint\BucketListApp.dll
+C:\Users\Nikita\Documents\GitHub\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\BucketListApp.pdb
+C:\Users\Nikita\Documents\GitHub\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\ref\BucketListApp.dll

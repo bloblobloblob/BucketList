@@ -3752,24 +3752,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Idrmi\\.nuget\\packages\\": {},
+    "C:\\Users\\Nikita\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub Repository\\BucketList\\BucketListApp\\BucketListApp.Android\\BucketListApp.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Nikita\\Documents\\GitHub\\BucketList\\BucketListApp\\BucketListApp.Android\\BucketListApp.Android.csproj",
       "projectName": "BucketListApp.Android",
-      "projectPath": "D:\\GitHub Repository\\BucketList\\BucketListApp\\BucketListApp.Android\\BucketListApp.Android.csproj",
-      "packagesPath": "C:\\Users\\Idrmi\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub Repository\\BucketList\\BucketListApp\\BucketListApp.Android\\obj\\",
+      "projectPath": "C:\\Users\\Nikita\\Documents\\GitHub\\BucketList\\BucketListApp\\BucketListApp.Android\\BucketListApp.Android.csproj",
+      "packagesPath": "C:\\Users\\Nikita\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Nikita\\Documents\\GitHub\\BucketList\\BucketListApp\\BucketListApp.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Idrmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Nikita\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3783,8 +3783,8 @@
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
-            "D:\\GitHub Repository\\BucketList\\BucketListApp\\BucketListApp\\BucketListApp.csproj": {
-              "projectPath": "D:\\GitHub Repository\\BucketList\\BucketListApp\\BucketListApp\\BucketListApp.csproj"
+            "C:\\Users\\Nikita\\Documents\\GitHub\\BucketList\\BucketListApp\\BucketListApp\\BucketListApp.csproj": {
+              "projectPath": "C:\\Users\\Nikita\\Documents\\GitHub\\BucketList\\BucketListApp\\BucketListApp\\BucketListApp.csproj"
             }
           }
         }
