@@ -3,9 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BucketListApp.ProfilePage"
              IconImageSource="medal"
-             Title="Пргресс">
+             Title="Прогресс">
     <ContentPage.Content>
-        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Padding="18, 18, 18, 18">
             <Label Text="Welcome Profili"></Label>
         </StackLayout>
     </ContentPage.Content>
