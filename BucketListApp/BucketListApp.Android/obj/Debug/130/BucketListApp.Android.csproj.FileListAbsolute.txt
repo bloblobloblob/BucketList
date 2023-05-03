@@ -1270,6 +1270,9 @@ C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.And
 C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\stamp\_ResolveLibraryProjectImports.stamp
 C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\editgoal.png
+C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\addorcreate.png
+C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\goals.png
+C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\progress.png
 C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\fon.png
 C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\lp\56\jl\files.cache
 C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\lp\64\jl\files.cache
@@ -1301,6 +1304,9 @@ C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.And
 C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\android\src\crc64515ee83f00766c60\SemanticEffectRouter_SemanticAccessibilityDelegate.java
 C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\android\src\crc64515ee83f00766c60\VisualFeedbackEffectRouter_FastRendererOnLayoutChangeListener.java
 C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\android\src\crc645b8ccbad6ecd7dce\SideMenuViewRenderer.java
+C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\goals2.png
+C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\goals3.png
+C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\profil2.png
 D:\GitHub Repository\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\lp\56\jl\files.cache
 D:\GitHub Repository\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\lp\64\jl\files.cache
 D:\GitHub Repository\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\lp\70\jl\files.cache
