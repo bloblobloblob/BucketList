@@ -1,4 +1,10 @@
+FFImageLoading.Forms.Platform.dll
+FFImageLoading.Platform.dll
+FFImageLoading.Svg.Forms.dll
+FFImageLoading.Svg.Platform.dll
+FFImageLoading.Transformations.dll
 FormsViewGroup.dll
+SkiaSharp.dll
 SQLitePCLRaw.lib.e_sqlite3.android.dll
 Xamarin.AndroidX.Activity.dll
 Xamarin.AndroidX.Annotation.dll
