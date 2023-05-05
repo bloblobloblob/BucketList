@@ -1,11 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:BucketListApp;assembly=BucketListApp"
              x:Class="BucketListApp.GoalCard"
     BackgroundColor="#FFF3E2">
     <ContentPage.Content>
         <StackLayout >
-            <Grid>
+            <!--<Grid>
                 <StackLayout HeightRequest="350" Margin="0, 60, 0, 0">
                     <Grid>
                         <Label Text="Слетать в Париж" FontSize="64" TextColor="Black" FontAttributes="Bold" Margin="24, 0, 24, 0"></Label>
@@ -38,7 +39,8 @@
                         </Grid>
                     </Frame>
                 </StackLayout>
-            </Frame>
+            </Frame>-->
+            <!--<local:Goal></local:Goal>-->
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

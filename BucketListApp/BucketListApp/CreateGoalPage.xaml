@@ -5,7 +5,7 @@
              IconImageSource="addOrCreate">
     <ContentPage.Content>
         <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
-            <Label Text="Welcome to CreateGoal"></Label>
+            <Editor Text="Welcome to CreateGoal"></Editor>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
