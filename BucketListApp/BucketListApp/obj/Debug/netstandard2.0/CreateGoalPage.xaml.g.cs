@@ -17,8 +17,24 @@ namespace BucketListApp {
     public partial class CreateGoalPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::BucketListApp.CustomEntry Name;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::BucketListApp.CustomEntry Cat;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::BucketListApp.CustomEntry About;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::BucketListApp.CustomEntry Pod;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(CreateGoalPage));
+            Name = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::BucketListApp.CustomEntry>(this, "Name");
+            Cat = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::BucketListApp.CustomEntry>(this, "Cat");
+            About = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::BucketListApp.CustomEntry>(this, "About");
+            Pod = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::BucketListApp.CustomEntry>(this, "Pod");
         }
     }
 }

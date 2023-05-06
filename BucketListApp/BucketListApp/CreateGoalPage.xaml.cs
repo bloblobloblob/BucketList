@@ -15,6 +15,7 @@ namespace BucketListApp
         public CreateGoalPage()
         {
             InitializeComponent();
+            NavigationPage.SetHasNavigationBar(this, false);
         }
     }
 }

@@ -1,11 +1,77 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:custom="clr-namespace:BucketListApp"
              x:Class="BucketListApp.CreateGoalPage"
-             IconImageSource="add">
+             IconImageSource="add"
+             Title="Добавить цель">
     <ContentPage.Content>
-        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
-            <Label Text="Welcome to CreateGoal"></Label>
-        </StackLayout>
+        <StackLayout Padding="18, 20, 18, 18">
+            <StackLayout VerticalOptions="Start">
+                <Label Text="Название" FontSize="12" TextColor="Black" VerticalOptions="StartAndExpand" ></Label>
+                <custom:CustomEntry
+                                x:Name="Name"
+                                CornerRadius="10"
+                                IsCurvedCornersEnabled="True"
+                                BorderColor="Black"    
+                                HorizontalTextAlignment="Start"
+                                FontSize="12"
+                                HeightRequest="50"
+                                Placeholder="Конкретная и измеримая цель"
+                                PlaceholderColor="Black"
+                                TextColor="Black"
+                                Margin="0, 0, 0, 8"
+                                VerticalOptions="StartAndExpand"/>
+                <Label Text="Категория" FontSize="12" TextColor="Black" VerticalOptions="StartAndExpand"></Label>
+                <custom:CustomEntry
+                                x:Name="Cat"
+                                CornerRadius="10"
+                                IsCurvedCornersEnabled="True"
+                                BorderColor="Black"    
+                                HorizontalTextAlignment="Start"
+                                FontSize="12"
+                                HeightRequest="50"
+                                Placeholder="Выбрать категорию"
+                                PlaceholderColor="Black"
+                                TextColor="Black"
+                                Margin="0, 0, 0, 8"
+                                VerticalOptions="StartAndExpand"
+/>
+                <Label Text="Описание" FontSize="12" TextColor="Black" VerticalOptions="StartAndExpand"></Label>
+                <custom:CustomEntry
+                                x:Name="About"
+                                CornerRadius="10"
+                                IsCurvedCornersEnabled="True"
+                                BorderColor="Black"    
+                                HorizontalTextAlignment="Start"
+                                FontSize="12"
+                                HeightRequest="50"
+                                Placeholder="Почему эта цель важна для вас?"
+                                PlaceholderColor="Black"
+                                TextColor="Black"
+                                Margin="0, 0, 0, 8"
+                                VerticalOptions="StartAndExpand"/>
+                <Label Text="Подзадачи" FontSize="12" TextColor="Black" VerticalOptions="StartAndExpand"></Label>
+                <custom:CustomEntry
+                                x:Name="Pod"
+                                CornerRadius="10"
+                                IsCurvedCornersEnabled="True"
+                                BorderColor="Black"    
+                                HorizontalTextAlignment="Start"
+                                FontSize="12"
+                                HeightRequest="50"
+                                Placeholder="Подзадача 1"
+                                PlaceholderColor="Black"
+                                TextColor="Black"
+                                Margin="0, 0, 0, 8"
+                                VerticalOptions="StartAndExpand"/>
+            </StackLayout>
+            <StackLayout VerticalOptions="EndAndExpand" HorizontalOptions="Center">
+                <Button BackgroundColor="#FBAB57" Text="Создать задачу" 
+                    FontSize="18" TextColor="Black" FontAttributes="Bold"
+                    HeightRequest="61" WidthRequest="345" 
+                    CornerRadius="10"/>
+            </StackLayout>
+         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

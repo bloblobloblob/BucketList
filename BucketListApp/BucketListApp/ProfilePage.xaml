@@ -5,8 +5,8 @@
              IconImageSource="medal"
              Title="Прогресс">
     <ContentPage.Content>
-        <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Padding="18, 18, 18, 18">
-            <Label Text="Welcome Profili"></Label>
+        <StackLayout>
+            <Label Text="Прогресс" FontSize="24" TextColor="Black" FontAttributes="Bold" Margin ="0, 20, 0, 20" HorizontalOptions="Center"></Label>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

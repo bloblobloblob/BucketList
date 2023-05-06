@@ -15,6 +15,7 @@ namespace BucketListApp
         public GoalsPage()
         {
             InitializeComponent();
+            NavigationPage.SetHasNavigationBar(this, false);
         }
         
         async void OnButtonClicked(object sender, EventArgs args)

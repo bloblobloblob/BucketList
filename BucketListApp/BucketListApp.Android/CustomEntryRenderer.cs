@@ -24,7 +24,6 @@ namespace BucketListApp.Droid
         protected override void OnElementChanged(ElementChangedEventArgs<Entry> e)
         {
             base.OnElementChanged(e);
-
             if (e.NewElement != null)
             {
                 var view = (CustomEntry)Element;
