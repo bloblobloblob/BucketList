@@ -12,7 +12,7 @@ namespace BucketListApp
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class LogIn : ContentPage
     {
-        App app = new App();
+        //App app = new App();
         public LogIn()
         {
             InitializeComponent();
@@ -22,7 +22,7 @@ namespace BucketListApp
         {
             if (login.Text != null && password1.Text != null)
             {
-                app.LoginAccount(login.Text, password1.Text);
+               //app.LoginAccount(login.Text, password1.Text);
                 Navigation.PushAsync(new GoalsPage());
 
             }

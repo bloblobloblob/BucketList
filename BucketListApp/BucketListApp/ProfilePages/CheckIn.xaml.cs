@@ -12,7 +12,7 @@ namespace BucketListApp
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class CheckIn : ContentPage
     {
-        App app = new App();
+       //App app = new App();
         public CheckIn()
         {
             InitializeComponent();
@@ -24,7 +24,7 @@ namespace BucketListApp
         {
             if (password1.Text == password2.Text & login.Text != null)
             {
-                app.RegisterAccount(login.Text, password1.Text);
+                //app.RegisterAccount(login.Text, password1.Text);
                 Navigation.PushAsync(new ProfilePage());
             }
             else

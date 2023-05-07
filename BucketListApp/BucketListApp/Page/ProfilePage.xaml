@@ -5,8 +5,44 @@
              IconImageSource="medal"
              Title="Прогресс">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Прогресс" FontSize="24" TextColor="Black" FontAttributes="Bold" Margin ="0, 20, 0, 20" HorizontalOptions="Center"></Label>
+        <StackLayout Padding="18, 0, 18, 18" VerticalOptions="Center" HorizontalOptions="Center">
+            <Label Text="Привет!" 
+                   FontSize="24" 
+                   TextColor="Black" 
+                   FontAttributes="Bold" 
+                   Margin ="0, 20, 0, 20" 
+                   HorizontalOptions="Center" 
+                   VerticalOptions="Center"></Label>
+            <Label Text="Авторизуйтесь, чтобы отслеживать &#10;     прогресс в выполнении целей" 
+                   FontSize="16"
+                   TextColor="Black"
+                   VerticalOptions="Center" 
+                   HorizontalOptions="Center"
+                   LineHeight="1.5"
+                   Margin="0, 20, 0, 20"></Label>
+
+            <Button BackgroundColor="#FBAB57" 
+                    Text="Зарегистрироваться" 
+                    FontSize="18" 
+                    TextColor="Black" 
+                    FontAttributes="Bold"
+                    HeightRequest="61"
+                    WidthRequest="345" 
+                    CornerRadius="10"
+                    Clicked="Button_Register"
+                    Margin="0, 20, 0, 20"/>
+            <StackLayout VerticalOptions="EndAndExpand" HorizontalOptions="Center">
+                <Label HorizontalOptions="Center">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Войти" TextColor="Black" TextDecorations="Underline"></Span>
+                        </FormattedString>
+                    </Label.FormattedText>
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapToLogIn"/>
+                    </Label.GestureRecognizers>
+                </Label>
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

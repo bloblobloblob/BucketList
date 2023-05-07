@@ -17,5 +17,15 @@ namespace BucketListApp
             InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);
         }
+
+        private void Button_Register(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new CheckIn());
+        }
+
+        private void TapToLogIn(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new LogIn());
+        }
     }
 }

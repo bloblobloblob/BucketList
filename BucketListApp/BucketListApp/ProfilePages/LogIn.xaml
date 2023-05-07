@@ -3,11 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              xmlns:custom="clr-namespace:BucketListApp" 
              x:DataType="custom:CustomEntry"
-             x:Class="BucketListApp.LogIn">
+             x:Class="BucketListApp.LogIn"
+             BackgroundColor="#FFF3E2">
     <ContentPage.Content>
         <StackLayout Padding="18, 0, 18, 18">
             <StackLayout >
-                <Label Text="Регистрация" FontSize ="18" TextColor="Black" FontAttributes="Bold" Margin ="0, 20, 0, 20" HorizontalOptions="Center"/>
+                <Label Text="Вход" FontSize ="18" TextColor="Black" FontAttributes="Bold" Margin ="0, 20, 0, 20" HorizontalOptions="Center"/>
                 <Image  Source="icon_Profile.png"  HorizontalOptions="Center" HeightRequest="90" WidthRequest="90" Margin="0, 0, 0, 42"/>
             </StackLayout>
             <StackLayout VerticalOptions="Start">
