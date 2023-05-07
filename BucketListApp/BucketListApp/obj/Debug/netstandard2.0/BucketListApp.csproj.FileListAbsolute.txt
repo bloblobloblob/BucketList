@@ -78,3 +78,4 @@ C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp\obj\D
 C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\Page\GoalsPage.xaml.g.cs
 C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\Page\ProfilePage.xaml.g.cs
 C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\Page\TabBar.xaml.g.cs
+C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\Custom\AlertPage.xaml.g.cs
