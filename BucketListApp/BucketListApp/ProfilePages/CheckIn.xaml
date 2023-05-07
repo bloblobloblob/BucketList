@@ -1,15 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-             xmlns:custom="clr-namespace:BucketListApp"
+             xmlns:custom="clr-namespace:BucketListApp" xmlns:svg="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
              x:Class="BucketListApp.CheckIn" 
              BackgroundColor="#FFF3E2">
     <ContentPage.Content>
         <StackLayout Padding="18, 0, 18, 18">
         <StackLayout >
-            <Label Text="Регистрация" FontSize ="18" TextColor="Black" FontAttributes="Bold" Margin ="0, 20, 0, 20" HorizontalOptions="Center"/>
-            <Image  Source="icon_Profile.png"  HorizontalOptions="Center" HeightRequest="90" WidthRequest="90" Margin="0, 0, 0, 42"/>
-        </StackLayout>
+            <Label Text="Регистрация" 
+                   FontSize ="18" TextColor="Black" 
+                   FontAttributes="Bold" Margin ="0, 20, 0, 20" 
+                   HorizontalOptions="Center"/>
+                <svg:SvgCachedImage
+                Source="profile.svg"
+                WidthRequest="90"
+                HeightRequest="90"
+                Margin="0, 0, 0, 42"
+                HorizontalOptions="Center"/>
+            </StackLayout>
         <StackLayout VerticalOptions="Start">
             <Label Text="Логин" FontSize="12" TextColor="Black" VerticalOptions="StartAndExpand" ></Label>
             <custom:CustomEntry

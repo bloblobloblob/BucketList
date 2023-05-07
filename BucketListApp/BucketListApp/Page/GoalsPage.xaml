@@ -19,7 +19,7 @@
                     <Grid>
                         <RelativeLayout>
                             <ImageButton Source="Fon" HorizontalOptions='FillAndExpand' 
-                                         HeightRequest="55"  CornerRadius="10" BackgroundColor="#050905"  Opacity="1" Clicked="OnButtonClicked"
+                                         HeightRequest="55" WidthRequest="55"  CornerRadius="10" BackgroundColor="#050905"  Opacity="1" Clicked="OnButtonClicked"
                                          ></ImageButton>
                             <Label Margin="67, 8, 0, 12" Text="Слетать в Париж" FontSize="16" TextColor="#FFF3E2" VerticalOptions="EndAndExpand"></Label>
                             <ProgressBar Margin="67, 40, 0, 0" Progress="1" ProgressColor="#FBAB57" HeightRequest="12" WidthRequest="250"></ProgressBar>

@@ -2138,6 +2138,7 @@ C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.And
 C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\medal.png
 C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\add.png
 C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\icon_profile.png
+C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\task.png
 C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\uploadflags.txt
 C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\resolvedassemblies.hash
 C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\android\assets\BucketListApp.Android.dll
@@ -2778,4 +2779,6 @@ C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.And
 C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\stamp\_GenerateJavaStubs.stamp
 C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\stamp\_ResolveLibraryProjectImports.stamp
-C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\task.png
+C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\edit_goal.svg
+C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\profile.svg
+C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\goback.png
