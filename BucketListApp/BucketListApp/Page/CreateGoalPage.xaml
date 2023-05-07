@@ -35,8 +35,7 @@
                                 PlaceholderColor="Black"
                                 TextColor="Black"
                                 Margin="0, 0, 0, 8"
-                                VerticalOptions="StartAndExpand"
-/>
+                                VerticalOptions="StartAndExpand"/>
                 <Label Text="Описание" FontSize="12" TextColor="Black" VerticalOptions="StartAndExpand"></Label>
                 <custom:CustomEntry
                                 x:Name="About"
@@ -70,7 +69,7 @@
                 <Button BackgroundColor="#FBAB57" Text="Создать задачу" 
                     FontSize="18" TextColor="Black" FontAttributes="Bold"
                     HeightRequest="61" WidthRequest="345" 
-                    CornerRadius="10"/>
+                    CornerRadius="10" Clicked="NewGoal"/>
             </StackLayout>
          </StackLayout>
     </ContentPage.Content>

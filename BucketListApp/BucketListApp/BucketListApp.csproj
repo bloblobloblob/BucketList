@@ -22,22 +22,22 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="TabBar.xaml.cs">
+    <Compile Update="Page\TabBar.xaml.cs">
       <DependentUpon>TabBar.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="CreateGoalPage.xaml">
+    <EmbeddedResource Update="Page\CreateGoalPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="GoalCard.xaml">
+    <EmbeddedResource Update="Page\GoalCard.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="GoalsPage.xaml">
+    <EmbeddedResource Update="Page\GoalsPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="ProfilePage.xaml">
+    <EmbeddedResource Update="Page\ProfilePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="ProfilePages\CheckIn.xaml">
@@ -46,7 +46,7 @@
     <EmbeddedResource Update="ProfilePages\LogIn.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="TabBar.xaml">
+    <EmbeddedResource Update="Page\TabBar.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

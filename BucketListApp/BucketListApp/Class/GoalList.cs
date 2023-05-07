@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace BucketListApp
+namespace BucketListApp.Class
 {
     public class GoalList
     {
@@ -29,7 +29,7 @@ namespace BucketListApp
             var description = customDescript ?? exampleGoal.Description;
             var category = customCategory ?? exampleGoal.Category;
             var subTasks = customSubTasks ?? exampleGoal.SubTasks;
-            goals.Add(new Goal(title,description, category, subTasks));
+            goals.Add(new Goal(title, description, category, subTasks));
         }
 
         public static void ChangeGoal(Goal goal, string customTitle,
@@ -39,7 +39,7 @@ namespace BucketListApp
             goal.Description = customDescript ?? goal.Description;
             goal.Category = customCategory ?? goal.Category;
             goal.Image = goal.Category.Icon;
-            if (changeSubTasks != null) 
+            if (changeSubTasks != null)
                 changeSubTasks(goal);
         }
 

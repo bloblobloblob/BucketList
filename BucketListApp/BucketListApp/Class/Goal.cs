@@ -6,7 +6,7 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using Xamarin.Forms;
 
-namespace BucketListApp
+namespace BucketListApp.Class
 {
     public class Goal
     {

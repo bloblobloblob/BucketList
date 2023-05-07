@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.Text;
 using SQLite;
 
-namespace BucketListApp
+namespace BucketListApp.Class
 {
     public class Profile
     {
         [PrimaryKey, AutoIncrement]
         private int Id { get; }
         public string Name { get; set; }
-        public string Login { get; set;}
+        public string Login { get; set; }
         public string Password { get; set; }
         public GoalList Goals { get; set; }
 

@@ -6,6 +6,7 @@ using System.Text;
 using Xamarin.Forms;
 using System.Linq;
 using System.Diagnostics;
+using BucketListApp.Class;
 
 namespace BucketListApp
 {

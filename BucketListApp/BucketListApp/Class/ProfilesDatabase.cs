@@ -4,17 +4,17 @@ using System.Text;
 using System.Threading.Tasks;
 using SQLite;
 
-namespace BucketListApp
+namespace BucketListApp.Class
 {
     public class ProfilesDatabase
     {
         private readonly SQLiteAsyncConnection database;
-        
+
         public Task<int> Count => database.Table<Profile>().CountAsync();
         public ProfilesDatabase(string databasaPath)
         {
             database = new SQLiteAsyncConnection(databasaPath);
-            database.CreateTableAsync<Profile>();   
+            database.CreateTableAsync<Profile>();
         }
 
         public Task<List<Profile>> GetProfilesAsync()

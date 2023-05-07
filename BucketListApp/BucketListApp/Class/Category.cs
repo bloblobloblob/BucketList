@@ -5,7 +5,7 @@ using System.Text;
 using System.IO;
 using Xamarin.Forms;
 
-namespace BucketListApp
+namespace BucketListApp.Class
 {
     public class Category
     {
@@ -14,7 +14,7 @@ namespace BucketListApp
         public Image Icon { get; }
 
         public Category(string name, string imageName = null)
-        { 
+        {
             Name = name;
             Icon = new Image() { Source = imageName };
         }
@@ -33,7 +33,7 @@ namespace BucketListApp
         {
             var category = obj as Category;
             return category != null
-                && this.Name == category.Name;
+                && Name == category.Name;
         }
 
         public static Category Create(string name, string imageName) => new Category(name, imageName);

@@ -63,12 +63,7 @@ C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp\bin\D
 C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\BucketListApp.csproj.AssemblyReference.cache
 C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\BucketListApp.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\CreateGoalPage.xaml.g.cs
-C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\GoalCard.xaml.g.cs
-C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\GoalsPage.xaml.g.cs
-C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\ProfilePage.xaml.g.cs
 C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\ProfilePages\CheckIn.xaml.g.cs
-C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\TabBar.xaml.g.cs
 C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\BucketListApp.AssemblyInfoInputs.cache
 C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\BucketListApp.AssemblyInfo.cs
 C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\BucketListApp.csproj.CoreCompileInputs.cache
@@ -78,3 +73,8 @@ C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp\obj\D
 C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\BucketListApp.pdb
 C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\ref\BucketListApp.dll
 C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\ProfilePages\LogIn.xaml.g.cs
+C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\Page\CreateGoalPage.xaml.g.cs
+C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\Page\GoalCard.xaml.g.cs
+C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\Page\GoalsPage.xaml.g.cs
+C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\Page\ProfilePage.xaml.g.cs
+C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\Page\TabBar.xaml.g.cs

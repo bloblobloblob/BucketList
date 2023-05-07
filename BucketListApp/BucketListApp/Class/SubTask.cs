@@ -4,7 +4,7 @@ using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 
-namespace BucketListApp
+namespace BucketListApp.Class
 {
     public class SubTask
     {
@@ -12,7 +12,7 @@ namespace BucketListApp
         public bool Status { get; private set; }
 
         public SubTask(string name)
-        { 
+        {
             Description = name;
             Status = false;
         }
@@ -37,8 +37,8 @@ namespace BucketListApp
         {
             var subTask = obj as SubTask;
             return subTask != null
-                && this.Description == subTask.Description
-                && this.Status == subTask.Status;
+                && Description == subTask.Description
+                && Status == subTask.Status;
         }
 
     }
