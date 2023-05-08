@@ -10,6 +10,7 @@
             <StackLayout VerticalOptions="Start">
                 <Label Text="Название" FontSize="12" TextColor="Black" VerticalOptions="StartAndExpand" ></Label>
                 <custom:CustomEntry
+                                ClearButtonVisibility="WhileEditing"
                                 Keyboard="Text"
                                 x:Name="Name"
                                 CornerRadius="10"
@@ -26,7 +27,7 @@
                 <Label Text="Категория" FontSize="12" TextColor="Black" VerticalOptions="StartAndExpand"></Label>
                 <Button BackgroundColor="#FFF3E2" Text="Выбор категории" 
                     FontSize="18" TextColor="Black" FontAttributes="Bold"
-                    HeightRequest="61" WidthRequest="345" 
+                    HeightRequest="61" WidthRequest="345"
                     CornerRadius="10" Clicked="Cat"/>
                 <Label Text="Описание" FontSize="12" TextColor="Black" VerticalOptions="StartAndExpand"></Label>
                 <custom:CustomEntry

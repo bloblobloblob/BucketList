@@ -3,48 +3,81 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BucketListApp.Page.CategoryPage"
              BackgroundColor="#FFF3E2">
+    <ContentPage.Resources>
+        <ControlTemplate x:Key="OverrideRadioButton">
+            <Frame Padding="20, 10, 20, 10" BorderColor="#FFF3E2" CornerRadius="15"
+                   HeightRequest="35" WidthRequest="200"
+                   VerticalOptions="Start" HorizontalOptions="CenterAndExpand" HasShadow="False">
+
+                <VisualStateManager.VisualStateGroups>
+                    <VisualStateGroup x:Name="CheckedStates">
+                        <VisualState x:Name="Checked">
+                            <VisualState.Setters>
+                                <Setter Property="BackgroundColor" Value="#FBAB57"/>
+                            </VisualState.Setters>
+                        </VisualState>
+
+                        <VisualState x:Name="Unchecked">
+                            <VisualState.Setters>
+                                <Setter Property="BackgroundColor" Value="#FFF3E2"/>
+                            </VisualState.Setters>
+                        </VisualState>
+                    </VisualStateGroup>
+                </VisualStateManager.VisualStateGroups>
+
+                <Grid Margin="4" WidthRequest="100">
+                    <ContentPresenter/>
+                </Grid>
+            </Frame>
+        </ControlTemplate>
+    </ContentPage.Resources>
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Выбор категории" FontSize="24" TextColor="Black" FontAttributes="Bold" Margin ="0, 20, 0, 20" HorizontalOptions="Center"></Label >
-            <!--<RadioButton x:Name="One" TextColor="Black"
-                Content="Отдых"
-                HorizontalOptions="CenterAndExpand"/>
-            <RadioButton x:Name="Two" TextColor="Black"
-                Content="Активности"
-                HorizontalOptions="CenterAndExpand"/>
-            <RadioButton x:Name="Three" TextColor="Black"
-                Content="Путешествия"
-                HorizontalOptions="CenterAndExpand"/>
-            <RadioButton x:Name="Four" TextColor="Black"
-                Content="Челленджи"
-                HorizontalOptions="CenterAndExpand"/>
-            <RadioButton x:Name="Five" TextColor="Black"
-                Content="Духовность"
-                HorizontalOptions="CenterAndExpand"/>
-            <RadioButton x:Name="Six" TextColor="Black"
-                Content="Другое"
-                HorizontalOptions="CenterAndExpand"/>-->
-            <RadioButton>
+
+            <Image Source="chill"></Image>
+            <RadioButton ControlTemplate="{StaticResource OverrideRadioButton}" x:Name="One">
                 <RadioButton.Content>
-                    <Image Source="chill" />
+                    <Label Text="Отдых" TextColor="Black"/>
                 </RadioButton.Content>
             </RadioButton>
-            <RadioButton>
+            <Image Source="activity"></Image>
+            <RadioButton ControlTemplate="{StaticResource OverrideRadioButton}" x:Name="Two">
                 <RadioButton.Content>
-                    <Image Source="activity.png" />
+                    <Label Text="Активности" TextColor="Black"/>
                 </RadioButton.Content>
             </RadioButton>
-            <RadioButton>
+            <Image Source="airplane"></Image>
+            <RadioButton ControlTemplate="{StaticResource OverrideRadioButton}" x:Name="Three">
                 <RadioButton.Content>
-                    <Image Source="airplane.png" />
+                    <Label Text="Путешествия" TextColor="Black"/>
                 </RadioButton.Content>
             </RadioButton>
-            <RadioButton>
+            <Image Source="challange"></Image>
+            <RadioButton ControlTemplate="{StaticResource OverrideRadioButton}" x:Name="Four">
                 <RadioButton.Content>
-                    <Image Source="challange.png" />
+                    <Label Text="Челленджи" TextColor="Black"/>
                 </RadioButton.Content>
             </RadioButton>
-            <Button x:Name="Go" TextColor="Black"
+            <Image Source="god"></Image>
+            <RadioButton ControlTemplate="{StaticResource OverrideRadioButton}" x:Name="Five">
+                <RadioButton.Content>
+                    <Label Text="Духовность" TextColor="Black"/>
+                </RadioButton.Content>
+            </RadioButton>
+            <Image Source="other"></Image>
+            <RadioButton ControlTemplate="{StaticResource OverrideRadioButton}" x:Name="Six">
+                <RadioButton.Content>
+                    <Label Text="Другое" TextColor="Black"/>
+                </RadioButton.Content>
+            </RadioButton>
+
+            <Button x:Name="Go"
+                    WidthRequest="300"
+                    HeightRequest="60"
+                    BackgroundColor="#FBAB57"
+                    CornerRadius="20"
+                    TextColor="Black"
                     Text="Выбрать"
                     Clicked="Next"/>
         </StackLayout>

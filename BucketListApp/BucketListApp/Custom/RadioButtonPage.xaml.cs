@@ -7,20 +7,14 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace BucketListApp.Page
+namespace BucketListApp.Custom
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class CategoryPage : ContentPage
+    public partial class RadioButtonPage : ContentPage
     {
-        public CategoryPage()
+        public RadioButtonPage()
         {
             InitializeComponent();
-        }
-
-        public async void Next(object sender, EventArgs e)
-        {
-            if (One.IsChecked) 
-            await Navigation.PopModalAsync();
         }
     }
 }
