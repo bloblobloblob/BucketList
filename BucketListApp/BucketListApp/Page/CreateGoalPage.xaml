@@ -10,6 +10,7 @@
             <StackLayout VerticalOptions="Start">
                 <Label Text="Название" FontSize="12" TextColor="Black" VerticalOptions="StartAndExpand" ></Label>
                 <custom:CustomEntry
+                                Keyboard="Text"
                                 x:Name="Name"
                                 CornerRadius="10"
                                 IsCurvedCornersEnabled="True"
@@ -29,6 +30,7 @@
                     CornerRadius="10" Clicked="Cat"/>
                 <Label Text="Описание" FontSize="12" TextColor="Black" VerticalOptions="StartAndExpand"></Label>
                 <custom:CustomEntry
+                                Keyboard="Text"
                                 x:Name="About"
                                 CornerRadius="10"
                                 IsCurvedCornersEnabled="True"
@@ -43,6 +45,7 @@
                                 VerticalOptions="StartAndExpand"/>
                 <Label Text="Подзадачи" FontSize="12" TextColor="Black" VerticalOptions="StartAndExpand"></Label>
                 <custom:CustomEntry
+                                Keyboard="Text"
                                 x:Name="Pod"
                                 CornerRadius="10"
                                 IsCurvedCornersEnabled="True"

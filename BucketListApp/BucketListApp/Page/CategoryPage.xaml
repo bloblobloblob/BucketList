@@ -24,22 +24,22 @@
             <RadioButton x:Name="Six" TextColor="Black"
                 Content="Другое"
                 HorizontalOptions="CenterAndExpand"/>-->
-            <RadioButton Value="Cat">
+            <RadioButton>
                 <RadioButton.Content>
-                    <Image Source="chill.png" />
+                    <Image Source="chill" />
                 </RadioButton.Content>
             </RadioButton>
-            <RadioButton Value="Dog">
+            <RadioButton>
                 <RadioButton.Content>
                     <Image Source="activity.png" />
                 </RadioButton.Content>
             </RadioButton>
-            <RadioButton Value="Elephant">
+            <RadioButton>
                 <RadioButton.Content>
                     <Image Source="airplane.png" />
                 </RadioButton.Content>
             </RadioButton>
-            <RadioButton Value="Monkey">
+            <RadioButton>
                 <RadioButton.Content>
                     <Image Source="challange.png" />
                 </RadioButton.Content>
