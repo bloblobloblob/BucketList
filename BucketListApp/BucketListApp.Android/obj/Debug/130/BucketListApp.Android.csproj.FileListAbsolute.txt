@@ -2802,3 +2802,26 @@ C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp.Andro
 C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\airplane.png
 C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\activity.png
 C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\chill.png
+C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\other.png
+C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\god.png
+C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\challange.png
+C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\airplane.png
+C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\activity.png
+C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\chill.png
+C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\BaseCellAppCompatView.java
+C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\EditorAppCompatEditText.java
+C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\EditorAppCompatRenderer.java
+C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\EntryAppCompatEditText.java
+C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\EntryAppCompatRenderer.java
+C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\EntryCellAppCompatEditText.java
+C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\EntryCellAppCompatView.java
+C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\FormsAppCompatEditText.java
+C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\FormsAppCompatEditTextBase.java
+C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\FormsAppCompatTextView.java
+C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\PickerAppCompatEditText.java
+C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\SearchBarAppCompatRenderer.java
+C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\SwitchCellAppCompatView.java
+C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\TextCellAppCompatRenderer_TextCellAppCompatView.java
+C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\android\src\crc64720bb2db43a66fe9\PickerAppCompatRenderer.java
+C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\android\src\crc64720bb2db43a66fe9\PickerAppCompatRendererBase_1.java
+C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\android\src\crc64ee486da937c010f4\LabelAppCompatRenderer.java

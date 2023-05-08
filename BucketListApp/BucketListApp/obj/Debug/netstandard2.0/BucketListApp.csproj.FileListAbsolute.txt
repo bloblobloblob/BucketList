@@ -82,3 +82,5 @@ C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp\obj
 C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\ref\BucketListApp.dll
 C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\Page\CategoryPage.xaml.g.cs
 C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\Custom\RadioButtonPage.xaml.g.cs
+C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\Custom\RadioButtonPage.xaml.g.cs
+C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\Page\CategoryPage.xaml.g.cs

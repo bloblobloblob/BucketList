@@ -32,45 +32,59 @@
         </ControlTemplate>
     </ContentPage.Resources>
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout Padding="18, 24, 18, 18">
             <Label Text="Выбор категории" FontSize="24" TextColor="Black" FontAttributes="Bold" Margin ="0, 20, 0, 20" HorizontalOptions="Center"></Label >
+            <Grid Margin="0, 16, 0, 16">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="60"/>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition Height="60"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="38" />
+                        <ColumnDefinition Width="4*" />
+                    </Grid.ColumnDefinitions>
+                    <Image Source="chill" Grid.Row="0" Grid.Column="0"></Image>
+                    <RadioButton ControlTemplate="{StaticResource OverrideRadioButton}" x:Name="One" Grid.Column="1" Grid.Row="0">
+                        <RadioButton.Content>
+                        <Label Text="Отдых" TextColor="Black" FontSize="16"/>
+                        </RadioButton.Content>
+                    </RadioButton>
 
-            <Image Source="chill"></Image>
-            <RadioButton ControlTemplate="{StaticResource OverrideRadioButton}" x:Name="One">
+                <Image Source="activity" Grid.Row="1" Grid.Column="0"></Image>
+                <RadioButton ControlTemplate="{StaticResource OverrideRadioButton}" x:Name="Two" Grid.Row="1" Grid.Column="1">
                 <RadioButton.Content>
-                    <Label Text="Отдых" TextColor="Black"/>
+                    <Label Text="Активности" TextColor="Black" FontSize="16"/>
                 </RadioButton.Content>
             </RadioButton>
-            <Image Source="activity"></Image>
-            <RadioButton ControlTemplate="{StaticResource OverrideRadioButton}" x:Name="Two">
+                <Image Source="airplane" Grid.Row="2" Grid.Column="0"></Image>
+                <RadioButton ControlTemplate="{StaticResource OverrideRadioButton}" x:Name="Three" Grid.Row="2" Grid.Column="1">
                 <RadioButton.Content>
-                    <Label Text="Активности" TextColor="Black"/>
+                        <Label Text="Путешествия" TextColor="Black" FontSize="16"/>
                 </RadioButton.Content>
             </RadioButton>
-            <Image Source="airplane"></Image>
-            <RadioButton ControlTemplate="{StaticResource OverrideRadioButton}" x:Name="Three">
+                <Image Source="challange" Grid.Row="3" Grid.Column="0"></Image>
+                <RadioButton ControlTemplate="{StaticResource OverrideRadioButton}" x:Name="Four" Grid.Row="3" Grid.Column="1">
                 <RadioButton.Content>
-                    <Label Text="Путешествия" TextColor="Black"/>
+                        <Label Text="Челленджи" TextColor="Black" FontSize="16"/>
                 </RadioButton.Content>
             </RadioButton>
-            <Image Source="challange"></Image>
-            <RadioButton ControlTemplate="{StaticResource OverrideRadioButton}" x:Name="Four">
+                <Image Source="god" Grid.Row="4" Grid.Column="0"></Image>
+                <RadioButton ControlTemplate="{StaticResource OverrideRadioButton}" x:Name="Five" Grid.Row="4" Grid.Column="1">
                 <RadioButton.Content>
-                    <Label Text="Челленджи" TextColor="Black"/>
+                        <Label Text="Духовность" TextColor="Black" FontSize="16"/>
                 </RadioButton.Content>
             </RadioButton>
-            <Image Source="god"></Image>
-            <RadioButton ControlTemplate="{StaticResource OverrideRadioButton}" x:Name="Five">
-                <RadioButton.Content>
-                    <Label Text="Духовность" TextColor="Black"/>
-                </RadioButton.Content>
-            </RadioButton>
-            <Image Source="other"></Image>
-            <RadioButton ControlTemplate="{StaticResource OverrideRadioButton}" x:Name="Six">
-                <RadioButton.Content>
-                    <Label Text="Другое" TextColor="Black"/>
-                </RadioButton.Content>
-            </RadioButton>
+                <Image Source="other" Grid.Row="5" Grid.Column="0"></Image>
+                <RadioButton ControlTemplate="{StaticResource OverrideRadioButton}" x:Name="Six" Grid.Row="5" Grid.Column="1">
+                    <RadioButton.Content>
+                        <Label Text="Другое" TextColor="Black" FontSize="16"/>
+                    </RadioButton.Content>
+                </RadioButton>
+            </Grid>
 
             <Button x:Name="Go"
                     WidthRequest="300"
@@ -79,6 +93,7 @@
                     CornerRadius="20"
                     TextColor="Black"
                     Text="Выбрать"
+                    FontSize="18"
                     Clicked="Next"/>
         </StackLayout>
     </ContentPage.Content>
