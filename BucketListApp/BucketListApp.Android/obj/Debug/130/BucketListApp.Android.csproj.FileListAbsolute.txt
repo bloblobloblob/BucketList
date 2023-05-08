@@ -1415,15 +1415,8 @@ C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp.Andro
 C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\mipmap-xxhdpi\launcher_foreground.png
 C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\mipmap-xxxhdpi\icon.png
 C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\mipmap-xxxhdpi\launcher_foreground.png
-C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\addorcreate.png
 C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\editgoal.png
-C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\goals.png
-C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\progress.png
 C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\fon.png
-C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\goals2.png
-C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\goals3.png
-C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\profil2.png
-C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\_goals.png
 C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\medal.png
 C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\add.png
 C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\icon_profile.png
@@ -2782,3 +2775,30 @@ C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.And
 C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\edit_goal.svg
 C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\profile.svg
 C:\Users\Arina Topor\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\goback.png
+C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\task.png
+C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\edit_goal.svg
+C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\profile.svg
+C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\goback.png
+C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\BaseCellAppCompatView.java
+C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\EditorAppCompatEditText.java
+C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\EditorAppCompatRenderer.java
+C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\EntryAppCompatEditText.java
+C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\EntryAppCompatRenderer.java
+C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\EntryCellAppCompatEditText.java
+C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\EntryCellAppCompatView.java
+C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\FormsAppCompatEditText.java
+C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\FormsAppCompatEditTextBase.java
+C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\FormsAppCompatTextView.java
+C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\PickerAppCompatEditText.java
+C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\SearchBarAppCompatRenderer.java
+C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\SwitchCellAppCompatView.java
+C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\android\src\crc643f46942d9dd1fff9\TextCellAppCompatRenderer_TextCellAppCompatView.java
+C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\android\src\crc64720bb2db43a66fe9\PickerAppCompatRenderer.java
+C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\android\src\crc64720bb2db43a66fe9\PickerAppCompatRendererBase_1.java
+C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\android\src\crc64ee486da937c010f4\LabelAppCompatRenderer.java
+C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\other.png
+C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\god.png
+C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\challange.png
+C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\airplane.png
+C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\activity.png
+C:\Users\Nikita\Documents\GitHub\BL\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\chill.png

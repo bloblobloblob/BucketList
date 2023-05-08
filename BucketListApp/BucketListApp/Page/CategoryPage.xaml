@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BucketListApp.Page.CategoryPage"
+             BackgroundColor="#FFF3E2">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Выбор категории" FontSize="24" TextColor="Black" FontAttributes="Bold" Margin ="0, 20, 0, 20" HorizontalOptions="Center"></Label >
+            <!--<RadioButton x:Name="One" TextColor="Black"
+                Content="Отдых"
+                HorizontalOptions="CenterAndExpand"/>
+            <RadioButton x:Name="Two" TextColor="Black"
+                Content="Активности"
+                HorizontalOptions="CenterAndExpand"/>
+            <RadioButton x:Name="Three" TextColor="Black"
+                Content="Путешествия"
+                HorizontalOptions="CenterAndExpand"/>
+            <RadioButton x:Name="Four" TextColor="Black"
+                Content="Челленджи"
+                HorizontalOptions="CenterAndExpand"/>
+            <RadioButton x:Name="Five" TextColor="Black"
+                Content="Духовность"
+                HorizontalOptions="CenterAndExpand"/>
+            <RadioButton x:Name="Six" TextColor="Black"
+                Content="Другое"
+                HorizontalOptions="CenterAndExpand"/>-->
+            <RadioButton Value="Cat">
+                <RadioButton.Content>
+                    <Image Source="chill.png" />
+                </RadioButton.Content>
+            </RadioButton>
+            <RadioButton Value="Dog">
+                <RadioButton.Content>
+                    <Image Source="activity.png" />
+                </RadioButton.Content>
+            </RadioButton>
+            <RadioButton Value="Elephant">
+                <RadioButton.Content>
+                    <Image Source="airplane.png" />
+                </RadioButton.Content>
+            </RadioButton>
+            <RadioButton Value="Monkey">
+                <RadioButton.Content>
+                    <Image Source="challange.png" />
+                </RadioButton.Content>
+            </RadioButton>
+            <Button x:Name="Go" TextColor="Black"
+                    Text="Выбрать"
+                    Clicked="Next"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

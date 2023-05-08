@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using BucketListApp.Class;
+using BucketListApp.Page;
 using BucketListApp.Custom;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -19,7 +20,13 @@ namespace BucketListApp
             NavigationPage.SetHasNavigationBar(this, false);
         }
 
-        public async void NewGoal(object sender, EventArgs e)
+        public async void Cat(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new CategoryPage());
+            return;
+        }
+
+            public async void NewGoal(object sender, EventArgs e)
         {
             await Navigation.PushModalAsync(new AlertPage());
             return;

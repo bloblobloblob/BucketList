@@ -23,19 +23,10 @@
                                 Margin="0, 0, 0, 8"
                                 VerticalOptions="StartAndExpand"/>
                 <Label Text="Категория" FontSize="12" TextColor="Black" VerticalOptions="StartAndExpand"></Label>
-                <custom:CustomEntry
-                                x:Name="Cat"
-                                CornerRadius="10"
-                                IsCurvedCornersEnabled="True"
-                                BorderColor="Black"    
-                                HorizontalTextAlignment="Start"
-                                FontSize="12"
-                                HeightRequest="50"
-                                Placeholder="Выбрать категорию"
-                                PlaceholderColor="Black"
-                                TextColor="Black"
-                                Margin="0, 0, 0, 8"
-                                VerticalOptions="StartAndExpand"/>
+                <Button BackgroundColor="#FFF3E2" Text="Выбор категории" 
+                    FontSize="18" TextColor="Black" FontAttributes="Bold"
+                    HeightRequest="61" WidthRequest="345" 
+                    CornerRadius="10" Clicked="Cat"/>
                 <Label Text="Описание" FontSize="12" TextColor="Black" VerticalOptions="StartAndExpand"></Label>
                 <custom:CustomEntry
                                 x:Name="About"

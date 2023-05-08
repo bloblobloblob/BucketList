@@ -400,7 +400,7 @@
           }
         }
       },
-      "Xamarin.Forms/5.0.0.2291": {
+      "Xamarin.Forms/5.0.0.2578": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
@@ -1273,14 +1273,16 @@
         "xamarin.ffimageloading.transformations.nuspec"
       ]
     },
-    "Xamarin.Forms/5.0.0.2291": {
-      "sha512": "No5HI+c05RBDT5Oe7ZSRaO+cQVeZNhrYdchvczNeZdWQiwrux8RJcVg8chI4DZ2xODeBjF0juIF9u1A5ysZ+uQ==",
+    "Xamarin.Forms/5.0.0.2578": {
+      "sha512": "cUjv81PVlNKqAYA9k8WV0JZiCxjuCLqpICfaumHeJvEBxo7qUrEIXHCyS9+tAAV1JL/qwzD/FnkdVy8gO9TWrA==",
       "type": "package",
-      "path": "xamarin.forms/5.0.0.2291",
+      "path": "xamarin.forms/5.0.0.2578",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Assets/xamarin_128x128.png",
+        "Licenses/LICENSE",
+        "Licenses/THIRD-PARTY-NOTICES.txt",
         "build/MonoAndroid10/proguard.cfg",
         "build/Xamarin.Forms.DefaultItems.props",
         "build/Xamarin.Forms.DefaultItems.targets",
@@ -1485,7 +1487,7 @@
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.5.0.0.2291.nupkg.sha512",
+        "xamarin.forms.5.0.0.2578.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     }
@@ -1498,28 +1500,28 @@
       "Xamarin.FFImageLoading.Forms >= 2.4.11.982",
       "Xamarin.FFImageLoading.Svg.Forms >= 2.4.11.982",
       "Xamarin.FFImageLoading.Transformations >= 2.4.11.982",
-      "Xamarin.Forms >= 5.0.0.2291",
+      "Xamarin.Forms >= 5.0.0.2578",
       "sqlite-net-pcl >= 1.8.116"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Arina Topor\\.nuget\\packages\\": {},
+    "C:\\Users\\Nikita\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Arina Topor\\Documents\\GitHub\\BucketList\\BucketListApp\\BucketListApp\\BucketListApp.csproj",
+      "projectUniqueName": "C:\\Users\\Nikita\\Documents\\GitHub\\BL\\BucketList\\BucketListApp\\BucketListApp\\BucketListApp.csproj",
       "projectName": "BucketListApp",
-      "projectPath": "C:\\Users\\Arina Topor\\Documents\\GitHub\\BucketList\\BucketListApp\\BucketListApp\\BucketListApp.csproj",
-      "packagesPath": "C:\\Users\\Arina Topor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Arina Topor\\Documents\\GitHub\\BucketList\\BucketListApp\\BucketListApp\\obj\\",
+      "projectPath": "C:\\Users\\Nikita\\Documents\\GitHub\\BL\\BucketList\\BucketListApp\\BucketListApp\\BucketListApp.csproj",
+      "packagesPath": "C:\\Users\\Nikita\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Nikita\\Documents\\GitHub\\BL\\BucketList\\BucketListApp\\BucketListApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Arina Topor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Nikita\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1575,7 +1577,7 @@
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[5.0.0.2291, )"
+            "version": "[5.0.0.2578, )"
           },
           "sqlite-net-pcl": {
             "target": "Package",
@@ -1593,7 +1595,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.408\\RuntimeIdentifierGraph.json"
       }
     }
   }

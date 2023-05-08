@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:svg="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
              x:Class="BucketListApp.GoalCard"
     BackgroundColor="#FFF3E2">
     <ContentPage.Content>
@@ -21,7 +21,6 @@
                     </Grid>
                 </StackLayout>
             </Grid>
-
             <Frame BackgroundColor="#292D32" CornerRadius="20" VerticalOptions="FillAndExpand" Margin="0, 0, 0, -20">
                 <StackLayout Margin="24, 12, 24, 12">
                     <ProgressBar Progress="0.2" ProgressColor="#FBAB57"/>
