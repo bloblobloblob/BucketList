@@ -25,10 +25,10 @@
                                 Margin="0, 0, 0, 8"
                                 VerticalOptions="StartAndExpand"/>
                 <Label Text="Категория" FontSize="12" TextColor="Black" VerticalOptions="StartAndExpand"></Label>
-                <Button BackgroundColor="#FFF3E2" Text="Выбор категории" 
-                    FontSize="18" TextColor="Black" FontAttributes="Bold"
+                <Button x:Name="ButCat" BackgroundColor="#FFF3E2" Text="Выбрать категорию"
+                    FontSize="12" TextTransform="None" TextColor="Black" FontAttributes="Bold"
                     HeightRequest="61" WidthRequest="345"
-                    CornerRadius="10" Clicked="Cat"/>
+                    CornerRadius="10" BorderColor="Black" Clicked="Cat"/>
                 <Label Text="Описание" FontSize="12" TextColor="Black" VerticalOptions="StartAndExpand"></Label>
                 <custom:CustomEntry
                                 Keyboard="Text"

@@ -26,7 +26,7 @@ namespace BucketListApp
             return;
         }
 
-            public async void NewGoal(object sender, EventArgs e)
+        public async void NewGoal(object sender, EventArgs e)
         {
             await Navigation.PushModalAsync(new AlertPage());
             return;

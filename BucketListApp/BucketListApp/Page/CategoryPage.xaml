@@ -32,9 +32,9 @@
         </ControlTemplate>
     </ContentPage.Resources>
     <ContentPage.Content>
-        <StackLayout Padding="18, 24, 18, 18">
+        <StackLayout Padding="20, 0, 20, 0">
             <Label Text="Выбор категории" FontSize="24" TextColor="Black" FontAttributes="Bold" Margin ="0, 20, 0, 20" HorizontalOptions="Center"></Label >
-            <Grid Margin="0, 16, 0, 16">
+            <Grid Margin="10, 10, 10, 160">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="60"/>
                     <RowDefinition Height="60"/>
@@ -89,11 +89,13 @@
             <Button x:Name="Go"
                     WidthRequest="300"
                     HeightRequest="60"
+                    VerticalOptions="End"
                     BackgroundColor="#FBAB57"
                     CornerRadius="20"
                     TextColor="Black"
                     Text="Выбрать"
                     FontSize="18"
+                    TextTransform="None"
                     Clicked="Next"/>
         </StackLayout>
     </ContentPage.Content>
