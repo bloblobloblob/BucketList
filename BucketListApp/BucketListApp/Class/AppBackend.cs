@@ -12,9 +12,9 @@ namespace BucketListApp
 {
     public partial class App : Application
     {
-        private static ProfilesDatabase database;
-        private List<string> motivationalPhrases = new List<string>() { };
-
+        private readonly static List<string> motivationalPhrases = new List<string>() { };
+        private static Profile defaultProfile;
+        private static Profile currentProfile;
         public List<Category> Categories {
             get
             {
@@ -36,87 +36,25 @@ namespace BucketListApp
                 return (CurrentProfile.Goals.InProgress(), CurrentProfile.Goals.Completed());
             } 
         }
-        public static ProfilesDatabase Database
-        {
-            get
-            {
-                if (Database == null)
-                {
-                    database = new
-                    ProfilesDatabase(Path.Combine(Environment.GetFolderPath(
-                    Environment.SpecialFolder.LocalApplicationData), "profiles.db3"));
-                }
-                return database;
-            }
-        }
+
         private Profile DefaultProfile
         { 
             get 
             {
-                if (DefaultProfile == null)
-                    return new Profile()
+                if (defaultProfile == null)
+                    defaultProfile = new Profile()
                     { Name = String.Empty, Login = null, Password = null, Goals = new GoalList() };
-                return DefaultProfile;
+                return defaultProfile;
             } 
-            set { } 
         }
         private Profile CurrentProfile
         {
             get
             {
-                if (CurrentProfile == null)
-                    CurrentProfile = DefaultProfile;
-                return CurrentProfile;
+                if (currentProfile == null)
+                    currentProfile = DefaultProfile;
+                return currentProfile;
             }
-            set { }
-        }
-
-        public async void LoginAccount(string login, string password)
-        {
-            var account = await Database.GetProfileByLoginAsync(login);
-            if (account != null)
-            {
-                if (account.Password == password)
-                    SetProfile(account);
-            }
-        }
-
-        public void LogoutAccount()
-        {
-            CurrentProfile = DefaultProfile;
-        }
-
-        public async void RegisterAccount(string login, string password)
-        {
-            if (!Database.Contains(login))
-            {
-                var accountNumber = await Database.Count;
-                await Database.AddProfileAsync(new Profile()
-                {
-                    Name = "Пользователь" + accountNumber.ToString(),
-                    Login = login,
-                    Password = password,
-                    Goals = new GoalList(DefaultProfile.Goals.GetGoals())
-                });
-            }
-        }
-
-        public void DeleteAccount()
-        {
-            Database.DeleteProfileAsync(CurrentProfile);
-            CurrentProfile = DefaultProfile;
-        }
-
-        public void ChangePassword(string newPassword, string Confirmation)
-        {
-            if (IsAuthorized() && newPassword == Confirmation)
-                CurrentProfile.Password = newPassword;
-        }
-
-        public void ChangeName(string name)
-        {
-            if (IsAuthorized())
-                CurrentProfile.Name = name;
         }
 
         public string GetMotivationPhrase()
@@ -124,16 +62,5 @@ namespace BucketListApp
             var random = new Random();
             return motivationalPhrases[random.Next(0, motivationalPhrases.Count)];
         }
-
-        private void SetProfile(Profile profile)
-        {
-             CurrentProfile = profile;    
-        }
-
-        private bool IsAuthorized()
-        {
-            return CurrentProfile.Login != null;
-        }
-
     }
 }

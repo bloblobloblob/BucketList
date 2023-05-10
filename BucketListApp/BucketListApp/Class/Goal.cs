@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Security.Cryptography.X509Certificates;
@@ -8,16 +9,108 @@ using Xamarin.Forms;
 
 namespace BucketListApp.Class
 {
-    public class Goal
+    public class Goal : INotifyPropertyChanged
     {
         public static Dictionary<string, Goal> ExampleGoals = new Dictionary<string, Goal>();
-        public Image Image { get; set; }
-        public string Title { get; set; }
-        public string Description { get; set; }
-        public Category Category { get; set; }
-        public List<SubTask> SubTasks { get; set; }
-        public bool Status { get; set; }
-        public DateTime CreationDate { get; set; }
+        private Image image;
+        private string title;
+        private string description;
+        private Category category;
+        private List<SubTask> subtasks;
+        private bool status;
+        private readonly DateTime creationDate;
+
+        public Image Image
+        {
+            get
+            {
+                return image;
+            }
+            set
+            {
+                if (image != value)
+                {
+                    image = value;
+                    OnPropertyChanged("Image");
+                }
+            } 
+        }
+        public string Title
+        { 
+            get
+            {
+                return title;
+            } 
+            set 
+            {
+                if (title != value)
+                {
+                    title = value;
+                    OnPropertyChanged("Title");
+                }
+            } 
+        }
+        public string Description
+        { 
+            get 
+            {
+                return description;
+            } 
+            set 
+            {
+                if (description != value)
+                {
+                    description = value;
+                    OnPropertyChanged("Description");
+                }
+            } 
+        }
+        public Category Category 
+        { 
+            get
+            { 
+                return category; 
+            } 
+            set
+            {
+                if (category != value)
+                {
+                    category = value;
+                    OnPropertyChanged("Category");
+                }
+            } 
+        }
+        public List<SubTask> SubTasks
+        { 
+            get 
+            {
+                return subtasks; 
+            } 
+            set 
+            {
+                if (subtasks != value)
+                {
+                    subtasks = value;
+                    OnPropertyChanged("Subtasks");
+                }
+            } 
+        }
+        public bool Status
+        { 
+            get
+            { 
+                return status; 
+            } 
+            set 
+            {
+                if (status != value)
+                {
+                    status = value;
+                    OnPropertyChanged("Status");
+                }
+            } 
+        }
+        public DateTime CreationDate => creationDate;
         public (int InProgress, int Completed) Statistics
         {
             get
@@ -34,7 +127,7 @@ namespace BucketListApp.Class
             Category = category;
             SubTasks = subTasks;
             Status = false;
-            CreationDate = DateTime.Now;
+            creationDate = DateTime.Now;
         }
 
         public override int GetHashCode()
@@ -82,6 +175,13 @@ namespace BucketListApp.Class
             if (!SubTasks.Any())
                 return 0;
             return SubTasks.Where(subTask => subTask.Status == false).Count();
+        }
+
+        public event PropertyChangedEventHandler PropertyChanged;
+        public void OnPropertyChanged(string prop = "")
+        {
+            if (PropertyChanged != null)
+                PropertyChanged(this, new PropertyChangedEventArgs(prop));
         }
     }
 }
