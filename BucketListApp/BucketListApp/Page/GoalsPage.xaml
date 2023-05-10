@@ -5,7 +5,7 @@
              IconImageSource="task"
              Title="Мои цели">
     <StackLayout>
-        <Label Text="Мои цели" FontSize="24" TextColor="Black" FontAttributes="Bold" Margin ="0, 20, 0, 20" HorizontalOptions="Center"></Label >
+        <Label Text="Мои цели" FontSize="18" TextColor="Black" FontAttributes="Bold" Margin ="0, 20, 0, 20" HorizontalOptions="Center" FontFamily="Inter"></Label >
         <StackLayout Orientation="Horizontal" Margin="16, 0, 16, 18" HeightRequest="16">
             
         </StackLayout>

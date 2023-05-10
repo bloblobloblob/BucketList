@@ -4,6 +4,7 @@ FFImageLoading.Svg.Forms.dll
 FFImageLoading.Svg.Platform.dll
 FFImageLoading.Transformations.dll
 FormsViewGroup.dll
+ProgressRing.Forms.Plugin.Android.dll
 SkiaSharp.dll
 SQLitePCLRaw.lib.e_sqlite3.android.dll
 Xamarin.AndroidX.Activity.dll

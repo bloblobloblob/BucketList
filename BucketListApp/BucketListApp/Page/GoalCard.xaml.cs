@@ -17,5 +17,10 @@ namespace BucketListApp
             InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);
         }
+
+        private void RetutnToGoalsPage(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new TabBar());
+        }
     }
 }

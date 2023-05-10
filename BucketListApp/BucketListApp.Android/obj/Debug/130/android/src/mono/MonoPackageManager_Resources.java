@@ -12,6 +12,8 @@ public class MonoPackageManager_Resources {
 		"FFImageLoading.Svg.Platform.dll",
 		"FFImageLoading.Transformations.dll",
 		"FormsViewGroup.dll",
+		"ProgressRing.Forms.Plugin.Android.dll",
+		"ProgressRing.Forms.Plugin.dll",
 		"SkiaSharp.dll",
 		"SQLite-net.dll",
 		"SQLitePCLRaw.batteries_v2.dll",
