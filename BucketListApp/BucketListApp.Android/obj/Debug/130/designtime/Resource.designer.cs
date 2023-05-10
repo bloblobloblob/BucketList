@@ -1828,6 +1828,10 @@ namespace BucketListApp.Droid
 			global::Xamarin.CommunityToolkit.Resource.Animation.design_bottom_sheet_slide_out = global::BucketListApp.Droid.Resource.Animation.design_bottom_sheet_slide_out;
 			global::Xamarin.CommunityToolkit.Resource.Animation.design_snackbar_in = global::BucketListApp.Droid.Resource.Animation.design_snackbar_in;
 			global::Xamarin.CommunityToolkit.Resource.Animation.design_snackbar_out = global::BucketListApp.Droid.Resource.Animation.design_snackbar_out;
+			global::Xamarin.CommunityToolkit.Resource.Animation.EnterFromLeft = global::BucketListApp.Droid.Resource.Animation.EnterFromLeft;
+			global::Xamarin.CommunityToolkit.Resource.Animation.EnterFromRight = global::BucketListApp.Droid.Resource.Animation.EnterFromRight;
+			global::Xamarin.CommunityToolkit.Resource.Animation.ExitToLeft = global::BucketListApp.Droid.Resource.Animation.ExitToLeft;
+			global::Xamarin.CommunityToolkit.Resource.Animation.ExitToRight = global::BucketListApp.Droid.Resource.Animation.ExitToRight;
 			global::Xamarin.CommunityToolkit.Resource.Animation.fragment_fast_out_extra_slow_in = global::BucketListApp.Droid.Resource.Animation.fragment_fast_out_extra_slow_in;
 			global::Xamarin.CommunityToolkit.Resource.Animation.mtrl_bottom_sheet_slide_in = global::BucketListApp.Droid.Resource.Animation.mtrl_bottom_sheet_slide_in;
 			global::Xamarin.CommunityToolkit.Resource.Animation.mtrl_bottom_sheet_slide_out = global::BucketListApp.Droid.Resource.Animation.mtrl_bottom_sheet_slide_out;
@@ -4286,8 +4290,10 @@ namespace BucketListApp.Droid
 			global::Xamarin.CommunityToolkit.Resource.Layout.abc_search_view = global::BucketListApp.Droid.Resource.Layout.abc_search_view;
 			global::Xamarin.CommunityToolkit.Resource.Layout.abc_select_dialog_material = global::BucketListApp.Droid.Resource.Layout.abc_select_dialog_material;
 			global::Xamarin.CommunityToolkit.Resource.Layout.abc_tooltip = global::BucketListApp.Droid.Resource.Layout.abc_tooltip;
+			global::Xamarin.CommunityToolkit.Resource.Layout.BottomTabLayout = global::BucketListApp.Droid.Resource.Layout.BottomTabLayout;
 			global::Xamarin.CommunityToolkit.Resource.Layout.browser_actions_context_menu_page = global::BucketListApp.Droid.Resource.Layout.browser_actions_context_menu_page;
 			global::Xamarin.CommunityToolkit.Resource.Layout.browser_actions_context_menu_row = global::BucketListApp.Droid.Resource.Layout.browser_actions_context_menu_row;
+			global::Xamarin.CommunityToolkit.Resource.Layout.CameraFragment = global::BucketListApp.Droid.Resource.Layout.CameraFragment;
 			global::Xamarin.CommunityToolkit.Resource.Layout.custom_dialog = global::BucketListApp.Droid.Resource.Layout.custom_dialog;
 			global::Xamarin.CommunityToolkit.Resource.Layout.design_bottom_navigation_item = global::BucketListApp.Droid.Resource.Layout.design_bottom_navigation_item;
 			global::Xamarin.CommunityToolkit.Resource.Layout.design_bottom_sheet_dialog = global::BucketListApp.Droid.Resource.Layout.design_bottom_sheet_dialog;
@@ -4305,6 +4311,9 @@ namespace BucketListApp.Droid
 			global::Xamarin.CommunityToolkit.Resource.Layout.design_text_input_end_icon = global::BucketListApp.Droid.Resource.Layout.design_text_input_end_icon;
 			global::Xamarin.CommunityToolkit.Resource.Layout.design_text_input_start_icon = global::BucketListApp.Droid.Resource.Layout.design_text_input_start_icon;
 			global::Xamarin.CommunityToolkit.Resource.Layout.expand_button = global::BucketListApp.Droid.Resource.Layout.expand_button;
+			global::Xamarin.CommunityToolkit.Resource.Layout.FallbackTabbarDoNotUse = global::BucketListApp.Droid.Resource.Layout.FallbackTabbarDoNotUse;
+			global::Xamarin.CommunityToolkit.Resource.Layout.FallbackToolbarDoNotUse = global::BucketListApp.Droid.Resource.Layout.FallbackToolbarDoNotUse;
+			global::Xamarin.CommunityToolkit.Resource.Layout.FlyoutContent = global::BucketListApp.Droid.Resource.Layout.FlyoutContent;
 			global::Xamarin.CommunityToolkit.Resource.Layout.image_frame = global::BucketListApp.Droid.Resource.Layout.image_frame;
 			global::Xamarin.CommunityToolkit.Resource.Layout.material_chip_input_combo = global::BucketListApp.Droid.Resource.Layout.material_chip_input_combo;
 			global::Xamarin.CommunityToolkit.Resource.Layout.material_clockface_textview = global::BucketListApp.Droid.Resource.Layout.material_clockface_textview;
@@ -4380,10 +4389,13 @@ namespace BucketListApp.Droid
 			global::Xamarin.CommunityToolkit.Resource.Layout.preference_widget_seekbar_material = global::BucketListApp.Droid.Resource.Layout.preference_widget_seekbar_material;
 			global::Xamarin.CommunityToolkit.Resource.Layout.preference_widget_switch = global::BucketListApp.Droid.Resource.Layout.preference_widget_switch;
 			global::Xamarin.CommunityToolkit.Resource.Layout.preference_widget_switch_compat = global::BucketListApp.Droid.Resource.Layout.preference_widget_switch_compat;
+			global::Xamarin.CommunityToolkit.Resource.Layout.RootLayout = global::BucketListApp.Droid.Resource.Layout.RootLayout;
 			global::Xamarin.CommunityToolkit.Resource.Layout.select_dialog_item_material = global::BucketListApp.Droid.Resource.Layout.select_dialog_item_material;
 			global::Xamarin.CommunityToolkit.Resource.Layout.select_dialog_multichoice_material = global::BucketListApp.Droid.Resource.Layout.select_dialog_multichoice_material;
 			global::Xamarin.CommunityToolkit.Resource.Layout.select_dialog_singlechoice_material = global::BucketListApp.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Xamarin.CommunityToolkit.Resource.Layout.ShellContent = global::BucketListApp.Droid.Resource.Layout.ShellContent;
 			global::Xamarin.CommunityToolkit.Resource.Layout.support_simple_spinner_dropdown_item = global::BucketListApp.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Xamarin.CommunityToolkit.Resource.Layout.Tabbar = global::BucketListApp.Droid.Resource.Layout.Tabbar;
 			global::Xamarin.CommunityToolkit.Resource.Layout.test_action_chip = global::BucketListApp.Droid.Resource.Layout.test_action_chip;
 			global::Xamarin.CommunityToolkit.Resource.Layout.test_chip_zero_corner_radius = global::BucketListApp.Droid.Resource.Layout.test_chip_zero_corner_radius;
 			global::Xamarin.CommunityToolkit.Resource.Layout.test_design_checkbox = global::BucketListApp.Droid.Resource.Layout.test_design_checkbox;
@@ -4399,6 +4411,7 @@ namespace BucketListApp.Droid
 			global::Xamarin.CommunityToolkit.Resource.Layout.text_view_with_line_height_from_layout = global::BucketListApp.Droid.Resource.Layout.text_view_with_line_height_from_layout;
 			global::Xamarin.CommunityToolkit.Resource.Layout.text_view_with_line_height_from_style = global::BucketListApp.Droid.Resource.Layout.text_view_with_line_height_from_style;
 			global::Xamarin.CommunityToolkit.Resource.Layout.text_view_with_theme_line_height = global::BucketListApp.Droid.Resource.Layout.text_view_with_theme_line_height;
+			global::Xamarin.CommunityToolkit.Resource.Layout.Toolbar = global::BucketListApp.Droid.Resource.Layout.Toolbar;
 			global::Xamarin.CommunityToolkit.Resource.Plurals.mtrl_badge_content_description = global::BucketListApp.Droid.Resource.Plurals.mtrl_badge_content_description;
 			global::Xamarin.CommunityToolkit.Resource.String.abc_action_bar_home_description = global::BucketListApp.Droid.Resource.String.abc_action_bar_home_description;
 			global::Xamarin.CommunityToolkit.Resource.String.abc_action_bar_up_description = global::BucketListApp.Droid.Resource.String.abc_action_bar_up_description;
@@ -7578,6 +7591,10 @@ namespace BucketListApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.design_bottom_sheet_slide_out = global::BucketListApp.Droid.Resource.Animation.design_bottom_sheet_slide_out;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.design_snackbar_in = global::BucketListApp.Droid.Resource.Animation.design_snackbar_in;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.design_snackbar_out = global::BucketListApp.Droid.Resource.Animation.design_snackbar_out;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.EnterFromLeft = global::BucketListApp.Droid.Resource.Animation.EnterFromLeft;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.EnterFromRight = global::BucketListApp.Droid.Resource.Animation.EnterFromRight;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.ExitToLeft = global::BucketListApp.Droid.Resource.Animation.ExitToLeft;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.ExitToRight = global::BucketListApp.Droid.Resource.Animation.ExitToRight;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.fragment_fast_out_extra_slow_in = global::BucketListApp.Droid.Resource.Animation.fragment_fast_out_extra_slow_in;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.mtrl_bottom_sheet_slide_in = global::BucketListApp.Droid.Resource.Animation.mtrl_bottom_sheet_slide_in;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.mtrl_bottom_sheet_slide_out = global::BucketListApp.Droid.Resource.Animation.mtrl_bottom_sheet_slide_out;
@@ -9954,6 +9971,7 @@ namespace BucketListApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_search_view = global::BucketListApp.Droid.Resource.Layout.abc_search_view;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_select_dialog_material = global::BucketListApp.Droid.Resource.Layout.abc_select_dialog_material;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_tooltip = global::BucketListApp.Droid.Resource.Layout.abc_tooltip;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.BottomTabLayout = global::BucketListApp.Droid.Resource.Layout.BottomTabLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.custom_dialog = global::BucketListApp.Droid.Resource.Layout.custom_dialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_bottom_navigation_item = global::BucketListApp.Droid.Resource.Layout.design_bottom_navigation_item;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_bottom_sheet_dialog = global::BucketListApp.Droid.Resource.Layout.design_bottom_sheet_dialog;
@@ -9970,6 +9988,9 @@ namespace BucketListApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_navigation_menu_item = global::BucketListApp.Droid.Resource.Layout.design_navigation_menu_item;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_text_input_end_icon = global::BucketListApp.Droid.Resource.Layout.design_text_input_end_icon;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_text_input_start_icon = global::BucketListApp.Droid.Resource.Layout.design_text_input_start_icon;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.FallbackTabbarDoNotUse = global::BucketListApp.Droid.Resource.Layout.FallbackTabbarDoNotUse;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.FallbackToolbarDoNotUse = global::BucketListApp.Droid.Resource.Layout.FallbackToolbarDoNotUse;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.FlyoutContent = global::BucketListApp.Droid.Resource.Layout.FlyoutContent;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.material_chip_input_combo = global::BucketListApp.Droid.Resource.Layout.material_chip_input_combo;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.material_clockface_textview = global::BucketListApp.Droid.Resource.Layout.material_clockface_textview;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.material_clockface_view = global::BucketListApp.Droid.Resource.Layout.material_clockface_view;
@@ -10028,10 +10049,13 @@ namespace BucketListApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_template_media_custom = global::BucketListApp.Droid.Resource.Layout.notification_template_media_custom;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_template_part_chronometer = global::BucketListApp.Droid.Resource.Layout.notification_template_part_chronometer;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_template_part_time = global::BucketListApp.Droid.Resource.Layout.notification_template_part_time;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.RootLayout = global::BucketListApp.Droid.Resource.Layout.RootLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.select_dialog_item_material = global::BucketListApp.Droid.Resource.Layout.select_dialog_item_material;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.select_dialog_multichoice_material = global::BucketListApp.Droid.Resource.Layout.select_dialog_multichoice_material;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.select_dialog_singlechoice_material = global::BucketListApp.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.ShellContent = global::BucketListApp.Droid.Resource.Layout.ShellContent;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::BucketListApp.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.Tabbar = global::BucketListApp.Droid.Resource.Layout.Tabbar;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_action_chip = global::BucketListApp.Droid.Resource.Layout.test_action_chip;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_chip_zero_corner_radius = global::BucketListApp.Droid.Resource.Layout.test_chip_zero_corner_radius;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_design_checkbox = global::BucketListApp.Droid.Resource.Layout.test_design_checkbox;
@@ -10047,6 +10071,7 @@ namespace BucketListApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.text_view_with_line_height_from_layout = global::BucketListApp.Droid.Resource.Layout.text_view_with_line_height_from_layout;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.text_view_with_line_height_from_style = global::BucketListApp.Droid.Resource.Layout.text_view_with_line_height_from_style;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.text_view_with_theme_line_height = global::BucketListApp.Droid.Resource.Layout.text_view_with_theme_line_height;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.Toolbar = global::BucketListApp.Droid.Resource.Layout.Toolbar;
 			global::Xamarin.Forms.Platform.Android.Resource.Plurals.mtrl_badge_content_description = global::BucketListApp.Droid.Resource.Plurals.mtrl_badge_content_description;
 			global::Xamarin.Forms.Platform.Android.Resource.String.abc_action_bar_home_description = global::BucketListApp.Droid.Resource.String.abc_action_bar_home_description;
 			global::Xamarin.Forms.Platform.Android.Resource.String.abc_action_bar_up_description = global::BucketListApp.Droid.Resource.String.abc_action_bar_up_description;
@@ -12853,6 +12878,10 @@ namespace BucketListApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Animation.design_bottom_sheet_slide_out = global::BucketListApp.Droid.Resource.Animation.design_bottom_sheet_slide_out;
 			global::Xamarin.Forms.Platform.Resource.Animation.design_snackbar_in = global::BucketListApp.Droid.Resource.Animation.design_snackbar_in;
 			global::Xamarin.Forms.Platform.Resource.Animation.design_snackbar_out = global::BucketListApp.Droid.Resource.Animation.design_snackbar_out;
+			global::Xamarin.Forms.Platform.Resource.Animation.EnterFromLeft = global::BucketListApp.Droid.Resource.Animation.EnterFromLeft;
+			global::Xamarin.Forms.Platform.Resource.Animation.EnterFromRight = global::BucketListApp.Droid.Resource.Animation.EnterFromRight;
+			global::Xamarin.Forms.Platform.Resource.Animation.ExitToLeft = global::BucketListApp.Droid.Resource.Animation.ExitToLeft;
+			global::Xamarin.Forms.Platform.Resource.Animation.ExitToRight = global::BucketListApp.Droid.Resource.Animation.ExitToRight;
 			global::Xamarin.Forms.Platform.Resource.Animation.fragment_fast_out_extra_slow_in = global::BucketListApp.Droid.Resource.Animation.fragment_fast_out_extra_slow_in;
 			global::Xamarin.Forms.Platform.Resource.Animation.mtrl_bottom_sheet_slide_in = global::BucketListApp.Droid.Resource.Animation.mtrl_bottom_sheet_slide_in;
 			global::Xamarin.Forms.Platform.Resource.Animation.mtrl_bottom_sheet_slide_out = global::BucketListApp.Droid.Resource.Animation.mtrl_bottom_sheet_slide_out;
@@ -15229,6 +15258,7 @@ namespace BucketListApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Layout.abc_search_view = global::BucketListApp.Droid.Resource.Layout.abc_search_view;
 			global::Xamarin.Forms.Platform.Resource.Layout.abc_select_dialog_material = global::BucketListApp.Droid.Resource.Layout.abc_select_dialog_material;
 			global::Xamarin.Forms.Platform.Resource.Layout.abc_tooltip = global::BucketListApp.Droid.Resource.Layout.abc_tooltip;
+			global::Xamarin.Forms.Platform.Resource.Layout.BottomTabLayout = global::BucketListApp.Droid.Resource.Layout.BottomTabLayout;
 			global::Xamarin.Forms.Platform.Resource.Layout.custom_dialog = global::BucketListApp.Droid.Resource.Layout.custom_dialog;
 			global::Xamarin.Forms.Platform.Resource.Layout.design_bottom_navigation_item = global::BucketListApp.Droid.Resource.Layout.design_bottom_navigation_item;
 			global::Xamarin.Forms.Platform.Resource.Layout.design_bottom_sheet_dialog = global::BucketListApp.Droid.Resource.Layout.design_bottom_sheet_dialog;
@@ -15245,6 +15275,9 @@ namespace BucketListApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Layout.design_navigation_menu_item = global::BucketListApp.Droid.Resource.Layout.design_navigation_menu_item;
 			global::Xamarin.Forms.Platform.Resource.Layout.design_text_input_end_icon = global::BucketListApp.Droid.Resource.Layout.design_text_input_end_icon;
 			global::Xamarin.Forms.Platform.Resource.Layout.design_text_input_start_icon = global::BucketListApp.Droid.Resource.Layout.design_text_input_start_icon;
+			global::Xamarin.Forms.Platform.Resource.Layout.FallbackTabbarDoNotUse = global::BucketListApp.Droid.Resource.Layout.FallbackTabbarDoNotUse;
+			global::Xamarin.Forms.Platform.Resource.Layout.FallbackToolbarDoNotUse = global::BucketListApp.Droid.Resource.Layout.FallbackToolbarDoNotUse;
+			global::Xamarin.Forms.Platform.Resource.Layout.FlyoutContent = global::BucketListApp.Droid.Resource.Layout.FlyoutContent;
 			global::Xamarin.Forms.Platform.Resource.Layout.material_chip_input_combo = global::BucketListApp.Droid.Resource.Layout.material_chip_input_combo;
 			global::Xamarin.Forms.Platform.Resource.Layout.material_clockface_textview = global::BucketListApp.Droid.Resource.Layout.material_clockface_textview;
 			global::Xamarin.Forms.Platform.Resource.Layout.material_clockface_view = global::BucketListApp.Droid.Resource.Layout.material_clockface_view;
@@ -15303,10 +15336,13 @@ namespace BucketListApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Layout.notification_template_media_custom = global::BucketListApp.Droid.Resource.Layout.notification_template_media_custom;
 			global::Xamarin.Forms.Platform.Resource.Layout.notification_template_part_chronometer = global::BucketListApp.Droid.Resource.Layout.notification_template_part_chronometer;
 			global::Xamarin.Forms.Platform.Resource.Layout.notification_template_part_time = global::BucketListApp.Droid.Resource.Layout.notification_template_part_time;
+			global::Xamarin.Forms.Platform.Resource.Layout.RootLayout = global::BucketListApp.Droid.Resource.Layout.RootLayout;
 			global::Xamarin.Forms.Platform.Resource.Layout.select_dialog_item_material = global::BucketListApp.Droid.Resource.Layout.select_dialog_item_material;
 			global::Xamarin.Forms.Platform.Resource.Layout.select_dialog_multichoice_material = global::BucketListApp.Droid.Resource.Layout.select_dialog_multichoice_material;
 			global::Xamarin.Forms.Platform.Resource.Layout.select_dialog_singlechoice_material = global::BucketListApp.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Xamarin.Forms.Platform.Resource.Layout.ShellContent = global::BucketListApp.Droid.Resource.Layout.ShellContent;
 			global::Xamarin.Forms.Platform.Resource.Layout.support_simple_spinner_dropdown_item = global::BucketListApp.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Xamarin.Forms.Platform.Resource.Layout.Tabbar = global::BucketListApp.Droid.Resource.Layout.Tabbar;
 			global::Xamarin.Forms.Platform.Resource.Layout.test_action_chip = global::BucketListApp.Droid.Resource.Layout.test_action_chip;
 			global::Xamarin.Forms.Platform.Resource.Layout.test_chip_zero_corner_radius = global::BucketListApp.Droid.Resource.Layout.test_chip_zero_corner_radius;
 			global::Xamarin.Forms.Platform.Resource.Layout.test_design_checkbox = global::BucketListApp.Droid.Resource.Layout.test_design_checkbox;
@@ -15322,6 +15358,7 @@ namespace BucketListApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Layout.text_view_with_line_height_from_layout = global::BucketListApp.Droid.Resource.Layout.text_view_with_line_height_from_layout;
 			global::Xamarin.Forms.Platform.Resource.Layout.text_view_with_line_height_from_style = global::BucketListApp.Droid.Resource.Layout.text_view_with_line_height_from_style;
 			global::Xamarin.Forms.Platform.Resource.Layout.text_view_with_theme_line_height = global::BucketListApp.Droid.Resource.Layout.text_view_with_theme_line_height;
+			global::Xamarin.Forms.Platform.Resource.Layout.Toolbar = global::BucketListApp.Droid.Resource.Layout.Toolbar;
 			global::Xamarin.Forms.Platform.Resource.Plurals.mtrl_badge_content_description = global::BucketListApp.Droid.Resource.Plurals.mtrl_badge_content_description;
 			global::Xamarin.Forms.Platform.Resource.String.abc_action_bar_home_description = global::BucketListApp.Droid.Resource.String.abc_action_bar_home_description;
 			global::Xamarin.Forms.Platform.Resource.String.abc_action_bar_up_description = global::BucketListApp.Droid.Resource.String.abc_action_bar_up_description;
@@ -18190,16 +18227,16 @@ namespace BucketListApp.Droid
 			public const int design_snackbar_out = 2130771995;
 			
 			// aapt resource value: 0x7F01001C
-			public const int enterfromleft = 2130771996;
+			public const int EnterFromLeft = 2130771996;
 			
 			// aapt resource value: 0x7F01001D
-			public const int enterfromright = 2130771997;
+			public const int EnterFromRight = 2130771997;
 			
 			// aapt resource value: 0x7F01001E
-			public const int exittoleft = 2130771998;
+			public const int ExitToLeft = 2130771998;
 			
 			// aapt resource value: 0x7F01001F
-			public const int exittoright = 2130771999;
+			public const int ExitToRight = 2130771999;
 			
 			// aapt resource value: 0x7F010020
 			public const int fragment_fast_out_extra_slow_in = 2130772000;
@@ -25769,7 +25806,7 @@ namespace BucketListApp.Droid
 			public const int abc_tooltip = 2131427355;
 			
 			// aapt resource value: 0x7F0B001C
-			public const int bottomtablayout = 2131427356;
+			public const int BottomTabLayout = 2131427356;
 			
 			// aapt resource value: 0x7F0B001D
 			public const int browser_actions_context_menu_page = 2131427357;
@@ -25778,7 +25815,7 @@ namespace BucketListApp.Droid
 			public const int browser_actions_context_menu_row = 2131427358;
 			
 			// aapt resource value: 0x7F0B001F
-			public const int camerafragment = 2131427359;
+			public const int CameraFragment = 2131427359;
 			
 			// aapt resource value: 0x7F0B0020
 			public const int custom_dialog = 2131427360;
@@ -25832,13 +25869,13 @@ namespace BucketListApp.Droid
 			public const int expand_button = 2131427376;
 			
 			// aapt resource value: 0x7F0B0031
-			public const int fallbacktabbardonotuse = 2131427377;
+			public const int FallbackTabbarDoNotUse = 2131427377;
 			
 			// aapt resource value: 0x7F0B0032
-			public const int fallbacktoolbardonotuse = 2131427378;
+			public const int FallbackToolbarDoNotUse = 2131427378;
 			
 			// aapt resource value: 0x7F0B0033
-			public const int flyoutcontent = 2131427379;
+			public const int FlyoutContent = 2131427379;
 			
 			// aapt resource value: 0x7F0B0034
 			public const int image_frame = 2131427380;
@@ -26066,7 +26103,7 @@ namespace BucketListApp.Droid
 			public const int preference_widget_switch_compat = 2131427454;
 			
 			// aapt resource value: 0x7F0B007F
-			public const int rootlayout = 2131427455;
+			public const int RootLayout = 2131427455;
 			
 			// aapt resource value: 0x7F0B0080
 			public const int select_dialog_item_material = 2131427456;
@@ -26078,13 +26115,13 @@ namespace BucketListApp.Droid
 			public const int select_dialog_singlechoice_material = 2131427458;
 			
 			// aapt resource value: 0x7F0B0083
-			public const int shellcontent = 2131427459;
+			public const int ShellContent = 2131427459;
 			
 			// aapt resource value: 0x7F0B0084
 			public const int support_simple_spinner_dropdown_item = 2131427460;
 			
 			// aapt resource value: 0x7F0B0085
-			public const int tabbar = 2131427461;
+			public const int Tabbar = 2131427461;
 			
 			// aapt resource value: 0x7F0B0086
 			public const int test_action_chip = 2131427462;
@@ -26132,7 +26169,7 @@ namespace BucketListApp.Droid
 			public const int text_view_with_theme_line_height = 2131427475;
 			
 			// aapt resource value: 0x7F0B0095
-			public const int toolbar = 2131427477;
+			public const int Toolbar = 2131427477;
 			
 			static Layout()
 			{

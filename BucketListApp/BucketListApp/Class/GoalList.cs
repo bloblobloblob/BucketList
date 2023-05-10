@@ -60,18 +60,41 @@ namespace BucketListApp.Class
             goals.Remove(goal);
         }
 
-        public int Completed()
+        public int CompletedRatio()
         {
             if (!goals.Any())
                 return 0;
-            return goals.Where(goal => goal.Status == true).Count();
+            return goals.Count / goals.Where(goal => goal.Status == true).Count() * 100;
         }
 
-        public int InProgress()
+        public int CompletedPerYear()
         {
+            var currentdate = DateTime.Now;
             if (!goals.Any())
                 return 0;
-            return goals.Where(goal => goal.Status == false).Count();
+            return goals.Where(goal => goal.Status == true && (goal.CreationDate - currentdate).TotalDays < 366).Count();
+        }
+
+        public (int Ratio, string Name) MostCompletedCategory()
+        {
+            var currentdate = DateTime.Now;
+            if (!goals.Any())
+                return (0, null);
+            var completed = goals.Where(goal => goal.Status == true && (goal.CreationDate - currentdate).TotalDays < 366);
+            if (!completed.Any())
+                return (0, null);
+            var mostCompleted = completed
+                    .GroupBy(goal => goal.Category)
+                    .OrderByDescending(group => group.Count())
+                    .FirstOrDefault();
+            var ratio = mostCompleted.Count() / completed.Count() * 100;
+            var name = mostCompleted.Key.Name;
+            return (ratio, name);
+        }
+
+        public int InProgressRatio()
+        {
+            return 100 - CompletedRatio();
         }
         private static IEnumerable<Goal> SortGoals(IEnumerable<Goal> goals)
         {

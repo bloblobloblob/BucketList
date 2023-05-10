@@ -7,46 +7,44 @@ using Xamarin.Forms;
 using System.Linq;
 using System.Diagnostics;
 using BucketListApp.Class;
+using System.IO;
 
 namespace BucketListApp
 {
     public partial class App : Application
     {
+        string fileName = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "temp.txt");
         private readonly static List<string> motivationalPhrases = new List<string>() { };
+        public static List<Category> categories;
         private static Profile defaultProfile;
         private static Profile currentProfile;
-        public List<Category> Categories {
+        public List<Category> Categories
+        {
             get
             {
-                if (Categories == null)
+                if (categories == null)
                 {
-                    Categories = new List<Category>()
+                    categories = new List<Category>()
                     {
                         new Category("без категории")
                     };
                 }
-                return Categories;
+                return categories;
             }
             private set { }
         }
-        public (int InProgress, int Completed) Statistics
-        {
-            get
-            {
-                return (CurrentProfile.Goals.InProgress(), CurrentProfile.Goals.Completed());
-            } 
-        }
 
         private Profile DefaultProfile
-        { 
-            get 
+        {
+            get
             {
                 if (defaultProfile == null)
                     defaultProfile = new Profile()
                     { Name = String.Empty, Login = null, Password = null, Goals = new GoalList() };
                 return defaultProfile;
-            } 
+            }
         }
+
         private Profile CurrentProfile
         {
             get
@@ -54,6 +52,24 @@ namespace BucketListApp
                 if (currentProfile == null)
                     currentProfile = DefaultProfile;
                 return currentProfile;
+            }
+        }
+
+        public (int InProgress, int Completed) TotalStatistics
+        {
+            get
+            {
+                return (CurrentProfile.Goals.InProgressRatio(),
+                    CurrentProfile.Goals.CompletedRatio());
+            } 
+        }
+
+        public (int CompletedGoals, (int Ratio, string Name) MostCompletedCategory) AnnualStatistics
+        {
+            get
+            {
+                return (CurrentProfile.Goals.CompletedPerYear(),
+                    CurrentProfile.Goals.MostCompletedCategory());
             }
         }
 

@@ -9,24 +9,26 @@ namespace BucketListApp.Class
 {
     public class Category
     {
-        public string Name { get; }
+        private readonly string name;
+        private readonly Image icon;
+        public string Name => name;
 
-        public Image Icon { get; }
+        public Image Icon => icon;
 
         public Category(string name, string imageName = null)
         {
-            Name = name;
-            Icon = new Image() { Source = imageName };
+            this.name = name;
+            this.icon = new Image() { Source = imageName };
         }
 
         public Category(string name, Image image)
         {
-            Name = name;
-            Icon = image;
+            this.name = name;
+            this.icon = image;
         }
         public override int GetHashCode()
         {
-            return Name.GetHashCode();
+            return name.GetHashCode();
         }
 
         public override bool Equals(object obj)
