@@ -18,6 +18,10 @@ namespace BucketListApp
         {
             InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);
+            MessagingCenter.Subscribe<CategoryPage, string>(this, "ChangeCat", (sender, arg) =>
+            {
+                ButCat.Text = arg;
+            });
         }
 
         public async void Cat(object sender, EventArgs e)

@@ -20,7 +20,7 @@ namespace BucketListApp.Page
 
         public async void Next(object sender, EventArgs e)
         {
-            string name = "";
+            string name = "Выбрать категорию";
             Image image = new Image();
 
             if (One.IsChecked)
@@ -28,33 +28,33 @@ namespace BucketListApp.Page
                 name = "Отдых";
                 image = new Image { Source = "chill.jpg" };
             }
-            if (Two.IsChecked)
+            else if (Two.IsChecked)
             {
                 name = "Активности";
                 image = new Image { Source = "activity.jpg" };
             }
-            if (Three.IsChecked)
+            else if (Three.IsChecked)
             {
                 name = "Путешествия";
                 image = new Image { Source = "airplane.jpg" };
             }
-            if (Four.IsChecked)
+            else if (Four.IsChecked)
             {
                 name = "Челленджи";
                 image = new Image { Source = "challange.jpg" };
             }
-            if (Five.IsChecked)
+            else if (Five.IsChecked)
             {
                 name = "Духовность";
                 image = new Image { Source = "god.jpg" };
             }
-            if (Six.IsChecked)
+            else if (Six.IsChecked)
             {
                 name = "Другое";
                 image = new Image { Source = "other.jpg" };
             }
 
-            Category category = new Category(name, image);
+            MessagingCenter.Send<CategoryPage, string>(this, "ChangeCat", name);
             await Navigation.PopModalAsync();
         }
     }
