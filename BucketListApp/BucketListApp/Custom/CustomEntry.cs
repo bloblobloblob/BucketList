@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using System.Windows.Input;
 using Xamarin.Forms;
 
 namespace BucketListApp
@@ -67,8 +66,6 @@ namespace BucketListApp
             get { return (bool)GetValue(IsCurvedCornersEnabledProperty); }
             set { SetValue(IsCurvedCornersEnabledProperty, value); }
         }
-
-        public ICommand EntryUnfocused { get; set; }
     }
 }
 
