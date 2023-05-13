@@ -32,6 +32,7 @@
                     CornerRadius="10" BorderColor="Black" Clicked="Cat"/>
                     <Label Text="Описание" FontSize="12" TextColor="Black" VerticalOptions="StartAndExpand"></Label>
                     <custom:CustomEntry
+                                ClearButtonVisibility="WhileEditing"
                                 Keyboard="Text"
                                 x:Name="About"
                                 CornerRadius="10"
@@ -45,8 +46,11 @@
                                 TextColor="Black"
                                 Margin="0, 0, 0, 8"
                                 VerticalOptions="StartAndExpand"/>
-                    <Label Text="Подзадачи (не обязательно заполнять все поля)" FontSize="12" TextColor="Black" VerticalOptions="StartAndExpand"></Label>
+                    <Label Text="Подзадачи" FontSize="12" TextColor="Black" VerticalOptions="StartAndExpand"></Label>
                     <custom:CustomEntry
+                                Placeholder="Подзадача 1"
+                                TextChanged="Pod1Ch"
+                                ClearButtonVisibility="WhileEditing"
                                 Keyboard="Text"
                                 x:Name="Pod1"
                                 CornerRadius="10"
@@ -65,7 +69,10 @@
                         </custom:CustomEntry.Behaviors>
                     </custom:CustomEntry>
                     <custom:CustomEntry
-                                IsVisible="True"
+                                Placeholder="Подзадача 2"
+                                TextChanged="Pod2Ch"
+                                ClearButtonVisibility="WhileEditing"
+                                IsVisible="False"
                                 Keyboard="Text"
                                 x:Name="Pod2"
                                 CornerRadius="10"
@@ -80,7 +87,10 @@
                                 Margin="0, 0, 0, 8"
                                 VerticalOptions="StartAndExpand"/>
                     <custom:CustomEntry
-                                IsVisible="True"
+                                Placeholder="Подзадача 3"
+                                TextChanged="Pod3Ch"
+                                ClearButtonVisibility="WhileEditing"
+                                IsVisible="False"
                                 Keyboard="Text"
                                 x:Name="Pod3"
                                 CornerRadius="10"
@@ -95,7 +105,10 @@
                                 Margin="0, 0, 0, 8"
                                 VerticalOptions="StartAndExpand"/>
                     <custom:CustomEntry
-                                IsVisible="True"
+                                Placeholder="Подзадача 4"
+                                TextChanged="Pod4Ch"
+                                ClearButtonVisibility="WhileEditing"
+                                IsVisible="False"
                                 Keyboard="Text"
                                 x:Name="Pod4"
                                 CornerRadius="10"
@@ -110,7 +123,10 @@
                                 Margin="0, 0, 0, 8"
                                 VerticalOptions="StartAndExpand"/>
                     <custom:CustomEntry
-                                IsVisible="True"
+                                Placeholder="Подзадача 5"
+                                TextChanged="Pod5Ch"
+                                ClearButtonVisibility="WhileEditing"
+                                IsVisible="False"
                                 Keyboard="Text"
                                 x:Name="Pod5"
                                 CornerRadius="10"
@@ -125,7 +141,9 @@
                                 Margin="0, 0, 0, 8"
                                 VerticalOptions="StartAndExpand"/>
                     <custom:CustomEntry
-                                IsVisible="True"
+                                Placeholder="Подзадача 6"
+                                ClearButtonVisibility="WhileEditing"
+                                IsVisible="False"
                                 Keyboard="Text"
                                 x:Name="Pod6"
                                 CornerRadius="10"

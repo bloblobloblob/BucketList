@@ -1,4 +1,6 @@
-﻿using System;
+﻿using BucketListApp.Class;
+using BucketListApp.Page;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,6 +18,13 @@ namespace BucketListApp
         {
             InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);
+            MessagingCenter.Subscribe<CreateGoalPage, Goal>(this, "AddGoal", (sender, arg) =>
+            {
+                Name.Text = arg.Title;
+                Category.Text = arg.Category.Name;
+                About.Text = arg.Description;
+                Tasks.Text = arg.SubTasks[0].Description;
+            });
         }
         
         async void OnButtonClicked(object sender, EventArgs args)

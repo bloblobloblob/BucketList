@@ -54,7 +54,8 @@ namespace BucketListApp.Page
                 image = new Image { Source = "other.jpg" };
             }
 
-            MessagingCenter.Send<CategoryPage, string>(this, "ChangeCat", name);
+            Category cate = new Category(name, image);
+            MessagingCenter.Send<CategoryPage, Category>(this, "ChangeCat", cate);
             await Navigation.PopModalAsync();
         }
     }

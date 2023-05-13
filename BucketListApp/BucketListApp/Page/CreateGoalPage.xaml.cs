@@ -14,14 +14,41 @@ namespace BucketListApp
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class CreateGoalPage : ContentPage
     {
+        Category cat;
         public CreateGoalPage()
         {
             InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);
-            MessagingCenter.Subscribe<CategoryPage, string>(this, "ChangeCat", (sender, arg) =>
+            MessagingCenter.Subscribe<CategoryPage, Category>(this, "ChangeCat", (sender, arg) =>
             {
-                ButCat.Text = arg;
+                ButCat.Text = arg.Name;
+                cat = arg;
             });
+        }
+
+        public void Pod1Ch(object sender, TextChangedEventArgs e)
+        {
+            Pod2.IsVisible = true;
+        }
+
+        public void Pod2Ch(object sender, TextChangedEventArgs e)
+        {
+            Pod3.IsVisible = true;
+        }
+
+        public void Pod3Ch(object sender, TextChangedEventArgs e)
+        {
+            Pod4.IsVisible = true;
+        }
+
+        public void Pod4Ch(object sender, TextChangedEventArgs e)
+        {
+            Pod5.IsVisible = true;
+        }
+
+        public void Pod5Ch(object sender, TextChangedEventArgs e)
+        {
+            Pod6.IsVisible = true;
         }
 
         public async void Cat(object sender, EventArgs e)
@@ -32,35 +59,37 @@ namespace BucketListApp
 
         public async void NewGoal(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new AlertPage());
-            return;
-            //string title = Name.Text.Trim();
-            //string cat = Cat.Text.Trim();
-            //string desc = About.Text.Trim();
-            //string pod = Pod.Text.Trim();
+            string title = Name.Text.Trim();
+            string desc = About.Text.Trim();
+            List<SubTask> tasks = new List<SubTask>();
+            if (Pod2.IsVisible == true) tasks.Add(new SubTask(Pod1.Text));
+            if (Pod3.IsVisible == true) tasks.Add(new SubTask(Pod2.Text));
+            if (Pod4.IsVisible == true) tasks.Add(new SubTask(Pod3.Text));
+            if (Pod5.IsVisible == true) tasks.Add(new SubTask(Pod4.Text));
+            if (Pod6.IsVisible == true) tasks.Add(new SubTask(Pod5.Text));
 
-            //if (string.IsNullOrEmpty(title))
-            //{
-            //    var ap = new AlertPage();
-            //    ap.LblTitle.Text = "Instructions";
-            //    ap.LblText.Text = "The text to display!";
-            //    ap.Button1.Text = "Done";
-            //    ap.Button1.Clicked += async (s, a) =>
-            //    {
-            //        await Navigation.PopModalAsync();
-            //    };
-            //    ap.Button2.IsVisible = false;
-            //    await Navigation.PushModalAsync(ap);
-            //    return;
-            //}
+            if (string.IsNullOrEmpty(title))
+            {
+                var ap = new AlertPage();
+                ap.ErrTxt.Text = "Введены не все данные";
+                ap.Txt.Text = "Введите название цели";
+                ap.Button1.Text = "Хорошо";
+                await Navigation.PushModalAsync(ap);
+                return;
+            }
 
-            //Goal goal = new Goal
-            //{
-            //    Title = title,
-            //    Description = desc,
-            //    Category = cat,
-            //    SubTasks = pod,
-            //};
+            if (cat.Name == "Выбрать категорию")
+            {
+                var ap = new AlertPage();
+                ap.ErrTxt.Text = "Введены не все данные";
+                ap.Txt.Text = "Выберите категорию";
+                ap.Button1.Text = "Хорошо";
+                await Navigation.PushModalAsync(ap);
+                return;
+            }
+
+            Goal goal = new Goal(title, desc, cat, tasks);
+            MessagingCenter.Send<CreateGoalPage, Goal>(this, "AddGoal", goal);
         }
     }
 }

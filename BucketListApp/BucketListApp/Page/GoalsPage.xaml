@@ -12,7 +12,23 @@
 
         <ScrollView  BindingContext="places">
             <StackLayout Padding="18, 0, 18 ,16" Orientation="Horizontal">
-                <Frame HeightRequest="56" WidthRequest="345" 
+                <Label
+                    x:Name="Name"
+                    TextColor="Red"
+                    Text="Нет названия"/>
+                <Label
+                    x:Name="Category"
+                    TextColor="Green"
+                    Text="Нет категории"/>
+                <Label
+                    x:Name="About"
+                    TextColor="Blue"
+                    Text="Нет описания"/>
+                <Label
+                    x:Name="Tasks"
+                    TextColor="Black"
+                    Text="Нет подзадач"/>
+                <!--<Frame HeightRequest="56" WidthRequest="345" 
                BackgroundColor="#292D32" 
                CornerRadius="10" Opacity="1"
                Margin="0, 0, 0, 16">
@@ -25,7 +41,7 @@
                             <ProgressBar Margin="67, 40, 0, 0" Progress="1" ProgressColor="#FBAB57" HeightRequest="12" WidthRequest="250"></ProgressBar>
                         </RelativeLayout>
                     </Grid>
-                </Frame>
+                </Frame>-->
             </StackLayout>
         </ScrollView>
     </StackLayout>
