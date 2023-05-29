@@ -7,7 +7,7 @@ using Xamarin.Forms;
 using System.Linq;
 using System.Diagnostics;
 using BucketListApp.Class;
-using System.IO;
+using System.Security.Authentication.ExtendedProtection;
 
 namespace BucketListApp
 {
@@ -55,7 +55,7 @@ namespace BucketListApp
             }
         }
 
-        public (int InProgress, int Completed) TotalStatistics
+        public (int, int) TotalStatistics
         {
             get
             {
