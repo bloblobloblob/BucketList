@@ -36,7 +36,9 @@
                                 <ProgressBar Grid.Column="1" Grid.Row="1" 
                                              ProgressColor="#FBAB57" HeightRequest="12" WidthRequest="12"  Progress="0.5"
                                              />
+                                <Line HeightRequest="2" BackgroundColor="#FFF3E2"/>
                             </Grid>
+                            
                         </Frame>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
