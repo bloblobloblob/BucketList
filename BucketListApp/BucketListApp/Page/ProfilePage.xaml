@@ -22,7 +22,8 @@
                                   RingThickness="25"
                                   Progress="0"></control:ProgressRing>
                     <StackLayout VerticalOptions="CenterAndExpand">
-                        <Label x:Name="ComplG" HorizontalOptions="CenterAndExpand" 
+                        <Label x:Name="ComplG" 
+                               HorizontalOptions="CenterAndExpand" 
                                FontSize="48" 
                                TextColor="Black" 
                                FontAttributes="Bold"

@@ -39,7 +39,6 @@
                                              ProgressColor="#FBAB57" HeightRequest="12" WidthRequest="12"  Progress="{Binding Done}"
                                              />
                                 </Grid>
-
                             </Frame>
                             <Line HeightRequest="4" BackgroundColor="#FFF3E2"/>
                         </StackLayout>

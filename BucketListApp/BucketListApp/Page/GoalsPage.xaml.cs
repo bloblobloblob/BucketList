@@ -27,18 +27,6 @@ namespace BucketListApp
             });
 
             BindingContext = GoalList;
-            //goalList = new GoalList();
-            //goals = new List<Goal>();
-            //MessagingCenter.Subscribe<CreateGoalPage, Goal>(this, "AddGoal", (sender, arg) =>
-            //{
-            //    //goals.Add(arg);
-            //    //goalList.AddCustomGoal(arg.Title, arg.Description, arg.Category, arg.SubTasks);
-            //    //Name.Text = arg.Title;
-            //    //Category.Text = arg.Category.Name;
-            //    //About.Text = arg.Description;
-            //    //Tasks.Text = arg.SubTasks[0].Description;
-            //});
-            //BindingContext = this;
         }
         protected override void OnAppearing()
         {

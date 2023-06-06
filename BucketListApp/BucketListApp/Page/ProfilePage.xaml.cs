@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Xml.XPath;
 using Xamarin.Forms;
@@ -12,22 +14,21 @@ namespace BucketListApp
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ProfilePage : ContentPage
     {
-
+        public int count = 0;
         public ProfilePage()
         {
             InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);
-            ComplG.Text = App.TotalCompletedRatio.ToString() + "%";
         }
 
-        private void Button_Register(object sender, EventArgs e)
+        protected override void OnAppearing()
         {
-            Navigation.PushAsync(new CheckIn());
+            GetComplited();
         }
-
-        private void TapToLogIn(object sender, EventArgs e)
+        private void GetComplited()
         {
-            Navigation.PushAsync(new LogIn());
+            ComplG.Text = App.TotalCompletedRatio.ToString();
+            count++;
         }
     }
 }
