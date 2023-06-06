@@ -34,7 +34,7 @@ namespace BucketListApp
             private set { }
         }
 
-        private Profile DefaultProfile
+        private static Profile DefaultProfile
         {
             get
             {
@@ -45,7 +45,7 @@ namespace BucketListApp
             }
         }
 
-        private Profile CurrentProfile
+        private static Profile CurrentProfile
         {
             get
             {
@@ -54,7 +54,16 @@ namespace BucketListApp
                 return currentProfile;
             }
         }
-
+        public static int TotalProgressRatio
+        {
+            get { return CurrentProfile.Goals.InProgressRatio(); }
+            private set { }
+        }
+        public static int TotalCompletedRatio
+        {
+            get { return CurrentProfile.Goals.CompletedRatio(); }
+            private set { }
+        }
         public (int, int) TotalStatistics
         {
             get

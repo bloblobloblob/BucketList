@@ -33,44 +33,44 @@ namespace BucketListApp.Class
                     image = value;
                     OnPropertyChanged("Image");
                 }
-            } 
+            }
         }
         public string Title
-        { 
+        {
             get
             {
                 return title;
-            } 
-            set 
+            }
+            set
             {
                 if (title != value)
                 {
                     title = value;
                     OnPropertyChanged("Title");
                 }
-            } 
+            }
         }
         public string Description
-        { 
-            get 
+        {
+            get
             {
                 return description;
-            } 
-            set 
+            }
+            set
             {
                 if (description != value)
                 {
                     description = value;
                     OnPropertyChanged("Description");
                 }
-            } 
+            }
         }
-        public Category Category 
-        { 
+        public Category Category
+        {
             get
-            { 
-                return category; 
-            } 
+            {
+                return category;
+            }
             set
             {
                 if (category != value)
@@ -78,39 +78,49 @@ namespace BucketListApp.Class
                     category = value;
                     OnPropertyChanged("Category");
                 }
-            } 
+            }
         }
         public List<SubTask> SubTasks
-        { 
-            get 
+        {
+            get
             {
-                return subtasks; 
-            } 
-            set 
+                return subtasks;
+            }
+            set
             {
                 if (subtasks != value)
                 {
                     subtasks = value;
                     OnPropertyChanged("Subtasks");
                 }
-            } 
+            }
         }
         public bool Status
-        { 
+        {
             get
-            { 
-                return status; 
-            } 
-            set 
+            {
+                return status;
+            }
+            set
             {
                 if (status != value)
                 {
                     status = value;
                     OnPropertyChanged("Status");
                 }
-            } 
+            }
         }
         public DateTime CreationDate => creationDate;
+        public int Done
+        {
+            get { return Completed(); }
+            private set { }
+        }
+        public int InProcess
+        {
+            get { return InProgress(); }
+            private set { }
+        }
         public (int InProgress, int Completed) Statistics
         {
             get

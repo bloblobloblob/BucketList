@@ -12,10 +12,12 @@ namespace BucketListApp
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ProfilePage : ContentPage
     {
+
         public ProfilePage()
         {
             InitializeComponent();
-            NavigationPage.SetHasNavigationBar(this, false);           
+            NavigationPage.SetHasNavigationBar(this, false);
+            ComplG.Text = App.TotalCompletedRatio.ToString() + "%";
         }
 
         private void Button_Register(object sender, EventArgs e)

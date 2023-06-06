@@ -22,12 +22,12 @@
                                   RingThickness="25"
                                   Progress="0"></control:ProgressRing>
                     <StackLayout VerticalOptions="CenterAndExpand">
-                        <Label Text="{}%" HorizontalOptions="CenterAndExpand" 
+                        <Label x:Name="ComplG" HorizontalOptions="CenterAndExpand" 
                                FontSize="48" 
                                TextColor="Black" 
                                FontAttributes="Bold"
                                FontFamily="Inter"/>
-                        <Label Text="{}" HorizontalOptions="CenterAndExpand" FontSize="16"/>
+                        <Label x:Name="DiffrentCompAndProgress" HorizontalOptions="CenterAndExpand" FontSize="16"/>
                     </StackLayout>
                 </Grid>
                 <StackLayout>

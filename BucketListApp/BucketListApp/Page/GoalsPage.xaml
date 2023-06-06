@@ -15,35 +15,38 @@
                 <CollectionView.ItemTemplate>
                     <DataTemplate
                         x:DataType="local:Goal">
-                        <Frame HeightRequest="40" WidthRequest="250" 
-                                BackgroundColor="#292D32" Opacity="1">
-                            <Grid Padding="10">
-                                <Grid.RowDefinitions>
-                                    <RowDefinition Height="20"/>
-                                    <RowDefinition Height="20"/>
-                                </Grid.RowDefinitions>
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="55"/>
-                                    <ColumnDefinition Width="*"/>
-                                </Grid.ColumnDefinitions>
-                                <Image Source="{Binding Image}" Grid.Column="0"  Grid.Row="0"  HeightRequest="55" WidthRequest="55"/>
-                                <Label Grid.Column="1"
+                        <StackLayout>
+                            <Frame HeightRequest="40" WidthRequest="250" 
+                                BackgroundColor="#292D32" Opacity="1"
+                                   CornerRadius="10">
+                                <Grid Padding="10">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="20"/>
+                                        <RowDefinition Height="20"/>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="55"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Image Source="{Binding Image}" Grid.Column="0"  Grid.Row="0"  HeightRequest="55" WidthRequest="55"/>
+                                    <Label Grid.Column="1"
                                        Grid.Row="0"
                                        Text="{Binding Title}"
                                        TextColor="#FFF3E2"
                                        FontSize="16"
                                        Margin="0, 0, 0, 0"/>
-                                <ProgressBar Grid.Column="1" Grid.Row="1" 
-                                             ProgressColor="#FBAB57" HeightRequest="12" WidthRequest="12"  Progress="0.5"
+                                    <ProgressBar Grid.Column="1" Grid.Row="1" 
+                                             ProgressColor="#FBAB57" HeightRequest="12" WidthRequest="12"  Progress="{Binding Done}"
                                              />
-                                <Line HeightRequest="2" BackgroundColor="#FFF3E2"/>
-                            </Grid>
-                            
-                        </Frame>
+                                </Grid>
+
+                            </Frame>
+                            <Line HeightRequest="4" BackgroundColor="#FFF3E2"/>
+                        </StackLayout>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
-
             </CollectionView>
+            
         </StackLayout>
 
     </StackLayout>

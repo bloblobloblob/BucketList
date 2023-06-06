@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "G/eUiQi67YkUmHbtLu6EP+MY5dayb+1HRbu9dGLSugtgY+2ZhE2cplKkTyxyYSyqy/Zo6evYM5csOYTztXP3ww==",
+  "dgSpecHash": "2nMcHKMKtVBFAQfovSUchfGVzzSnX81jE9VhFtdZLcT9Pnxxgl0kPXvVoaXYPXXSdqGKG4SBXdN425CYKrsP6g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Arina Topor\\Documents\\GitHub\\BucketList\\BucketListApp\\BucketListApp\\BucketListApp.csproj",
+  "projectFilePath": "C:\\Users\\Arina Topor\\Documents\\GitHub\\BucketList2\\BucketList\\BucketListApp\\BucketListApp\\BucketListApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Arina Topor\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Arina Topor\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
