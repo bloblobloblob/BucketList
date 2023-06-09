@@ -19,7 +19,7 @@ namespace BucketListApp.Droid
 
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
-            FFImageLoading.Forms.Platform.CachedImageRenderer.Init(true);
+            CachedImageRenderer.Init(true);
             CachedImageRenderer.InitImageViewHandler();
             var ignore = typeof(SvgCachedImage);
             LoadApplication(new App());

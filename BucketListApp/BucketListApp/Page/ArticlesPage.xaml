@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BucketListApp.ArticlesPage"
+             xmlns:local="clr-namespace:BucketListApp"            
+             IconImageSource="article"            
+             Title="Статьи">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Статьи" FontSize="18" 
+                   TextColor="Black" 
+                   FontAttributes="Bold" 
+                   Margin ="0, 20, 0, 40" 
+                   HorizontalOptions="Center"
+                   FontFamily="Inter"/>
+            <StackLayout>
+                <CollectionView x:DataType="local:ArticlesPage" ItemsSource="{Binding Articles}"
+                            SelectionMode="Single"
+                            SelectionChanged="CollectionView_SelectionChanged">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate
+                            x:DataType="local:Article">
+                            <Grid Padding="10" 
+                              RowDefinitions="Auto, *"
+                              ColumnDefinitions="Auto, *">
+                                <Label Grid.Column="1"
+                                       Grid.Row="0"
+                                   Text="{Binding Name}"
+                                       TextColor="Black"/>
+
+                            </Grid>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

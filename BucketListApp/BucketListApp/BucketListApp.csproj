@@ -35,6 +35,9 @@
     <EmbeddedResource Update="Custom\RadioButtonPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="Page\ArticlesPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Page\CategoryPage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>

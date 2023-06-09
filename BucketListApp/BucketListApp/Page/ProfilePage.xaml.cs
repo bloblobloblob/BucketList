@@ -14,7 +14,6 @@ namespace BucketListApp
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ProfilePage : ContentPage
     {
-        public int count = 0;
         public ProfilePage()
         {
             InitializeComponent();
@@ -22,13 +21,14 @@ namespace BucketListApp
         }
 
         protected override void OnAppearing()
-        {
+        { 
             GetComplited();
         }
         private void GetComplited()
         {
-            ComplG.Text = App.TotalCompletedRatio.ToString();
-            count++;
+            ComplG.Text = string.Format("{0}%",App.TotalCompletedRatio.ToString());
+            progressRing.Progress = App.TotalCompletedRatio / 100;
+            DiffrentCompAndProgress.Text = String.Format("{0}/{1}", App.TotalCompletedRatio, App.TotalProgressRatio);
         }
     }
 }

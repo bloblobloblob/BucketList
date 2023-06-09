@@ -20,7 +20,7 @@
                                   RingProgressColor="#FBAB57"
                                   RingBaseColor="#FFE6C2"
                                   RingThickness="25"
-                                  Progress="0"></control:ProgressRing>
+                                  x:Name="progressRing"></control:ProgressRing>
                     <StackLayout VerticalOptions="CenterAndExpand">
                         <Label x:Name="ComplG" 
                                HorizontalOptions="CenterAndExpand" 
@@ -42,7 +42,7 @@
                             <RowDefinition Height="*"/>
                         </Grid.RowDefinitions>
                         <Label Grid.Column="0" Grid.Row="0" 
-                               Text="{}" 
+                               x:Name="StatComplYear"
                                TextColor="Black" 
                                FontSize="36" 
                                FontAttributes="Bold"
@@ -54,7 +54,7 @@
                                HorizontalOptions="CenterAndExpand"/>
 
                         <Label Grid.Column="1" Grid.Row="0" 
-                               Text="{}" 
+                               x:Name="SpecificCat" 
                                TextColor="Black" 
                                FontSize="36" 
                                FontAttributes="Bold"  

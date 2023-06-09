@@ -113,7 +113,7 @@ namespace BucketListApp.Class
         public DateTime CreationDate => creationDate;
         public int Done
         {
-            get { return Completed(); }
+            get { return (Completed() / 100); }
             private set { }
         }
         public int InProcess

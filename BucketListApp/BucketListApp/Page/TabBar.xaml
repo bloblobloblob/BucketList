@@ -9,4 +9,5 @@
     <local:GoalsPage/>
     <local:CreateGoalPage/>
     <local:ProfilePage/>
+    <local:ArticlesPage/>
 </TabbedPage>

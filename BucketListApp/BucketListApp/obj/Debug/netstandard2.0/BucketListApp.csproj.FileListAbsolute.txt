@@ -137,3 +137,4 @@ C:\Users\Arina Topor\Documents\GitHub\BucketList2\BucketList\BucketListApp\Bucke
 C:\Users\Arina Topor\Documents\GitHub\BucketList2\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\refint\BucketListApp.dll
 C:\Users\Arina Topor\Documents\GitHub\BucketList2\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\BucketListApp.pdb
 C:\Users\Arina Topor\Documents\GitHub\BucketList2\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\ref\BucketListApp.dll
+C:\Users\Arina Topor\Documents\GitHub\BucketList2\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\Page\ArticlesPage.xaml.g.cs

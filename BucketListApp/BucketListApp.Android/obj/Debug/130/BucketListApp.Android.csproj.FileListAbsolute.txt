@@ -4382,3 +4382,4 @@ C:\Users\Arina Topor\Documents\GitHub\BucketList2\BucketList\BucketListApp\Bucke
 C:\Users\Arina Topor\Documents\GitHub\BucketList2\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\stamp\_GenerateJavaStubs.stamp
 C:\Users\Arina Topor\Documents\GitHub\BucketList2\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Arina Topor\Documents\GitHub\BucketList2\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Arina Topor\Documents\GitHub\BucketList2\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\article.png
