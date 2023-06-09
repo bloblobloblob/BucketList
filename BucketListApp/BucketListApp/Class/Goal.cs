@@ -46,7 +46,7 @@ namespace BucketListApp.Class
                 if (title != value)
                 {
                     title = value;
-                    OnPropertyChanged("Title");
+                    OnPropertyChanged("Text");
                 }
             }
         }

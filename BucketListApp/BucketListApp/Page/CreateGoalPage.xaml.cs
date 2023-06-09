@@ -67,7 +67,7 @@ namespace BucketListApp
             Pod3.IsVisible = false;
             Pod4.IsVisible = false;
             Pod5.IsVisible = false;
-            Pod6.IsVisible = false
+            Pod6.IsVisible = false;
         }
         
         public async void NewGoal(object sender, EventArgs e)

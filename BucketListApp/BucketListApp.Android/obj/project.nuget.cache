@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Q+YMbPQ/sMBA7g4WxUtzKzI+vQGlGkoR0AB06atAv3nv8kQ4Qi7ZT9E7OF7axy/LWSTVef41eYUmcYCD9jYWVw==",
+  "dgSpecHash": "Z9Ijdp6xH3DfTNWFbVbHlnLXB40OiYsOUaHEyorvdIHodm+TJcbV4gj84tpuXr7g9yDoSNanJ6Y5p9Oo5j33yw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Arina Topor\\Documents\\GitHub\\BucketList2\\BucketList\\BucketListApp\\BucketListApp.Android\\BucketListApp.Android.csproj",
+  "projectFilePath": "C:\\Users\\Arina Topor\\Documents\\GitHub\\Buck1\\BucketList\\BucketListApp\\BucketListApp.Android\\BucketListApp.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Arina Topor\\.nuget\\packages\\nunit3testadapter\\4.4.2\\nunit3testadapter.4.4.2.nupkg.sha512",
     "C:\\Users\\Arina Topor\\.nuget\\packages\\skiasharp\\1.68.0\\skiasharp.1.68.0.nupkg.sha512",

@@ -4182,11 +4182,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Arina Topor\\Documents\\GitHub\\BucketList2\\BucketList\\BucketListApp\\BucketListApp.Android\\BucketListApp.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Arina Topor\\Documents\\GitHub\\Buck1\\BucketList\\BucketListApp\\BucketListApp.Android\\BucketListApp.Android.csproj",
       "projectName": "BucketListApp.Android",
-      "projectPath": "C:\\Users\\Arina Topor\\Documents\\GitHub\\BucketList2\\BucketList\\BucketListApp\\BucketListApp.Android\\BucketListApp.Android.csproj",
+      "projectPath": "C:\\Users\\Arina Topor\\Documents\\GitHub\\Buck1\\BucketList\\BucketListApp\\BucketListApp.Android\\BucketListApp.Android.csproj",
       "packagesPath": "C:\\Users\\Arina Topor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Arina Topor\\Documents\\GitHub\\BucketList2\\BucketList\\BucketListApp\\BucketListApp.Android\\obj\\",
+      "outputPath": "C:\\Users\\Arina Topor\\Documents\\GitHub\\Buck1\\BucketList\\BucketListApp\\BucketListApp.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -4207,8 +4207,8 @@
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
-            "C:\\Users\\Arina Topor\\Documents\\GitHub\\BucketList2\\BucketList\\BucketListApp\\BucketListApp\\BucketListApp.csproj": {
-              "projectPath": "C:\\Users\\Arina Topor\\Documents\\GitHub\\BucketList2\\BucketList\\BucketListApp\\BucketListApp\\BucketListApp.csproj"
+            "C:\\Users\\Arina Topor\\Documents\\GitHub\\Buck1\\BucketList\\BucketListApp\\BucketListApp\\BucketListApp.csproj": {
+              "projectPath": "C:\\Users\\Arina Topor\\Documents\\GitHub\\Buck1\\BucketList\\BucketListApp\\BucketListApp\\BucketListApp.csproj"
             }
           }
         }
@@ -4221,6 +4221,14 @@
             "target": "Package",
             "version": "[4.4.2, )"
           },
+          "NUnit3TestAdapter": {
+            "target": "Package",
+            "version": "[4.4.2, )"
+          },
+          "Xam.Plugins.Forms.ProgressRing": {
+            "target": "Package",
+            "version": "[0.1.2, )"
+          },
           "Xam.Plugins.Forms.ProgressRing": {
             "target": "Package",
             "version": "[0.1.2, )"
@@ -4229,7 +4237,19 @@
             "target": "Package",
             "version": "[1.7.0, )"
           },
+          "Xamarin.Essentials": {
+            "target": "Package",
+            "version": "[1.7.0, )"
+          },
           "Xamarin.FFImageLoading.Forms": {
+            "target": "Package",
+            "version": "[2.4.11.982, )"
+          },
+          "Xamarin.FFImageLoading.Forms": {
+            "target": "Package",
+            "version": "[2.4.11.982, )"
+          },
+          "Xamarin.FFImageLoading.Svg.Forms": {
             "target": "Package",
             "version": "[2.4.11.982, )"
           },
@@ -4241,9 +4261,21 @@
             "target": "Package",
             "version": "[2.4.11.982, )"
           },
+          "Xamarin.FFImageLoading.Transformations": {
+            "target": "Package",
+            "version": "[2.4.11.982, )"
+          },
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[5.0.0.2578, )"
+          },
+          "Xamarin.Forms": {
+            "target": "Package",
+            "version": "[5.0.0.2578, )"
+          },
+          "sqlite-net-pcl": {
+            "target": "Package",
+            "version": "[1.8.116, )"
           },
           "sqlite-net-pcl": {
             "target": "Package",

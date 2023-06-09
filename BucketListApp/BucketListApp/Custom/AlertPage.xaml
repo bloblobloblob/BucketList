@@ -12,6 +12,7 @@
                 <Label x:Name="Med" VerticalOptions="CenterAndExpand"
                     FontSize="Medium" Text="Возникла какая-то неполадка" TextColor="Black"/>
                 <ImageButton Source="delete.png" Margin="220, -135, 0, 135" x:Name="btn1" HorizontalOptions="CenterAndExpand" Clicked="Pop" BackgroundColor="#FFF3E2"/>
+            </StackLayout>
         </Frame>
     </ContentPage.Content>
 </ContentPage>
