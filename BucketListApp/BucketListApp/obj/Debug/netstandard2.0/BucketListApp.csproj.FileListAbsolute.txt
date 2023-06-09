@@ -137,31 +137,4 @@ C:\Users\Arina Topor\Documents\GitHub\BucketList2\BucketList\BucketListApp\Bucke
 C:\Users\Arina Topor\Documents\GitHub\BucketList2\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\refint\BucketListApp.dll
 C:\Users\Arina Topor\Documents\GitHub\BucketList2\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\BucketListApp.pdb
 C:\Users\Arina Topor\Documents\GitHub\BucketList2\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\ref\BucketListApp.dll
-<<<<<<< Updated upstream
 C:\Users\Arina Topor\Documents\GitHub\BucketList2\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\Page\ArticlesPage.xaml.g.cs
-=======
-C:\Users\Nikita\Documents\GitHub\zaebalo\BucketListApp\BucketListApp\bin\Debug\netstandard2.0\BucketListApp.deps.json
-C:\Users\Nikita\Documents\GitHub\zaebalo\BucketListApp\BucketListApp\bin\Debug\netstandard2.0\BucketListApp.dll
-C:\Users\Nikita\Documents\GitHub\zaebalo\BucketListApp\BucketListApp\bin\Debug\netstandard2.0\BucketListApp.pdb
-C:\Users\Nikita\Documents\GitHub\zaebalo\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\BucketListApp.csproj.AssemblyReference.cache
-C:\Users\Nikita\Documents\GitHub\zaebalo\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\BucketListApp.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Nikita\Documents\GitHub\zaebalo\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Users\Nikita\Documents\GitHub\zaebalo\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\Custom\AlertPage.xaml.g.cs
-C:\Users\Nikita\Documents\GitHub\zaebalo\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\Custom\RadioButtonPage.xaml.g.cs
-C:\Users\Nikita\Documents\GitHub\zaebalo\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\Page\CategoryPage.xaml.g.cs
-C:\Users\Nikita\Documents\GitHub\zaebalo\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\Page\CreateGoalPage.xaml.g.cs
-C:\Users\Nikita\Documents\GitHub\zaebalo\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\Page\GoalCard.xaml.g.cs
-C:\Users\Nikita\Documents\GitHub\zaebalo\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\Page\GoalsPage.xaml.g.cs
-C:\Users\Nikita\Documents\GitHub\zaebalo\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\Page\ProfilePage.xaml.g.cs
-C:\Users\Nikita\Documents\GitHub\zaebalo\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\Page\TabBar.xaml.g.cs
-C:\Users\Nikita\Documents\GitHub\zaebalo\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\ProfilePages\CheckIn.xaml.g.cs
-C:\Users\Nikita\Documents\GitHub\zaebalo\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\ProfilePages\LogIn.xaml.g.cs
-C:\Users\Nikita\Documents\GitHub\zaebalo\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\BucketListApp.AssemblyInfoInputs.cache
-C:\Users\Nikita\Documents\GitHub\zaebalo\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\BucketListApp.AssemblyInfo.cs
-C:\Users\Nikita\Documents\GitHub\zaebalo\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\BucketListApp.csproj.CoreCompileInputs.cache
-C:\Users\Nikita\Documents\GitHub\zaebalo\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\XamlC.stamp
-C:\Users\Nikita\Documents\GitHub\zaebalo\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\BucketListApp.dll
-C:\Users\Nikita\Documents\GitHub\zaebalo\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\refint\BucketListApp.dll
-C:\Users\Nikita\Documents\GitHub\zaebalo\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\BucketListApp.pdb
-C:\Users\Nikita\Documents\GitHub\zaebalo\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\ref\BucketListApp.dll
->>>>>>> Stashed changes

@@ -1,9 +1,7 @@
 ﻿using BucketListApp.Class;
-using BucketListApp.Custom;
 using BucketListApp.Page;
 using System;
 using System.Collections.Generic;
-using System.Diagnostics.Tracing;
 using System.Linq;
 using System.Net.Http.Headers;
 using System.Text;
@@ -17,7 +15,7 @@ namespace BucketListApp
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class GoalsPage : ContentPage
     {
-        public GoalList GoalList;
+        public GoalList GoalList { get; set; }
         public GoalsPage()
         {
             InitializeComponent();
@@ -32,18 +30,18 @@ namespace BucketListApp
         }
         protected override void OnAppearing()
         {
+            
             base.OnAppearing();
         }
 
-        async void OnCollectionViewSelectionChanged(object sender, SelectionChangedEventArgs e)
+        async void OnButtonClicked(object sender, EventArgs args)
         {
-            var ap = new GoalCard();
-            Goal curr = e.CurrentSelection.FirstOrDefault() as Goal;
-            MessagingCenter.Send<GoalsPage, Goal>(this, "OpenGoalCard", curr);
-            //CollView.SelectionMode = SelectionMode.None;
-            //CollView.SelectionMode = SelectionMode.Single;
-            await Navigation.PushModalAsync(ap);
-            return;
+            await Navigation.PushAsync(new GoalCard());
+        }
+
+        private void CollectionView_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
         }
     }
 }

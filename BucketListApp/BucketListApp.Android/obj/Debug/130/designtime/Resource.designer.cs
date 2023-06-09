@@ -23885,11 +23885,7 @@ namespace BucketListApp.Droid
 			public const int challange = 2131165284;
 			
 			// aapt resource value: 0x7F070065
-<<<<<<< Updated upstream
 			public const int chill = 2131165285;
-=======
-			public const int delete = 2131165285;
->>>>>>> Stashed changes
 			
 			// aapt resource value: 0x7F070066
 			public const int design_fab_background = 2131165286;
