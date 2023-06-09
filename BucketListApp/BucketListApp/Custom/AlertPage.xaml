@@ -2,19 +2,17 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BucketListApp.Custom.AlertPage"
+             xmlns:custom="clr-namespace:BucketListApp"
              BackgroundColor="#FFF3E2"
              Padding="40">
     <ContentPage.Content>
-        <StackLayout BackgroundColor="#FBAB57" Padding="20" Margin="0, 200, 0, 200" Spacing="20">
-            <Label x:Name="Up" FontAttributes="Bold" FontSize="Large" Text="Ошибка" HorizontalOptions="Center" TextColor="Black"></Label>
-            <BoxView HeightRequest="1" BackgroundColor="#050905"></BoxView>
-            <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand">
-                <Label x:Name="Med" FontSize="Medium" Text="Какая-то неполадка" TextColor="Black"></Label>
-            </ScrollView>
-            <BoxView HeightRequest="1" BackgroundColor="#050905"></BoxView>
-            <StackLayout Orientation="Horizontal">
-                <Button x:Name="btn1" Text="Понял" HorizontalOptions="CenterAndExpand" Clicked="Pop" BackgroundColor="Black" TextColor="#FFF3E2"></Button>
+        <Frame Margin="0, 240, 0, 240" CornerRadius="20" BackgroundColor="#FFF3E2" BorderColor="#FBAB57">
+            <StackLayout Margin="0, 10, 0, 10" BackgroundColor="#FFF3E2" Spacing="20">
+                <Label x:Name="Up" FontAttributes="Bold" FontSize="Large" Text="Ошибка" HorizontalOptions="CenterAndExpand" TextColor="Black"></Label>
+                <Label x:Name="Med" VerticalOptions="CenterAndExpand"
+                    FontSize="Medium" Text="Возникла какая-то неполадка" TextColor="Black"/>
+                <ImageButton Source="delete.png" Margin="220, -135, 0, 135" x:Name="btn1" HorizontalOptions="CenterAndExpand" Clicked="Pop" BackgroundColor="#FFF3E2"/>
             </StackLayout>
-        </StackLayout>
+        </Frame>
     </ContentPage.Content>
 </ContentPage>

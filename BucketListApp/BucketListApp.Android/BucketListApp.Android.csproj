@@ -128,9 +128,6 @@
     <AndroidResource Include="Resources\drawable\task.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\profile.svg" />
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\drawable\goBack.png" />
   </ItemGroup>
   <ItemGroup>
@@ -164,7 +161,11 @@
     <AndroidResource Include="Resources\values\styles.xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< Updated upstream
     <AndroidResource Include="Resources\drawable\article.png" />
+=======
+    <AndroidResource Include="Resources\drawable\delete.png" />
+>>>>>>> Stashed changes
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

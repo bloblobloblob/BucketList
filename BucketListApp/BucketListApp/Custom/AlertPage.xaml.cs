@@ -12,7 +12,6 @@ namespace BucketListApp.Custom
     //var ap = new AlertPage();
     //ap.ErrTxt.Text = "Название ошибки";
     //ap.Txt.Text = "Текст ошибки";
-    //ap.Button1.Text = "Кнопка";
     //await Navigation.PushModalAsync(ap);
     //return;
 // Строка выше - опциональна
@@ -30,7 +29,7 @@ namespace BucketListApp.Custom
             get => Med;
         }
 
-        public Button Button1
+        public ImageButton Button1
         {
             get => btn1;
         }

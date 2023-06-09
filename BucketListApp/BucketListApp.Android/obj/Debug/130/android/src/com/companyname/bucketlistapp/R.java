@@ -9860,6 +9860,7 @@ public final class R {
     public static final int activity=0x7f070055;
     public static final int add=0x7f070056;
     public static final int airplane=0x7f070057;
+<<<<<<< Updated upstream
     public static final int article=0x7f070058;
     public static final int avd_hide_password=0x7f070059;
     public static final int avd_show_password=0x7f07005a;
@@ -9874,6 +9875,22 @@ public final class R {
     public static final int btn_radio_on_to_off_mtrl_animation=0x7f070063;
     public static final int challange=0x7f070064;
     public static final int chill=0x7f070065;
+=======
+    public static final int avd_hide_password=0x7f070058;
+    public static final int avd_show_password=0x7f070059;
+    public static final int bf=0x7f07005a;
+    public static final int btn_checkbox_checked_mtrl=0x7f07005b;
+    public static final int btn_checkbox_checked_to_unchecked_mtrl_animation=0x7f07005c;
+    public static final int btn_checkbox_unchecked_mtrl=0x7f07005d;
+    public static final int btn_checkbox_unchecked_to_checked_mtrl_animation=0x7f07005e;
+    public static final int btn_radio_off_mtrl=0x7f07005f;
+    public static final int btn_radio_off_to_on_mtrl_animation=0x7f070060;
+    public static final int btn_radio_on_mtrl=0x7f070061;
+    public static final int btn_radio_on_to_off_mtrl_animation=0x7f070062;
+    public static final int challange=0x7f070063;
+    public static final int chill=0x7f070064;
+    public static final int delete=0x7f070065;
+>>>>>>> Stashed changes
     public static final int design_fab_background=0x7f070066;
     public static final int design_ic_visibility=0x7f070067;
     public static final int design_ic_visibility_off=0x7f070068;
@@ -9928,11 +9945,18 @@ public final class R {
     public static final int notify_panel_notification_icon_bg=0x7f070099;
     public static final int other=0x7f07009a;
     public static final int preference_list_divider_material=0x7f07009b;
+<<<<<<< Updated upstream
     public static final int profile=0x7f07009c;
     public static final int task=0x7f07009d;
     public static final int test_custom_background=0x7f07009e;
     public static final int tooltip_frame_dark=0x7f07009f;
     public static final int tooltip_frame_light=0x7f0700a0;
+=======
+    public static final int task=0x7f07009c;
+    public static final int test_custom_background=0x7f07009d;
+    public static final int tooltip_frame_dark=0x7f07009e;
+    public static final int tooltip_frame_light=0x7f07009f;
+>>>>>>> Stashed changes
   }
   public static final class id {
     public static final int ALT=0x7f080000;
