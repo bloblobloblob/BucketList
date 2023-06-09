@@ -10,8 +10,8 @@
         <StackLayout Orientation="Horizontal" Margin="16, 0, 16, 0" HeightRequest="16">
         </StackLayout>
         <StackLayout Margin="16, 0, 16, 0">
-            <CollectionView x:DataType="local:GoalList"  ItemsSource="{Binding goals}"
-                            SelectionMode="Single" SelectionChanged="CollectionView_SelectionChanged">
+            <CollectionView x:DataType="local:GoalList" x:Name="CollView"  ItemsSource="{Binding goals}"
+                            SelectionMode="Single" Margin="0, 12, 0, 12" SelectionChanged="OnCollectionViewSelectionChanged">
                 <CollectionView.ItemTemplate>
                     <DataTemplate
                         x:DataType="local:Goal">
