@@ -38,7 +38,7 @@
                                      Text="{Binding Name}"
                                      TextColor="Black"
                                      FontAttributes="Bold"/>
-                                    <Label Text="{Binding Time, StringFormat = '{0} min' }" Grid.Column="0" Grid.Row="2" FontSize="12"/>
+                                    <Label Text="{Binding Time, StringFormat = '{0} min' }" Grid.Column="0" TextColor="#999288" Grid.Row="2" FontSize="12"/>
                                     <Image Source="{Binding ImageUrl}" 
                                            Grid.Column="1" 
                                            Grid.RowSpan="3"

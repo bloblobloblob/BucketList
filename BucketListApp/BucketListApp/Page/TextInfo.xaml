@@ -2,14 +2,12 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BucketListApp.TextInfo"
-             Background="#FFF3E2">
+             Background="#1E1E1E">
     <ContentPage.Content>
         <StackLayout>
-
-            <Frame BackgroundColor="#1E1E1E" CornerRadius="30" VerticalOptions="FillAndExpand" Margin="0, 34, 0, -30">
-                <ScrollView>
-                    <StackLayout Margin="16, 0, 16, 0">
-                   <Label x:Name="TitleArticle" 
+            <ScrollView>
+                <StackLayout Margin="16, 0, 16, 0">
+                    <Label x:Name="TitleArticle" 
                    TextColor="#FFF3E2" 
                    FontAttributes="Bold" 
                    Margin ="0, 20, 0, 20" 
@@ -23,9 +21,8 @@
                            FontSize="14" 
                            HorizontalTextAlignment="Start" 
                            VerticalTextAlignment="Start"/>
-                    </StackLayout>
-                </ScrollView>
-            </Frame>
+                </StackLayout>
+            </ScrollView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

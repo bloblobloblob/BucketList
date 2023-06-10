@@ -7,7 +7,7 @@
             BackgroundColor="#FFF3E2">
   <!--Pages can be added as references or inline-->
     <local:GoalsPage/>
-    <local:CreateGoalPage/>
+    <local:AddGoalPage/>
     <local:ProfilePage/>
     <local:ArticlesPage/>
 </TabbedPage>

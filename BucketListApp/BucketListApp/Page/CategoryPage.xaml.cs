@@ -21,40 +21,47 @@ namespace BucketListApp.Page
         public async void Next(object sender, EventArgs e)
         {
             string name = "Выбрать категорию";
-            Image image = new Image();
+            Image image1 = new Image();
+            Image image2 = new Image();
 
             if (One.IsChecked)
             {
                 name = "Отдых";
-                image = new Image { Source = "chill.jpg" };
+                image1 = new Image { Source = "chill.jpg" };
+                image2 = new Image { Source = "chillWhite.jpg" };
             }
             else if (Two.IsChecked)
             {
                 name = "Активности";
-                image = new Image { Source = "activity.jpg" };
+                image1 = new Image { Source = "activity.jpg" };
+                image2 = new Image { Source = "activityWhite.jpg" };
             }
             else if (Three.IsChecked)
             {
                 name = "Путешествия";
-                image = new Image { Source = "airplane.jpg" };
+                image1 = new Image { Source = "airplane.jpg" };
+                image2 = new Image { Source = "airplaneWhite.jpg" };
             }
             else if (Four.IsChecked)
             {
                 name = "Челленджи";
-                image = new Image { Source = "challange.jpg" };
+                image1 = new Image { Source = "challange.jpg" };
+                image2 = new Image { Source = "challangeWhite.jpg" };
             }
             else if (Five.IsChecked)
             {
                 name = "Духовность";
-                image = new Image { Source = "god.jpg" };
+                image1 = new Image { Source = "god.jpg" };
+                image2 = new Image { Source = "godWhite.jpg" };
             }
             else if (Six.IsChecked)
             {
                 name = "Другое";
-                image = new Image { Source = "other.jpg" };
+                image1 = new Image { Source = "other.jpg" };
+                image2 = new Image { Source = "otherWhite.jpg" };
             }
 
-            Category cate = new Category(name, image);
+            Category cate = new Category(name, image1, image2);
             MessagingCenter.Send<CategoryPage, Category>(this, "ChangeCat", cate);
             await Navigation.PopModalAsync();
         }

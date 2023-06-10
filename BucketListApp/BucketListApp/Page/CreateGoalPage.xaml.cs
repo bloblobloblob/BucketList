@@ -72,6 +72,8 @@ namespace BucketListApp
         
         public async void NewGoal(object sender, EventArgs e)
         {
+            string desc = "";
+
             if (string.IsNullOrEmpty(Name.Text))
             {
                 var ap = new AlertPage();
@@ -90,17 +92,12 @@ namespace BucketListApp
                 return;
             }
 
-            if (string.IsNullOrEmpty(About.Text))
+            if (!string.IsNullOrEmpty(About.Text))
             {
-                var ap = new AlertPage();
-                ap.ErrTxt.Text = "Введены не все данные";
-                ap.Txt.Text = "Введите описание";
-                await Navigation.PushModalAsync(ap);
-                return;
+                desc = About.Text.Trim();
             }
 
             string title = Name.Text.Trim();
-            string desc = About.Text.Trim();
             List<SubTask> tasks = new List<SubTask>();
             if (Pod2.IsVisible == true) tasks.Add(new SubTask(Pod1.Text));
             if (Pod3.IsVisible == true) tasks.Add(new SubTask(Pod2.Text));
@@ -111,6 +108,7 @@ namespace BucketListApp
             Goal goal = new Goal(title, desc, cat, tasks);
             MessagingCenter.Send<CreateGoalPage, Goal>(this, "AddGoal", goal);
             Clear();
+            OnBackButtonPressed();
         }
     }
 }

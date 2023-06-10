@@ -7,29 +7,26 @@
              Title="Мои цели">
     <StackLayout>
         <Label Text="Мои цели" FontSize="18" TextColor="Black" FontAttributes="Bold" Margin ="0, 20, 0, 20" HorizontalOptions="Center" FontFamily="Inter"></Label >
-        <StackLayout Orientation="Horizontal" Margin="16, 0, 16, 0" HeightRequest="16">
-        </StackLayout>
-        <StackLayout Margin="16, 0, 16, 0">
+        <StackLayout Padding="18, 10, 18, 18">
             <CollectionView x:DataType="local:GoalList" x:Name="CollView"  ItemsSource="{Binding goals}"
-                            SelectionMode="Single" Margin="0, 12, 0, 12" SelectionChanged="OnCollectionViewSelectionChanged">
+                            SelectionMode="Single" SelectionChanged="OnCollectionViewSelectionChanged">
                 <CollectionView.ItemTemplate>
                     <DataTemplate
                         x:DataType="local:Goal">
                         <StackLayout>
                             <Frame HeightRequest="42" WidthRequest="250" 
                                 BackgroundColor="#292D32" Opacity="1"
-                                   CornerRadius="10">
+                                   CornerRadius="10" HasShadow="False">
                                 <Grid
                                 RowDefinitions="Auto, *"
                                 ColumnDefinitions="Auto, *">
-                                    <Image Source="{Binding Image.Source}" Grid.RowSpan="2" Aspect="AspectFill" HeightRequest="40" WidthRequest="40"/>
+                                    <Image Source="{Binding Category.IconWhite.Source}" Grid.RowSpan="2" Aspect="AspectFill" HeightRequest="40" WidthRequest="40"/>
                                     <Label Grid.Column="1"
                                        Text="{Binding Title}"
                                        TextColor="#FFF3E2"
                                        FontSize="16"/>
                                     <ProgressBar Grid.Row="1" Grid.Column="1"
-                                             ProgressColor="#FBAB57" HeightRequest="12" WidthRequest="12"  Progress="{Binding Done}"
-                                             />
+                                             ProgressColor="#FBAB57" HeightRequest="12" WidthRequest="12"  Progress="{Binding Done}"/>
                                 </Grid>
                             </Frame>
                             <Line HeightRequest="4" BackgroundColor="#FFF3E2"/>

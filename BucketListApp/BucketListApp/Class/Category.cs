@@ -11,9 +11,12 @@ namespace BucketListApp.Class
     {
         private readonly string name;
         private readonly Image icon;
+        private readonly Image iconWhite;
         public string Name => name;
 
         public Image Icon => icon;
+
+        public Image IconWhite => iconWhite;
 
         public Category(string name, string imageName = null)
         {
@@ -26,6 +29,14 @@ namespace BucketListApp.Class
             this.name = name;
             this.icon = image;
         }
+
+        public Category(string name, Image image1, Image image2)
+        {
+            this.name = name;
+            this.icon = image1;
+            this.iconWhite = image2;
+        }
+
         public override int GetHashCode()
         {
             return name.GetHashCode();

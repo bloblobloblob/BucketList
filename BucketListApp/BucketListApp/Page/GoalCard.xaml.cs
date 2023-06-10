@@ -20,13 +20,15 @@ namespace BucketListApp
             NavigationPage.SetHasNavigationBar(this, false);
             MessagingCenter.Subscribe<GoalsPage, Goal>(this, "OpenGoalCard", (sender, arg) =>
             {
+                Icon.Source = arg.Category.IconWhite.Source;
                 Lbl1.Text = arg.Title;
-                Lbl2.Text = arg.Category.Name;
-                Lbl3.Text = arg.CreationDate.ToString("dd.MM.yy") + "\n" + "\n" + arg.Description;
+                Lbl2.Text = arg.CreationDate.ToString("dd.MM.yy");
+                Lbl3.Text = arg.Description;
+                Lbl4.Text = "#" + arg.Category.Name;
                 Prog.Progress = arg.Done;
                 if (arg.SubTasks.Count == 0)
                 {
-                    Lbl4.Text = "";
+                    Lbl5.Text = "";
                     Frm.BackgroundColor = Xamarin.Forms.Color.FromRgb(30, 30, 30);
                     Frm.HasShadow = false;
                 }

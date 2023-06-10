@@ -11,7 +11,7 @@
                 <Label x:Name="Up" FontAttributes="Bold" FontSize="Large" Text="Ошибка" HorizontalOptions="CenterAndExpand" TextColor="Black"></Label>
                 <Label x:Name="Med" VerticalOptions="CenterAndExpand"
                     FontSize="Medium" Text="Возникла какая-то неполадка" TextColor="Black"/>
-                <ImageButton Source="delete.png" Margin="220, -135, 0, 135" x:Name="btn1" HorizontalOptions="CenterAndExpand" Clicked="Pop" BackgroundColor="#FFF3E2"/>
+                <ImageButton Source="delete.png" Margin="220, -130, 0, 140" Aspect="AspectFill" x:Name="btn1" HorizontalOptions="CenterAndExpand" Clicked="Pop" BackgroundColor="#FFF3E2"/>
             </StackLayout>
         </Frame>
     </ContentPage.Content>
