@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BucketListApp.AddGoalPage"
-             xmlns:local="clr-namespace:BucketListApp" 
+             xmlns:local="clr-namespace:BucketListApp.Class"  
              IconImageSource="add"
              Title="Добавить цель">
     <ContentPage.Content>
@@ -18,8 +18,36 @@
                     FontSize="18" TextColor="Black" FontAttributes="Bold"
                     HeightRequest="61" WidthRequest="345" TextTransform="None"
                     CornerRadius="10" Clicked="ToCreateGoalPage"/>
-                <Label Text="Готовые цели" FontSize="16" Margin="0, 10"
+                <StackLayout>
+                    <Label Text="Готовые цели:" FontSize="16" Margin="0, 10"
                        HorizontalOptions="CenterAndExpand" TextColor="#000000"/>
+                    <CollectionView x:DataType="local:GoalList" x:Name="CollView"  ItemsSource="{Binding goals}"
+                            SelectionMode="Single">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate
+                        x:DataType="local:Goal">
+                                <StackLayout>
+                                    <Frame HeightRequest="48" WidthRequest="250" 
+                                BackgroundColor="#292D32" Opacity="1"
+                                   CornerRadius="10" HasShadow="False">
+                                        <Grid
+                                RowDefinitions="Auto, *"
+                                ColumnDefinitions="Auto, *">
+                                            <Image Source="{Binding Category.IconWhite.Source}" Grid.RowSpan="2" HeightRequest="40" WidthRequest="40"/>
+                                            <Label Grid.Column="1"
+                                       Text="{Binding Title}"
+                                       TextColor="#FFF3E2"
+                                       FontSize="16"/>
+                                            <ProgressBar Grid.Row="1" Grid.Column="1"
+                                             ProgressColor="#FBAB57" HeightRequest="12" WidthRequest="12"  Progress="{Binding Done}"/>
+                                        </Grid>
+                                    </Frame>
+                                    <Line HeightRequest="4" BackgroundColor="#FFF3E2"/>
+                                </StackLayout>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </StackLayout>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

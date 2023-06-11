@@ -86,6 +86,7 @@ namespace BucketListApp.Class
                     var category = GetCategory(reader.ReadLine());
                     var subtasks = GetSubtasks(reader.ReadLine());
                     goals.AddCustomGoal(title, desc, category, subtasks);
+                    reader.ReadLine();
                 }
             }
             return goals;

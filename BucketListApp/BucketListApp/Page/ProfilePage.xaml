@@ -14,7 +14,7 @@
                    HorizontalOptions="Center"
                    FontFamily="Inter"/>
             <StackLayout>
-                <Grid VerticalOptions="CenterAndExpand" Margin="18, 48, 18, 32">
+                <Grid VerticalOptions="CenterAndExpand" Margin="18, 48, 18, 48">
                     <control:ProgressRing HeightRequest="260" 
                                   WidthRequest="260" 
                                   RingProgressColor="#FBAB57"
@@ -48,10 +48,11 @@
                                FontAttributes="Bold"
                                HorizontalOptions="CenterAndExpand"/>
                         <Label Grid.Row="1" Grid.Column="0"    
-                               Text="    Целей &#10;выполнено &#10;    за год"  
+                               Text="Целей &#10; выполнено &#10; за год"  
                                FontSize="14"
                                FontFamily="Inter"
-                               HorizontalOptions="CenterAndExpand"/>
+                               HorizontalOptions="CenterAndExpand"
+                               HorizontalTextAlignment="Center"/>
 
                         <Label Grid.Column="1" Grid.Row="0" 
                                x:Name="SpecificCat" 
@@ -60,7 +61,8 @@
                                FontAttributes="Bold"  
                                HorizontalOptions="CenterAndExpand" />
                         <Label Grid.Row="1"  Grid.Column="1"    
-                               Text="{}"  
+                               Text="Целей выполнено &#10; в категории&#10; «другое»" 
+                               HorizontalTextAlignment="Center"
                                HorizontalOptions="CenterAndExpand"/>
                     </Grid>
                 </StackLayout>

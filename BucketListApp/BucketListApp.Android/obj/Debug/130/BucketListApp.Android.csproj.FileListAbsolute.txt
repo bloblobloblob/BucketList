@@ -5915,3 +5915,12 @@ D:\GitHub Repository\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\13
 D:\GitHub Repository\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\airplanewhite.png
 D:\GitHub Repository\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\activitywhite.png
 D:\GitHub Repository\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\chillwhite.png
+C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\delete.png
+C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\circle.png
+C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\made.png
+C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\otherwhite.png
+C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\godwhite.png
+C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\challangewhite.png
+C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\airplanewhite.png
+C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\activitywhite.png
+C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\chillwhite.png
