@@ -5915,3 +5915,4 @@ D:\GitHub Repository\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\13
 D:\GitHub Repository\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\airplanewhite.png
 D:\GitHub Repository\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\activitywhite.png
 D:\GitHub Repository\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\chillwhite.png
+D:\GitHub Repository\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\android\assets\Newtonsoft.Json.dll

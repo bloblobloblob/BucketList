@@ -12,6 +12,7 @@ public class MonoPackageManager_Resources {
 		"FFImageLoading.Svg.Platform.dll",
 		"FFImageLoading.Transformations.dll",
 		"FormsViewGroup.dll",
+		"Newtonsoft.Json.dll",
 		"ProgressRing.Forms.Plugin.Android.dll",
 		"ProgressRing.Forms.Plugin.dll",
 		"SkiaSharp.dll",

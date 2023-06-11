@@ -51,6 +51,10 @@
               "version": "[2.0.3, )",
               "autoReferenced": true
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
             "Xam.Plugins.Forms.ProgressRing": {
               "target": "Package",
               "version": "[0.1.2, )"
