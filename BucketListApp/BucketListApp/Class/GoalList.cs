@@ -95,6 +95,8 @@ namespace BucketListApp.Class
 
         public int InProgressRatio()
         {
+            if (!goals.Any())
+                return 0;
             return 100 - CompletedRatio();
         }
         private static IEnumerable<Goal> SortGoals(IEnumerable<Goal> goals)

@@ -11,7 +11,6 @@ namespace BucketListApp.Class
 {
     public class Goal : INotifyPropertyChanged
     {
-        public static Dictionary<string, Goal> ExampleGoals = new Dictionary<string, Goal>();
         private Image image;
         private string title;
         private string description;

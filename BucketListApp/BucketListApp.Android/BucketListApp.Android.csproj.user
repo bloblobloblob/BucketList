@@ -4,7 +4,7 @@
     <SelectedDevice>HUAWEI MAR-LX1H</SelectedDevice>
     <SelectedPlatformGroup>PhysicalDevice</SelectedPlatformGroup>
     <ActiveDebugProfile>HUAWEI MAR-LX1H %28Android 10.0 — API 29%29</ActiveDebugProfile>
-    <DefaultDevice>pixel_5_-_api_33</DefaultDevice>
+    <DefaultDevice>pixel_5</DefaultDevice>
     <ProjectView>ShowAllFiles</ProjectView>
     <AndroidDesignerPreferredTheme>MainTheme</AndroidDesignerPreferredTheme>
   </PropertyGroup>
