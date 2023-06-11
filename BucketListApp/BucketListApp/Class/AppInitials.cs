@@ -8,27 +8,14 @@ using static System.Net.WebRequestMethods;
 using System.Threading;
 using Xamarin.Forms;
 using System.Linq;
-using System.Xml.Serialization;
-using Newtonsoft.Json;
 
 namespace BucketListApp.Class
 {
     public static class AppInitials
     {
-        private static GoalList goals;
-        public static GoalList Goals
-        {
-            get
-            {
-                if (goals == null)
-                    goals = LoadGoals();
-                return goals;
-            }
-            set { }
-        }
-
+        public static GoalList Goals = new GoalList();
         public static GoalList ExampleGoals = GetExampleGoals();
-        private readonly static List<string> motivationalPhrases = GetMotivationalPhrases();
+        public readonly static List<string> motivationalPhrases = GetMotivationalPhrases();
         public static string MotivationPhrase
         {
             get
@@ -44,7 +31,6 @@ namespace BucketListApp.Class
             get { return Goals.InProgressRatio(); }
             private set { }
         }
-
         public static int TotalCompletedRatio
         {
             get { return Goals.CompletedRatio(); }
@@ -147,22 +133,6 @@ namespace BucketListApp.Class
         {
             if (line == "Нет") return new List<SubTask>();
             return line.Split(';').Select(desc => new SubTask(desc)).ToList();
-        }
-
-        private static GoalList LoadGoals()
-        {
-            var path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "GoalsData.json");
-            if (!System.IO.File.Exists(path))
-                System.IO.File.Create(path);
-            var stringData = System.IO.File.ReadAllText(path);
-            return JsonConvert.DeserializeObject<GoalList>(stringData) ?? new GoalList();
-        }
-
-        private static void SaveGoals()
-        {
-            var path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "GoalsData.json");
-            var stringData = JsonConvert.SerializeObject(goals);
-            System.IO.File.WriteAllText(path, stringData);
         }
     }
 }
