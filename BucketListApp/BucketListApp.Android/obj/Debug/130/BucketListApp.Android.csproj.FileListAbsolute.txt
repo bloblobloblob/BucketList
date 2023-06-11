@@ -5896,3 +5896,22 @@ C:\Users\Nikita\Documents\GitHub\suka\BucketListApp\BucketListApp.Android\obj\De
 C:\Users\Nikita\Documents\GitHub\suka\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\airplanewhite.png
 C:\Users\Nikita\Documents\GitHub\suka\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\activitywhite.png
 C:\Users\Nikita\Documents\GitHub\suka\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\chillwhite.png
+D:\GitHub Repository\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\article.png
+D:\GitHub Repository\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\whale.jpg
+D:\GitHub Repository\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\dive.jpg
+D:\GitHub Repository\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\ride.jpg
+D:\GitHub Repository\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\spa.jpg
+D:\GitHub Repository\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\charity.jpg
+D:\GitHub Repository\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\sleep.jpeg
+D:\GitHub Repository\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\volcano.jpg
+D:\GitHub Repository\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\paris.jpg
+D:\GitHub Repository\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\drink.jpg
+D:\GitHub Repository\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\delete.png
+D:\GitHub Repository\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\circle.png
+D:\GitHub Repository\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\made.png
+D:\GitHub Repository\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\otherwhite.png
+D:\GitHub Repository\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\godwhite.png
+D:\GitHub Repository\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\challangewhite.png
+D:\GitHub Repository\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\airplanewhite.png
+D:\GitHub Repository\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\activitywhite.png
+D:\GitHub Repository\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\chillwhite.png

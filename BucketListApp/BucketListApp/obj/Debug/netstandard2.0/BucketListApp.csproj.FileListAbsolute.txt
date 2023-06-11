@@ -191,3 +191,6 @@ C:\Users\Nikita\Documents\GitHub\suka\BucketListApp\BucketListApp\obj\Debug\nets
 C:\Users\Nikita\Documents\GitHub\suka\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\BucketListApp.pdb
 C:\Users\Nikita\Documents\GitHub\suka\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\ref\BucketListApp.dll
 C:\Users\Nikita\Documents\GitHub\suka\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\Page\AddGoalPage.xaml.g.cs
+D:\GitHub Repository\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\Page\AddGoalPage.xaml.g.cs
+D:\GitHub Repository\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\Page\ArticlesPage.xaml.g.cs
+D:\GitHub Repository\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\Page\TextInfo.xaml.g.cs

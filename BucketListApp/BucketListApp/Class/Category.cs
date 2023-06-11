@@ -21,20 +21,20 @@ namespace BucketListApp.Class
         public Category(string name, string imageName = null)
         {
             this.name = name;
-            this.icon = new Image() { Source = imageName };
+            icon = new Image() { Source = imageName };
         }
 
         public Category(string name, Image image)
         {
             this.name = name;
-            this.icon = image;
+            icon = image;
         }
 
         public Category(string name, Image image1, Image image2)
         {
             this.name = name;
-            this.icon = image1;
-            this.iconWhite = image2;
+            icon = image1;
+            iconWhite = image2;
         }
 
         public override int GetHashCode()

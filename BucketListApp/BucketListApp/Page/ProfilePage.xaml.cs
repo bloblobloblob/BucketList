@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using System.Xml.XPath;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using BucketListApp.Class;
 
 namespace BucketListApp
 {
@@ -26,9 +27,9 @@ namespace BucketListApp
         }
         private void GetComplited()
         {
-            ComplG.Text = string.Format("{0}%",App.TotalCompletedRatio.ToString());
-            progressRing.Progress = App.TotalCompletedRatio / 100;
-            DiffrentCompAndProgress.Text = String.Format("{0}/{1}", App.TotalCompletedRatio, App.TotalProgressRatio);
+            ComplG.Text = string.Format("{0}%",AppInitials.TotalCompletedRatio.ToString());
+            progressRing.Progress = AppInitials.TotalCompletedRatio / 100;
+            DiffrentCompAndProgress.Text = String.Format("{0}/{1}", AppInitials.TotalCompletedRatio, AppInitials.TotalProgressRatio);
         }
     }
 }
