@@ -23,7 +23,7 @@ namespace BucketListApp
             BindingContext = ReadyGoals;
             CollView.ItemsLayout = new LinearItemsLayout(ItemsLayoutOrientation.Vertical)
             {
-                ItemSpacing = 20
+                ItemSpacing = 8
             };
         }
 

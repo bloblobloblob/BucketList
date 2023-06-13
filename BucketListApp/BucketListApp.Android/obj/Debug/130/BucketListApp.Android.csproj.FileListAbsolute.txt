@@ -5924,3 +5924,4 @@ C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListA
 C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\airplanewhite.png
 C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\activitywhite.png
 C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\chillwhite.png
+C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\go.png

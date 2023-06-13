@@ -29,6 +29,10 @@ namespace BucketListApp
             });
 
             BindingContext = GoalList;
+            CollView.ItemsLayout = new LinearItemsLayout(ItemsLayoutOrientation.Vertical)
+            {
+                ItemSpacing = 8
+            };
         }
         protected override void OnAppearing()
         {
