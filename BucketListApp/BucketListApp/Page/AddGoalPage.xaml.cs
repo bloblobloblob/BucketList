@@ -1,4 +1,4 @@
-﻿using BucketListApp.Custom;
+using BucketListApp.Custom;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,7 +21,10 @@ namespace BucketListApp
             InitializeComponent();
             ReadyGoals = AppInitials.ExampleGoals;
             BindingContext = ReadyGoals;
-
+            CollView.ItemsLayout = new LinearItemsLayout(ItemsLayoutOrientation.Vertical)
+            {
+                ItemSpacing = 20
+            };
         }
 
         public async void ToCreateGoalPage(object sender, EventArgs e)
