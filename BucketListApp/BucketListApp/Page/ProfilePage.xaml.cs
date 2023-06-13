@@ -32,7 +32,7 @@ namespace BucketListApp
             DiffrentCompAndProgress.Text = string.Format("{0}/{1}", AppInitials.CompletedGoals, AppInitials.TotalGoals);
             StatComplYear.Text = AppInitials.TotalCompletedPerYear.ToString();
             SpecificCat.Text = AppInitials.MostCompletedCategoryRatio.ToString();
-            //NameSpecCat.Text = string.Format("Целей выполнено &#10; в категории&#10; «{0}» ", AppInitials.MostCompletedCategoryName);
+            NameSpecCat.Text = string.Format("Целей выполнено \n в категории\n «{0}» ", AppInitials.MostCompletedCategoryName);
         }
     }
 }

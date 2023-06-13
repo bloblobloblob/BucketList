@@ -61,7 +61,7 @@
                                FontAttributes="Bold"  
                                HorizontalOptions="CenterAndExpand" />
                         <Label Grid.Row="1"  Grid.Column="1"    
-                               Text="Целей выполнено &#10; в категории&#10; «другое»" 
+                               x:Name="NameSpecCat"
                                HorizontalTextAlignment="Center"
                                HorizontalOptions="CenterAndExpand"/>
                     </Grid>

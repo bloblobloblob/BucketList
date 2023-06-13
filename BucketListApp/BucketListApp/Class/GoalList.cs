@@ -94,10 +94,10 @@ namespace BucketListApp.Class
         {
             var currentdate = DateTime.Now;
             if (!goals.Any())
-                return (0, null);
+                return (0, "");
             var completed = goals.Where(goal => goal.Status == true && (goal.CreationDate - currentdate).TotalDays < 366);
             if (!completed.Any())
-                return (0, null);
+                return (0, "");
             var mostCompleted = completed
                     .GroupBy(goal => goal.Category)
                     .OrderByDescending(group => group.Count())
