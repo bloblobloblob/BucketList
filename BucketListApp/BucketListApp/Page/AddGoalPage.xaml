@@ -26,7 +26,7 @@
                         <CollectionView.ItemTemplate>
                             <DataTemplate
                         x:DataType="local:Goal">
-                                <StackLayout>
+                                <StackLayout >
                                     <Frame HeightRequest="48" WidthRequest="250" 
                                 BackgroundColor="#292D32" Opacity="1"
                                    CornerRadius="10" HasShadow="False">
