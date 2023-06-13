@@ -135,7 +135,7 @@ namespace BucketListApp.Class
             Description = descript;
             Category = category;
             SubTasks = subTasks;
-            Status = false;
+            Status = true;
             creationDate = DateTime.Now;
         }
 

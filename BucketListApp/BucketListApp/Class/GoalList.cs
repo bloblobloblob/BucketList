@@ -102,11 +102,17 @@ namespace BucketListApp.Class
                     .GroupBy(goal => goal.Category)
                     .OrderByDescending(group => group.Count())
                     .FirstOrDefault();
-            var ratio = mostCompleted.Count();
+            var ratio = mostCompleted.Count() / completed.Count() * 100;
             var name = mostCompleted.Key.Name;
             return (ratio, name);
         }
 
+        public double InProgressRatio()
+        {
+            if (!goals.Any())
+                return 0;
+            return 100 - CompletedRatio();
+        }
         private static IEnumerable<Goal> SortGoals(IEnumerable<Goal> goals)
         {
             return goals
