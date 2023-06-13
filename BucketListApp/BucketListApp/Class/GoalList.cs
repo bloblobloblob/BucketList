@@ -14,10 +14,12 @@ namespace BucketListApp.Class
         {
             //this.goals = goals.ToList();
         }
+
         public GoalList()
         {
             goals = new ObservableCollection<Goal>();
         }
+
         public void AddCustomGoal(string title, string descript, Category category, List<SubTask> subTasks)
         {
             goals.Add(new Goal(title, descript, category, subTasks));
@@ -61,11 +63,23 @@ namespace BucketListApp.Class
             goals.Remove(goal);
         }
 
-        public int CompletedRatio()
+        public double CompletedRatio()
         {
             if (!goals.Any())
                 return 0;
-            return goals.Count / goals.Where(goal => goal.Status == true).Count() * 100;
+            return goals.Where(goal => goal.Status == true).Count() / goals.Count;
+        }
+
+        public int Completed()
+        {
+            if (!goals.Any())
+                return 0;
+            return goals.Where(goal => goal.Status == true).Count();
+        }
+
+        public int Total()
+        {
+            return goals.Count();
         }
 
         public int CompletedPerYear()
@@ -93,7 +107,7 @@ namespace BucketListApp.Class
             return (ratio, name);
         }
 
-        public int InProgressRatio()
+        public double InProgressRatio()
         {
             if (!goals.Any())
                 return 0;

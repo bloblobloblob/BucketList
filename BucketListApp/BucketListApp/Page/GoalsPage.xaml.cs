@@ -22,7 +22,7 @@ namespace BucketListApp
         {
             InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);
-            GoalList = new GoalList();
+            GoalList = AppInitials.Goals;
             MessagingCenter.Subscribe<CreateGoalPage, Goal>(this, "AddGoal", (sender, arg) =>
             {
                 GoalList.AddCustomGoal(arg.Title, arg.Description, arg.Category, arg.SubTasks);

@@ -27,9 +27,9 @@ namespace BucketListApp
         }
         private void GetComplited()
         {
-            ComplG.Text = string.Format("{0}%",AppInitials.TotalCompletedRatio.ToString());
-            progressRing.Progress = AppInitials.TotalCompletedRatio / 100;
-            DiffrentCompAndProgress.Text = string.Format("{0}/{1}", AppInitials.TotalCompletedRatio, AppInitials.TotalProgressRatio);
+            ComplG.Text = string.Format("{0}%",(AppInitials.TotalCompletedRatio * 100).ToString());
+            progressRing.Progress = AppInitials.TotalCompletedRatio;
+            DiffrentCompAndProgress.Text = string.Format("{0}/{1}", AppInitials.CompletedGoals, AppInitials.TotalGoals);
             StatComplYear.Text = AppInitials.TotalCompletedPerYear.ToString();
             SpecificCat.Text = AppInitials.MostCompletedCategoryRatio.ToString();
             //NameSpecCat.Text = string.Format("Целей выполнено &#10; в категории&#10; «{0}» ", AppInitials.MostCompletedCategoryName);

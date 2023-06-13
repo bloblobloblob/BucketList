@@ -26,12 +26,31 @@ namespace BucketListApp.Class
             private set { }
         }
 
-        public static int TotalProgressRatio
+        public static int TotalGoals
+        {
+            get
+            {
+                return Goals.Total();
+            }
+            private set { }
+        }
+
+        public static int CompletedGoals
+        {
+            get
+            {
+                return Goals.Completed();
+            }
+            private set { }
+        }
+
+        public static double TotalProgressRatio
         {
             get { return Goals.InProgressRatio(); }
             private set { }
         }
-        public static int TotalCompletedRatio
+
+        public static double TotalCompletedRatio
         {
             get { return Goals.CompletedRatio(); }
             private set { }
