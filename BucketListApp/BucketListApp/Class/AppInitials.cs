@@ -44,12 +44,6 @@ namespace BucketListApp.Class
             private set { }
         }
 
-        public static double TotalProgressRatio
-        {
-            get { return Goals.InProgressRatio(); }
-            private set { }
-        }
-
         public static double TotalCompletedRatio
         {
             get { return Goals.CompletedRatio(); }
