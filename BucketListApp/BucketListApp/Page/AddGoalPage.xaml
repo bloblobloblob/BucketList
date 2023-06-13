@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BucketListApp.AddGoalPage"
@@ -27,22 +27,17 @@
                             <DataTemplate
                         x:DataType="local:Goal">
                                 <StackLayout >
-                                    <Frame HeightRequest="48" WidthRequest="250" 
+                                    <Frame HeightRequest="44" WidthRequest="250" 
                                 BackgroundColor="#292D32" Opacity="1"
                                    CornerRadius="10" HasShadow="False">
                                         <Grid
                                 RowDefinitions="Auto, *"
                                 ColumnDefinitions="Auto, *">
-                                            <Image Source="{Binding Category.IconWhite.Source}" Grid.RowSpan="2" HeightRequest="40" WidthRequest="40"/>
-                                            <Label Grid.Column="1"
-                                       Text="{Binding Title}"
-                                       TextColor="#FFF3E2"
-                                       FontSize="16"/>
-                                            <ProgressBar Grid.Row="1" Grid.Column="1"
-                                             ProgressColor="#FBAB57" HeightRequest="12" WidthRequest="12"  Progress="{Binding Done}"/>
+                                            <Frame BackgroundColor="#474542" Grid.RowSpan="2" Margin="-5, 0" HeightRequest="46" WidthRequest="34" CornerRadius="10"/>
+                                            <Image Source="{Binding Category.IconWhite.Source}" Grid.RowSpan="2" Margin="-5, 0" HeightRequest="40" WidthRequest="40"/>
+                                            <Label Grid.Column="1" Text="{Binding Title}" TextColor="#FFF3E2" FontSize="16"/>
                                         </Grid>
                                     </Frame>
-                                    <Line HeightRequest="4" BackgroundColor="#FFF3E2"/>
                                 </StackLayout>
                             </DataTemplate>
                         </CollectionView.ItemTemplate>
