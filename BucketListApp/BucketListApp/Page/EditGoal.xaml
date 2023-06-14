@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:custom="clr-namespace:BucketListApp"
-             x:Class="BucketListApp.CreateGoalPage"
+             x:Class="BucketListApp.Page.EditGoal"
              BackgroundColor="#FFF3E2">
     <ContentPage.Content>
         <ScrollView>
@@ -158,10 +158,10 @@
                                 VerticalOptions="StartAndExpand"/>
                 </StackLayout>
                 <StackLayout VerticalOptions="EndAndExpand" HorizontalOptions="Center">
-                    <Button BackgroundColor="#FBAB57" Text="Создать цель" 
+                    <Button BackgroundColor="#FBAB57" Text="Изменить цель" 
                     FontSize="18" TextColor="Black" FontAttributes="Bold"
                     HeightRequest="61" WidthRequest="345" 
-                    CornerRadius="10" Clicked="NewGoal"/>
+                    CornerRadius="10" Clicked="EditThisGoal"/>
                 </StackLayout>
             </StackLayout>
         </ScrollView>

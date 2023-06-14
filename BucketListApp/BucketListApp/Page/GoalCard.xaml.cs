@@ -14,12 +14,14 @@ namespace BucketListApp
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class GoalCard : ContentPage
     {
+        Goal CurrGoal;
         public GoalCard()
         {
             InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);
             MessagingCenter.Subscribe<GoalsPage, Goal>(this, "OpenGoalCard", (sender, arg) =>
             {
+                CurrGoal = arg;
                 Icon.Source = arg.Category.IconWhite.Source;
                 Lbl1.Text = arg.Title;
                 Lbl2.Text = arg.CreationDate.ToString("dd.MM.yy");
@@ -47,6 +49,13 @@ namespace BucketListApp
         public void RetutnToGoalsPage(object sender, EventArgs e)
         {
             OnBackButtonPressed();
+        }
+
+        public async void EditGoal(object sender, EventArgs e)
+        {
+            var ep = new EditGoal();
+            MessagingCenter.Send<GoalCard, Goal>(this, "edit", CurrGoal);
+            await Navigation.PushModalAsync(ep);
         }
     }
 }

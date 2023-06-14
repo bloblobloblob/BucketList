@@ -24,7 +24,9 @@
                        FontSize="20" 
                        Grid.Column="1" 
                        HorizontalOptions="Center"/>
-                <ImageButton Source ="edit.png" 
+                <ImageButton Source ="edit.png"
+                             x:Name="edit"
+                             Clicked="EditGoal"
                              HeightRequest="28" 
                              WidthRequest="25.61" 
                              Grid.Column="2" 

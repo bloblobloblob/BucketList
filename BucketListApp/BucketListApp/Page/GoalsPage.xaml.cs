@@ -33,6 +33,11 @@ namespace BucketListApp
             {
                 ItemSpacing = 8
             };
+            MessagingCenter.Subscribe<EditGoal, Goal>(this, "Edit", (sender, arg) =>
+            {
+                //GoalList.ChangeGoal
+                GoalList.AddCustomGoal(arg.Title, arg.Description, arg.Category, arg.SubTasks);
+            });
         }
         protected override void OnAppearing()
         {

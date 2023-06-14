@@ -3,32 +3,31 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
 using BucketListApp.Class;
 using BucketListApp.Page;
 using BucketListApp.Custom;
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
-namespace BucketListApp
+namespace BucketListApp.Page
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class CreateGoalPage : ContentPage
+    public partial class EditGoal : ContentPage
     {
         Category cat;
-        public CreateGoalPage()
+        string Tit;
+        DateTime creatDate;
+
+        public EditGoal()
         {
             InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);
-            MessagingCenter.Subscribe<CategoryPage, Category>(this, "ChangeCat", (sender, arg) =>
+            MessagingCenter.Subscribe<GoalCard, Goal>(this, "edit", (sender, arg) =>
             {
-                ButCat.Text = arg.Name;
-                cat = arg;
-            });
-            MessagingCenter.Subscribe<AddGoalPage, Goal>(this, "CreateGoal", (sender, arg) =>
-            {
+                Tit = arg.Title;
+                creatDate = arg.CreationDate;
                 Name.Text = arg.Title;
                 ButCat.Text = arg.Category.Name;
-                cat = arg.Category;
                 About.Text = arg.Description;
                 if (arg.SubTasks.Count != 0)
                 {
@@ -42,6 +41,11 @@ namespace BucketListApp
                         if (i == 5) Pod5.Text = task.Description; Pod6.IsVisible = true;
                     }
                 }
+            });
+            MessagingCenter.Subscribe<CategoryPage, Category>(this, "ChangeCat", (sender, arg) =>
+            {
+                ButCat.Text = arg.Name;
+                cat = arg;
             });
         }
 
@@ -88,8 +92,8 @@ namespace BucketListApp
             Pod5.IsVisible = false;
             Pod6.IsVisible = false;
         }
-        
-        public async void NewGoal(object sender, EventArgs e)
+
+        public async void EditThisGoal(object sender, EventArgs e)
         {
             string desc = "Без описания";
 
@@ -125,7 +129,8 @@ namespace BucketListApp
             if (Pod6.IsVisible == true) tasks.Add(new SubTask(Pod5.Text));
 
             Goal goal = new Goal(title, desc, cat, tasks);
-            MessagingCenter.Send<CreateGoalPage, Goal>(this, "AddGoal", goal);
+            MessagingCenter.Send<EditGoal, Goal>(this, "Edit", goal);
+            //GoalsPage.GoalList.ChangeGoal();
             Clear();
             OnBackButtonPressed();
         }
