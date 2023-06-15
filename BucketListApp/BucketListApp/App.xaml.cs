@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BucketListApp.Class;
+using System;
 using System.IO;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -20,6 +21,7 @@ namespace BucketListApp
 
         protected override void OnSleep()
         {
+            AppInitials.SaveGoals();
         }
 
         protected override void OnResume()

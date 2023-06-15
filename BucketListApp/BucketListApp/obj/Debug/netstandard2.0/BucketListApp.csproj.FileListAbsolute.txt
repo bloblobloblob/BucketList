@@ -205,3 +205,4 @@ C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListA
 C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\refint\BucketListApp.dll
 C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\BucketListApp.pdb
 C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\ref\BucketListApp.dll
+D:\GitHub Repository\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\Page\EditGoal.xaml.g.cs

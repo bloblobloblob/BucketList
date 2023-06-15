@@ -10,27 +10,15 @@ namespace BucketListApp.Class
     public class Category
     {
         private readonly string name;
-        private readonly Image icon;
-        private readonly Image iconWhite;
+        private readonly string icon;
+        private readonly string iconWhite;
         public string Name => name;
 
-        public Image Icon => icon;
+        public string Icon => icon;
 
-        public Image IconWhite => iconWhite;
+        public string IconWhite => iconWhite;
 
-        public Category(string name, string imageName = null)
-        {
-            this.name = name;
-            icon = new Image() { Source = imageName };
-        }
-
-        public Category(string name, Image image)
-        {
-            this.name = name;
-            icon = image;
-        }
-
-        public Category(string name, Image image1, Image image2)
+        public Category(string name, string image1, string image2)
         {
             this.name = name;
             icon = image1;
@@ -48,7 +36,5 @@ namespace BucketListApp.Class
             return category != null
                 && Name == category.Name;
         }
-
-        public static Category Create(string name, string imageName) => new Category(name, imageName);
     }
 }

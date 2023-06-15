@@ -11,7 +11,8 @@ namespace BucketListApp.Class
 {
     public class Goal : INotifyPropertyChanged
     {
-        private Image image;
+        private string image;
+        private string imageWhite;
         private string title;
         private string description;
         private Category category;
@@ -19,7 +20,7 @@ namespace BucketListApp.Class
         private bool status;
         private readonly DateTime creationDate;
 
-        public Image Image
+        public string Image
         {
             get
             {
@@ -34,6 +35,23 @@ namespace BucketListApp.Class
                 }
             }
         }
+
+        public string ImageWhite
+        {
+            get
+            {
+                return imageWhite;
+            }
+            set
+            {
+                if (imageWhite != value)
+                {
+                    imageWhite = value;
+                    OnPropertyChanged("ImageWhite");
+                }
+            }
+        }
+
         public string Title
         {
             get
@@ -131,6 +149,7 @@ namespace BucketListApp.Class
         public Goal(string title, string descript, Category category, List<SubTask> subTasks)
         {
             Image = category.Icon;
+            ImageWhite = category.IconWhite;
             Title = title;
             Description = descript;
             Category = category;

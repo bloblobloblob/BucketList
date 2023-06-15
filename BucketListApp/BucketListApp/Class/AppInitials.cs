@@ -8,12 +8,24 @@ using static System.Net.WebRequestMethods;
 using System.Threading;
 using Xamarin.Forms;
 using System.Linq;
+using Newtonsoft.Json;
 
 namespace BucketListApp.Class
 {
     public static class AppInitials
     {
-        public static GoalList Goals = new GoalList();
+        private static GoalList goals;
+        public static GoalList Goals
+        {
+            get
+            {
+                if (goals == null)
+                    goals = LoadGoals();
+                return goals;
+            }
+            set { }
+        }
+
         public static GoalList ExampleGoals = GetExampleGoals();
         public readonly static List<string> motivationalPhrases = GetMotivationalPhrases();
         public static string MotivationPhrase
@@ -113,38 +125,38 @@ namespace BucketListApp.Class
 
         private static Category GetCategory(string name)
         {
-            var image1 = new Image();
-            var image2= new Image();
+            var image1 = String.Empty;
+            var image2= String.Empty;
             
             if (name  == "Отдых")
             {
-                image1 = new Image() { Source = "chill.jpg" };
-                image2 = new Image() { Source = "chillWhite.jpg" };
+                image1 = "chill.jpg";
+                image2 = "chillWhite.jpg";
             }
             if (name == "Активности")
             {
-                image1 = new Image { Source = "activity.jpg" };
-                image2 = new Image { Source = "activityWhite.jpg" };
+                image1 = "activity.jpg";
+                image2 = "activityWhite.jpg";
             }
             if (name == "Путешествия")
             {
-                image1 = new Image { Source = "airplane.jpg" };
-                image2 = new Image { Source = "airplaneWhite.jpg" };
+                image1 = "airplane.jpg";
+                image2 = "airplaneWhite.jpg";
             }
             if (name == "Челленджи")
             {
-                image1 = new Image { Source = "challange.jpg" };
-                image2 = new Image { Source = "challangeWhite.jpg" };
+                image1 = "challange.jpg";
+                image2 = "challangeWhite.jpg";
             }
             if (name == "Духовность")
             {
-                image1 = new Image { Source = "god.jpg" };
-                image2 = new Image { Source = "godWhite.jpg" };
+                image1 = "god.jpg";
+                image2 = "godWhite.jpg";
             }
             if (name == "Другое")
             {
-                image1 = new Image { Source = "other.jpg" };
-                image2 = new Image { Source = "otherWhite.jpg" };
+                image1 = "other.jpg";
+                image2 = "otherWhite.jpg";
             }           
             return new Category(name, image1, image2);
         }
@@ -153,6 +165,22 @@ namespace BucketListApp.Class
         {
             if (line == "Нет") return new List<SubTask>();
             return line.Split(';').Select(desc => new SubTask(desc)).ToList();
+        }
+
+        private static GoalList LoadGoals()
+        {
+            var path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "GoalsData.json");
+            if (!System.IO.File.Exists(path))
+                System.IO.File.Create(path).Close();
+            var stringData = System.IO.File.ReadAllText(path);
+            return JsonConvert.DeserializeObject<GoalList>(stringData) ?? new GoalList();
+        }
+
+        public static void SaveGoals()
+        {
+            var path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "GoalsData.json");
+            var stringData = JsonConvert.SerializeObject(goals);
+            System.IO.File.WriteAllText(path, stringData);
         }
     }
 }

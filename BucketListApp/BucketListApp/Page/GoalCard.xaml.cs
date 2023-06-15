@@ -22,7 +22,7 @@ namespace BucketListApp
             MessagingCenter.Subscribe<GoalsPage, Goal>(this, "OpenGoalCard", (sender, arg) =>
             {
                 CurrGoal = arg;
-                Icon.Source = arg.Category.IconWhite.Source;
+                Icon.Source = arg.ImageWhite;
                 Lbl1.Text = arg.Title;
                 Lbl2.Text = arg.CreationDate.ToString("dd.MM.yy");
                 Lbl3.Text = arg.Description;

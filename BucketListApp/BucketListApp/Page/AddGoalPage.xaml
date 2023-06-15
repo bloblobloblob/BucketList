@@ -46,7 +46,7 @@
                                                    CornerRadius="10"
                                                    Grid.Column="0"
                                                    VerticalOptions="Center"/>
-                                            <Image Source="{Binding Category.IconWhite.Source}" 
+                                            <Image Source="{Binding ImageWhite}" 
                                                    Grid.Column="0"
                                                    HeightRequest="35" 
                                                    WidthRequest="35"
