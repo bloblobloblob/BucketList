@@ -8,44 +8,44 @@
         <ScrollView>
             <StackLayout Padding="18, 20, 18, 18">
                 <StackLayout VerticalOptions="Start">
-                    <Label Text="Название" FontSize="12" TextColor="Black" VerticalOptions="StartAndExpand" ></Label>
+                    <Label Text="Название" FontSize="12" TextColor="#33312d" VerticalOptions="StartAndExpand" ></Label>
                     <custom:CustomEntry
                                 ClearButtonVisibility="WhileEditing"
                                 Keyboard="Text"
                                 x:Name="Name"
                                 CornerRadius="10"
                                 IsCurvedCornersEnabled="True"
-                                BorderColor="Black"    
+                                BorderColor="#33312d"    
                                 HorizontalTextAlignment="Start"
                                 FontSize="12"
                                 HeightRequest="50"
                                 Placeholder="Конкретная и измеримая цель"
-                                PlaceholderColor="Black"
-                                TextColor="Black"
+                                PlaceholderColor="#33312d"
+                                TextColor="#33312d"
                                 Margin="0, 0, 0, 8"
                                 VerticalOptions="StartAndExpand"/>
-                    <Label Text="Категория" FontSize="12" TextColor="Black" VerticalOptions="StartAndExpand"></Label>
+                    <Label Text="Категория" FontSize="12" TextColor="#33312d" VerticalOptions="StartAndExpand"></Label>
                     <Button x:Name="ButCat" BackgroundColor="#FFF3E2" Text="Выбрать категорию"
-                    FontSize="12" TextTransform="None" TextColor="Black" FontAttributes="Bold"
+                    FontSize="12" TextTransform="None" TextColor="#33312d" FontAttributes="Bold"
                     HeightRequest="61" WidthRequest="345"
-                    CornerRadius="10" BorderColor="Black" Clicked="Cat"/>
-                    <Label Text="Описание" FontSize="12" TextColor="Black" VerticalOptions="StartAndExpand"></Label>
+                    CornerRadius="10" BorderColor="#33312d" Clicked="Cat"/>
+                    <Label Text="Описание" FontSize="12" TextColor="#33312d" VerticalOptions="StartAndExpand"></Label>
                     <custom:CustomEntry
                                 ClearButtonVisibility="WhileEditing"
                                 Keyboard="Text"
                                 x:Name="About"
                                 CornerRadius="10"
                                 IsCurvedCornersEnabled="True"
-                                BorderColor="Black"    
+                                BorderColor="#33312d"    
                                 HorizontalTextAlignment="Start"
                                 FontSize="12"
                                 HeightRequest="50"
                                 Placeholder="Почему эта цель важна для вас?"
-                                PlaceholderColor="Black"
-                                TextColor="Black"
+                                PlaceholderColor="#33312d"
+                                TextColor="#33312d"
                                 Margin="0, 0, 0, 8"
                                 VerticalOptions="StartAndExpand"/>
-                    <Label Text="Подзадачи" FontSize="12" TextColor="Black" VerticalOptions="StartAndExpand"></Label>
+                    <Label Text="Подзадачи" FontSize="12" TextColor="#33312d" VerticalOptions="StartAndExpand"></Label>
                     <custom:CustomEntry
                                 Placeholder="Подзадача 1"
                                 TextChanged="Pod1Ch"
@@ -54,13 +54,13 @@
                                 x:Name="Pod1"
                                 CornerRadius="10"
                                 IsCurvedCornersEnabled="True"
-                                BorderColor="Black"    
+                                BorderColor="#33312d"    
                                 HorizontalTextAlignment="Start"
                                 FontSize="12"
                                 HeightRequest="50"
                                 Text=""
-                                PlaceholderColor="Black"
-                                TextColor="Black"
+                                PlaceholderColor="#33312d"
+                                TextColor="#33312d"
                                 Margin="0, 0, 0, 8"
                                 VerticalOptions="StartAndExpand">
                         <custom:CustomEntry.Behaviors EventName="Unfocused" 
@@ -76,13 +76,13 @@
                                 x:Name="Pod2"
                                 CornerRadius="10"
                                 IsCurvedCornersEnabled="True"
-                                BorderColor="Black"    
+                                BorderColor="#33312d"    
                                 HorizontalTextAlignment="Start"
                                 FontSize="12"
                                 HeightRequest="50"
                                 Text=""
-                                PlaceholderColor="Black"
-                                TextColor="Black"
+                                PlaceholderColor="#33312d"
+                                TextColor="#33312d"
                                 Margin="0, 0, 0, 8"
                                 VerticalOptions="StartAndExpand"/>
                     <custom:CustomEntry
@@ -94,13 +94,13 @@
                                 x:Name="Pod3"
                                 CornerRadius="10"
                                 IsCurvedCornersEnabled="True"
-                                BorderColor="Black"    
+                                BorderColor="#33312d"    
                                 HorizontalTextAlignment="Start"
                                 FontSize="12"
                                 HeightRequest="50"
                                 Text=""
-                                PlaceholderColor="Black"
-                                TextColor="Black"
+                                PlaceholderColor="#33312d"
+                                TextColor="#33312d"
                                 Margin="0, 0, 0, 8"
                                 VerticalOptions="StartAndExpand"/>
                     <custom:CustomEntry
@@ -112,13 +112,13 @@
                                 x:Name="Pod4"
                                 CornerRadius="10"
                                 IsCurvedCornersEnabled="True"
-                                BorderColor="Black"    
+                                BorderColor="#33312d"    
                                 HorizontalTextAlignment="Start"
                                 FontSize="12"
                                 HeightRequest="50"
                                 Text=""
-                                PlaceholderColor="Black"
-                                TextColor="Black"
+                                PlaceholderColor="#33312d"
+                                TextColor="#33312d"
                                 Margin="0, 0, 0, 8"
                                 VerticalOptions="StartAndExpand"/>
                     <custom:CustomEntry
@@ -130,13 +130,13 @@
                                 x:Name="Pod5"
                                 CornerRadius="10"
                                 IsCurvedCornersEnabled="True"
-                                BorderColor="Black"    
+                                BorderColor="#33312d"    
                                 HorizontalTextAlignment="Start"
                                 FontSize="12"
                                 HeightRequest="50"
                                 Text=""
-                                PlaceholderColor="Black"
-                                TextColor="Black"
+                                PlaceholderColor="#33312d"
+                                TextColor="#33312d"
                                 Margin="0, 0, 0, 8"
                                 VerticalOptions="StartAndExpand"/>
                     <custom:CustomEntry
@@ -147,19 +147,19 @@
                                 x:Name="Pod6"
                                 CornerRadius="10"
                                 IsCurvedCornersEnabled="True"
-                                BorderColor="Black"    
+                                BorderColor="#33312d"    
                                 HorizontalTextAlignment="Start"
                                 FontSize="12"
                                 HeightRequest="50"
                                 Text=""
-                                PlaceholderColor="Black"
-                                TextColor="Black"
+                                PlaceholderColor="#33312d"
+                                TextColor="#33312d"
                                 Margin="0, 0, 0, 8"
                                 VerticalOptions="StartAndExpand"/>
                 </StackLayout>
                 <StackLayout VerticalOptions="EndAndExpand" HorizontalOptions="Center">
                     <Button BackgroundColor="#FBAB57" Text="Изменить цель" 
-                    FontSize="18" TextColor="Black" FontAttributes="Bold"
+                    FontSize="18" TextColor="#33312d" FontAttributes="Bold"
                     HeightRequest="61" WidthRequest="345" 
                     CornerRadius="10" Clicked="EditThisGoal"/>
                 </StackLayout>

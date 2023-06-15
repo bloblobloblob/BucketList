@@ -6,8 +6,9 @@
              IconImageSource="task"
              Title="Мои цели">
     <StackLayout>
-        <Label Text="Мои цели" FontSize="18" TextColor="Black" FontAttributes="Bold" Margin ="0, 20, 0, 20" HorizontalOptions="Center" FontFamily="Inter"></Label >
+        <Label Text="Мои цели" FontSize="18" TextColor="#33312d" FontAttributes="Bold" Margin ="0, 20, 0, 20" HorizontalOptions="Center" FontFamily="Inter"></Label >
         <StackLayout Padding="18, 10, 18, 18">
+            <Image x:Name="Empty" VerticalOptions="Center" HorizontalOptions="Center"/>
             <CollectionView x:DataType="local:GoalList" x:Name="CollView"  ItemsSource="{Binding goals}"
                             SelectionMode="Single" SelectionChanged="OnCollectionViewSelectionChanged">
                 <CollectionView.ItemTemplate>
@@ -15,7 +16,7 @@
                         x:DataType="local:Goal">
                         <StackLayout>
                             <Frame HeightRequest="48" WidthRequest="250" 
-                                BackgroundColor="#292D32" Opacity="1"
+                                BackgroundColor="#33312d" Opacity="1"
                                    CornerRadius="10" HasShadow="False">
                                 <Grid>
                                     <Grid.RowDefinitions>

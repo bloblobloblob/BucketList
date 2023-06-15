@@ -41,6 +41,14 @@ namespace BucketListApp
         }
         protected override void OnAppearing()
         {
+            if (GoalList.goals.Count == 0)
+            {
+                Empty.Source = "EmptyGoals.png";
+            }
+            else
+            {
+                Empty.Source = "";
+            }
             base.OnAppearing();
         }
 

@@ -8,7 +8,7 @@
     <ContentPage.Content>
         <StackLayout Padding="18, 0, 18, 18" HorizontalOptions="Center">
             <Label Text="Прогресс" FontSize="18" 
-                   TextColor="Black" 
+                   TextColor="#33312d" 
                    FontAttributes="Bold" 
                    Margin ="0, 20, 0, 40" 
                    HorizontalOptions="Center"
@@ -25,7 +25,7 @@
                         <Label x:Name="ComplG" 
                                HorizontalOptions="CenterAndExpand" 
                                FontSize="48" 
-                               TextColor="Black" 
+                               TextColor="#33312d" 
                                FontAttributes="Bold"
                                FontFamily="Inter"/>
                         <Label x:Name="DiffrentCompAndProgress" HorizontalOptions="CenterAndExpand" FontSize="16"/>
@@ -43,7 +43,7 @@
                         </Grid.RowDefinitions>
                         <Label Grid.Column="0" Grid.Row="0" 
                                x:Name="StatComplYear"
-                               TextColor="Black" 
+                               TextColor="#33312d" 
                                FontSize="36" 
                                FontAttributes="Bold"
                                HorizontalOptions="CenterAndExpand"/>
@@ -56,7 +56,7 @@
 
                         <Label Grid.Column="1" Grid.Row="0" 
                                x:Name="SpecificCat" 
-                               TextColor="Black" 
+                               TextColor="#33312d" 
                                FontSize="36" 
                                FontAttributes="Bold"  
                                HorizontalOptions="CenterAndExpand" />
