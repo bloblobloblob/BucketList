@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
@@ -8,29 +9,46 @@ namespace BucketListApp.Class
 {
     public class SubTask
     {
-        public string Description { get; private set; }
-        public bool Status { get; private set; }
-
-        public SubTask(string name)
+        private string description;
+        private bool status;
+        public string Description
         {
-            Description = name;
-            Status = false;
+            get
+            {
+                return description;
+            }
+            private set { }
+        }
+
+        public bool Status
+        {
+            get
+            {
+                return status;
+            }
+            private set { }
+        }
+
+        public SubTask(string description, bool status = false)
+        {
+            this.description = description;
+            this.status = status;
         }
 
         public static SubTask Create(string name) => new SubTask(name);
 
         public void ChangeState()
         {
-            Status = !Status;
+            status = !status;
         }
 
         public void ChangeName(string description)
         {
-            Description = description;
+            this.description = description;
         }
         public override int GetHashCode()
         {
-            return Description.GetHashCode();
+            return description.GetHashCode();
         }
 
         public override bool Equals(object obj)
