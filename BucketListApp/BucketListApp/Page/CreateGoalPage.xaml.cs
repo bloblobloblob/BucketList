@@ -35,11 +35,31 @@ namespace BucketListApp
                     for (int i = 0; i < arg.SubTasks.Count; i++)
                     {
                         SubTask task = arg.SubTasks[i];
-                        if (i == 0) Pod1.Text = task.Description; Pod2.IsVisible = true;
-                        if (i == 1) Pod2.Text = task.Description; Pod3.IsVisible = true;
-                        if (i == 3) Pod3.Text = task.Description; Pod4.IsVisible = true;
-                        if (i == 4) Pod4.Text = task.Description; Pod5.IsVisible = true;
-                        if (i == 5) Pod5.Text = task.Description; Pod6.IsVisible = true;
+                        if (i == 0)
+                        {
+                            Pod1.Text = task.Description; 
+                            Pod2.IsVisible = true;
+                        }
+                        if (i == 1)
+                        {
+                            Pod2.Text = task.Description; 
+                            Pod3.IsVisible = true;
+                        }
+                        if (i == 3)
+                        {
+                            Pod3.Text = task.Description; 
+                            Pod4.IsVisible = true;
+                        }
+                        if (i == 4)
+                        {
+                            Pod4.Text = task.Description; 
+                            Pod5.IsVisible = true;
+                        }
+                        if (i == 5)
+                        {
+                            Pod5.Text = task.Description;
+                            Pod6.IsVisible = true;
+                        }
                     }
                 }
             });

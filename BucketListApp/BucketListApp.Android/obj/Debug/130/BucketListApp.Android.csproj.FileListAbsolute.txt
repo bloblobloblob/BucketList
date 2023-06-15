@@ -5252,6 +5252,9 @@ C:\Users\Nikita\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\
 C:\Users\Nikita\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\android\src\ffimageloading\cross\MvxCachedImageView.java
 C:\Users\Nikita\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\android\src\ffimageloading\cross\MvxSvgCachedImageView.java
 C:\Users\Nikita\Documents\GitHub\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\android\src\ffimageloading\views\ImageViewAsync.java
+D:\GitHub Repository\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\go.png
+D:\GitHub Repository\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\emptygoals.png
+D:\GitHub Repository\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\android\assets\Newtonsoft.Json.dll
 C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListApp.Android\bin\Debug\BucketListApp.Android.dll
 C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListApp.Android\bin\Debug\BucketListApp.Android.pdb
 C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListApp.Android\bin\Debug\com.companyname.bucketlistapp.apk
@@ -5386,6 +5389,7 @@ C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListA
 C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\android\assets\mscorlib.dll
 C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\android\assets\mscorlib.pdb
 C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\android\assets\netstandard.dll
+C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\android\assets\Newtonsoft.Json.dll
 C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\android\assets\ProgressRing.Forms.Plugin.Android.dll
 C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\android\assets\ProgressRing.Forms.Plugin.dll
 C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\android\assets\SkiaSharp.dll
@@ -6015,6 +6019,3 @@ C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListA
 C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\stamp\_GenerateJavaStubs.stamp
 C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\stamp\_ResolveLibraryProjectImports.stamp
-D:\GitHub Repository\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\go.png
-D:\GitHub Repository\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\emptygoals.png
-D:\GitHub Repository\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\android\assets\Newtonsoft.Json.dll

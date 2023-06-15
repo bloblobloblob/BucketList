@@ -28,7 +28,7 @@
                                TextColor="#33312d" 
                                FontAttributes="Bold"
                                FontFamily="Inter"/>
-                        <Label x:Name="DiffrentCompAndProgress" HorizontalOptions="CenterAndExpand" FontSize="16"/>
+                        <Label x:Name="DiffrentCompAndProgress" HorizontalOptions="CenterAndExpand" TextColor="Gray" FontSize="16"/>
                     </StackLayout>
                 </Grid>
                 <StackLayout>
@@ -49,6 +49,7 @@
                                HorizontalOptions="CenterAndExpand"/>
                         <Label Grid.Row="1" Grid.Column="0"    
                                Text="Целей &#10; выполнено &#10; за год"  
+                               TextColor="Gray"
                                FontSize="14"
                                FontFamily="Inter"
                                HorizontalOptions="CenterAndExpand"
@@ -62,6 +63,7 @@
                                HorizontalOptions="CenterAndExpand" />
                         <Label Grid.Row="1"  Grid.Column="1"    
                                x:Name="NameSpecCat"
+                               TextColor="Gray"
                                HorizontalTextAlignment="Center"
                                HorizontalOptions="CenterAndExpand"/>
                     </Grid>

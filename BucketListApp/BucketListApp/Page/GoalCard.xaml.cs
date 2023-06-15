@@ -30,19 +30,40 @@ namespace BucketListApp
                 Prog.Progress = arg.Done;
                 if (arg.SubTasks.Count == 0)
                 {
-                    Lbl5.Text = "";
                     Frm.BackgroundColor = Xamarin.Forms.Color.FromRgb(30, 30, 30);
                     Frm.HasShadow = false;
                 }
                 else
                 {
-                    for (int i = 0; i < arg.SubTasks.Count; i++)
+                    foreach (var task in arg.SubTasks)
                     {
-                        SubTask task = arg.SubTasks[i];
-                        if (i == arg.SubTasks.Count - 1) Pod.Text += task.Description;
-                        else Pod.Text += task.Description + "\n" + "\n";
+                        StackLayout subStack = new StackLayout()
+                        {
+                            Orientation = StackOrientation.Horizontal,
+                        };
+                        CheckBox checkBox = new CheckBox();
+                        Label label = new Label()
+                        {
+                            Text = task.Description,
+                            VerticalOptions = LayoutOptions.Center,
+                            TextColor = Color.White
+                        };
+                        checkBox.CheckedChanged += async (s, e) =>
+                        {
+                            if (checkBox.IsChecked)
+                            {
+                                await Task.Run(() =>
+                                {
+                                    task.ChangeState();
+                                });
+                            }
+                        };
+                        subStack.Children.Add(checkBox);
+                        subStack.Children.Add(label);
+                        taskContainer.Children.Add(subStack);
                     }
                 }
+                
             });
         }
 
