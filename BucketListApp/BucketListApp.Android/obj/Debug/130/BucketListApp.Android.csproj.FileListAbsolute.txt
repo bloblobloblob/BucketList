@@ -5358,6 +5358,7 @@ C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListA
 C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\chillwhite.png
 C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\go.png
 C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\emptygoals.png
+C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\myicon.png
 C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\uploadflags.txt
 C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\resolvedassemblies.hash
 C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\android\assets\BucketListApp.Android.dll

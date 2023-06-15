@@ -10,8 +10,8 @@
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-  <application android:label="BucketListApp.Android" android:theme="@style/MainTheme" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/icon" android:debuggable="true" android:extractNativeLibs="true">
-    <activity android:configChanges="orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:icon="@mipmap/icon" android:label="BucketListApp" android:screenOrientation="portrait" android:theme="@style/MainTheme" android:name="crc642ce1396c99d27488.MainActivity" />
+  <application android:label="BucketListApp.Android" android:theme="@style/MainTheme" android:name="android.app.Application" android:allowBackup="true" android:icon="@drawable/myicon" android:debuggable="true" android:extractNativeLibs="true">
+    <activity android:configChanges="orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:icon="@drawable/myicon" android:label="BucketListApp" android:screenOrientation="portrait" android:theme="@style/MainTheme" android:name="crc642ce1396c99d27488.MainActivity" />
     <activity android:noHistory="true" android:theme="@style/MyTheme.Splash2" android:name="crc64c078b250e2282f89.SplashActivity" android:exported="true">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
