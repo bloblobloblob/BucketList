@@ -19,6 +19,7 @@ namespace BucketListApp
         public AddGoalPage()
         {
             InitializeComponent();
+
             ReadyGoals = AppInitials.ExampleGoals;
             BindingContext = ReadyGoals;
             CollView.ItemsLayout = new LinearItemsLayout(ItemsLayoutOrientation.Vertical)

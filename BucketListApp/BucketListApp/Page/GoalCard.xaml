@@ -21,7 +21,7 @@
                 <Label Text="Цель" 
                        TextColor="#33312d"
                        FontAttributes="Bold"
-                       FontSize="20" 
+                       FontSize="18" 
                        Grid.Column="1" 
                        HorizontalOptions="Center"/>
                 <ImageButton Source ="edit.png"
@@ -35,9 +35,10 @@
             </Grid>
             <Frame BackgroundColor="#33312d" CornerRadius="30" VerticalOptions="FillAndExpand" Margin="0, 0, 0, -30">
                 <StackLayout Margin="24, 12, 24, 18" Spacing="25">
-                    <StackLayout>
+                    <StackLayout Orientation="Horizontal">
                         <Image x:Name="Icon" HorizontalOptions="StartAndExpand"/>
-                        <Label x:Name="Lbl1" VerticalOptions="StartAndExpand" Margin="45, -40, 0, 0" FontSize="25" FontAttributes="Bold" TextColor="#FFF3E2" Text=""/>
+                        <Label x:Name="Lbl1" VerticalOptions="StartAndExpand" 
+                               FontSize="22" FontAttributes="Bold" TextColor="#FFF3E2" Margin="4, 0, 0, 0"/>
                     </StackLayout>
                     <Label x:Name="Lbl2" Margin="0, -25, 0, 0" FontSize="16" TextColor="#FFF3E2" Text=""/>
                     <Label x:Name="Lbl3" Margin="0, -20, 0, 0" FontSize="16" FontAttributes="Bold" TextColor="#FFF3E2" Text="Если вы видите эту надпись, то что-то сломалось :("/>
@@ -48,6 +49,16 @@
                         <StackLayout x:Name="taskContainer">
                         </StackLayout>
                     </Frame>
+                    <Label x:Name="TitleMem" 
+                           HorizontalOptions="Start" 
+                           FontSize="16"
+                           TextColor="#FFF3E2"
+                           FontAttributes="Bold"/>
+                    <Label x:Name="TextMem" 
+                           HorizontalOptions="Start"
+                           FontSize="16"
+                           TextColor="#FFF3E2"
+                           Margin="0, -16, 0, 0"/>
                     <Button Text="Завершить цель"
                             Margin="0, 0, 0, 20" 
                             TextColor="White" 
@@ -57,7 +68,8 @@
                             HeightRequest="56"
                             BackgroundColor="#FBAB57"
                             CornerRadius="10"
-                            VerticalOptions="EndAndExpand"/>
+                            VerticalOptions="EndAndExpand"
+                            Clicked="Button_Clicked"/>
                 </StackLayout>
             </Frame>
         </StackLayout>

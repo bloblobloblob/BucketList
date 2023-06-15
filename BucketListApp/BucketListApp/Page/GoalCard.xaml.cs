@@ -63,6 +63,11 @@ namespace BucketListApp
                         taskContainer.Children.Add(subStack);
                     }
                 }
+                MessagingCenter.Subscribe<AddMemory, string>(this, "GetMemory", (sender2, arg2) =>
+                {
+                    TitleMem.Text = "Впечатления:";
+                    TextMem.Text = arg2;
+                });
                 
             });
         }
@@ -77,6 +82,11 @@ namespace BucketListApp
             var ep = new EditGoal();
             MessagingCenter.Send<GoalCard, Goal>(this, "edit", CurrGoal);
             await Navigation.PushModalAsync(ep);
+        }
+
+        public async void Button_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new AddMemory());
         }
     }
 }

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:custom="clr-namespace:BucketListApp"
+             x:Class="BucketListApp.AddMemory"
+             Background="#FFF3E2">
+    <ContentPage.Content>
+        <StackLayout Margin="16, 0, 16, 0" HorizontalOptions="Center" VerticalOptions="Center">
+            <Frame HeightRequest="255"
+                   WidthRequest="340"
+                   BackgroundColor="#33312d"
+                   CornerRadius="10"
+                   Margin="12, 16, 12, 0"
+                   HasShadow="False">
+                <StackLayout>
+                    <Label Text="Здесь вы можете поделиться своими впечатлениями после выполнения цели" 
+                           TextColor="#FFF3E2"
+                           FontSize="14"/>
+                    <custom:CustomEntry
+                        x:Name="textMem"
+                        CornerRadius="10"
+                        BorderColor=" #FFF3E2"
+                        HeightRequest="50"
+                        Placeholder="Ваши впечатления"
+                        PlaceholderColor="#FFF3E2"
+                        FontSize="16"
+                        TextColor=" #FFF3E2"
+                        Margin="0, 24, 0, 0"
+                        IsCurvedCornersEnabled="True"/>
+                </StackLayout>
+            </Frame>
+            <Button Text="Сохранить" 
+                    FontSize="18"
+                    FontAttributes="Bold"
+                    HeightRequest="47" 
+                    WidthRequest="343"
+                    Background="#FBAB57"
+                    CornerRadius="7"
+                    Margin="12, -18, 12, 0"
+                    TextColor="#FFF3E2"
+                    Clicked="Button_Clicked"/>
+            <Label HorizontalOptions="Center" Margin="0, 8, 0, 0">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="НЕ СОХРАНЯТЬ" 
+                              TextColor="Gray"
+                              FontSize="18"
+                              FontAttributes="Bold"/>
+                    </FormattedString>
+                </Label.FormattedText>
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                </Label.GestureRecognizers>
+            </Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
