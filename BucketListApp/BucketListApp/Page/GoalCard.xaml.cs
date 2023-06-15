@@ -46,7 +46,7 @@ namespace BucketListApp
                         {
                             Text = task.Description,
                             VerticalOptions = LayoutOptions.Center,
-                            TextColor = Color.White
+                            TextColor = Color.FromHex("#FFF3E2")
                         };
                         if (task.Status) 
                             checkBox.IsChecked = true;
@@ -63,15 +63,22 @@ namespace BucketListApp
                         taskContainer.Children.Add(subStack);
                     }
                 }
-                MessagingCenter.Subscribe<AddMemory, string>(this, "GetMemory", (sender2, arg2) =>
+                if (CurrGoal.Memories != null)
                 {
                     TitleMem.Text = "Впечатления:";
-                    TextMem.Text = arg2;
-                });
-                
+                    TextMem.Text = CurrGoal.Memories;
+                }
+                else
+                {
+                    MessagingCenter.Subscribe<AddMemory, string>(this, "GetMemory", (sender2, arg2) =>
+                    {
+                        TitleMem.Text = "Впечатления:";
+                        TextMem.Text = arg2;
+                        CurrGoal.Memories = arg2;
+                    });
+                }               
             });
         }
-
         public void RetutnToGoalsPage(object sender, EventArgs e)
         {
             OnBackButtonPressed();

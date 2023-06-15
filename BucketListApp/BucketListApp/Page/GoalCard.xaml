@@ -36,8 +36,8 @@
             <Frame BackgroundColor="#33312d" CornerRadius="30" VerticalOptions="FillAndExpand" Margin="0, 0, 0, -30">
                 <StackLayout Margin="24, 12, 24, 18" Spacing="25">
                     <StackLayout Orientation="Horizontal">
-                        <Image x:Name="Icon" HorizontalOptions="StartAndExpand"/>
-                        <Label x:Name="Lbl1" VerticalOptions="StartAndExpand" 
+                        <Image x:Name="Icon" />
+                        <Label x:Name="Lbl1"
                                FontSize="22" FontAttributes="Bold" TextColor="#FFF3E2" Margin="4, 0, 0, 0"/>
                     </StackLayout>
                     <Label x:Name="Lbl2" Margin="0, -25, 0, 0" FontSize="16" TextColor="#FFF3E2" Text=""/>

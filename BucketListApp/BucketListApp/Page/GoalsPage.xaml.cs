@@ -35,7 +35,6 @@ namespace BucketListApp
             };
             MessagingCenter.Subscribe<EditGoal, Goal>(this, "Edit", (sender, arg) =>
             {
-                //GoalList.ChangeGoal
                 GoalList.AddCustomGoal(arg.Title, arg.Description, arg.Category, arg.SubTasks);
             });
         }

@@ -178,6 +178,7 @@ C:\Users\Nikita\Documents\GitHub\BucketList\BucketListApp\BucketListApp\obj\Debu
 C:\Users\Nikita\Documents\GitHub\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\ProfilePages\LogIn.xaml.g.cs
 C:\Users\Nikita\Documents\GitHub\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\Page\EditGoal.xaml.g.cs
 D:\GitHub Repository\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\Page\EditGoal.xaml.g.cs
+D:\GitHub Repository\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\Page\AddMemory.xaml.g.cs
 C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListApp\bin\Debug\netstandard2.0\BucketListApp.deps.json
 C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListApp\bin\Debug\netstandard2.0\BucketListApp.dll
 C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListApp\bin\Debug\netstandard2.0\BucketListApp.pdb
@@ -187,6 +188,7 @@ C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListA
 C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\Custom\AlertPage.xaml.g.cs
 C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\Custom\RadioButtonPage.xaml.g.cs
 C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\Page\AddGoalPage.xaml.g.cs
+C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\Page\AddMemory.xaml.g.cs
 C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\Page\ArticlesPage.xaml.g.cs
 C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\Page\CategoryPage.xaml.g.cs
 C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\Page\CreateGoalPage.xaml.g.cs
@@ -206,5 +208,3 @@ C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListA
 C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\refint\BucketListApp.dll
 C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\BucketListApp.pdb
 C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\ref\BucketListApp.dll
-C:\Users\Arina Topor\Documents\GitHub\Buck1\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\Page\AddMemory.xaml.g.cs
-D:\GitHub Repository\BucketList\BucketListApp\BucketListApp\obj\Debug\netstandard2.0\Page\AddMemory.xaml.g.cs
