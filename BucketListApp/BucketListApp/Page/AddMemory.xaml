@@ -5,7 +5,7 @@
              Background="#FFF3E2">
     <ContentPage.Content>
         <StackLayout Margin="16, 0, 16, 0" HorizontalOptions="Center" VerticalOptions="Center">
-            <Frame HeightRequest="170"
+            <Frame HeightRequest="255"
                    WidthRequest="340"
                    BackgroundColor="#33312d"
                    CornerRadius="10"
@@ -14,7 +14,7 @@
                 <StackLayout>
                     <Label Text="Здесь вы можете поделиться своими впечатлениями после выполнения цели" 
                            TextColor="#FFF3E2"
-                           FontSize="16"/>
+                           FontSize="14"/>
                     <custom:CustomEntry
                         x:Name="textMem"
                         CornerRadius="10"
