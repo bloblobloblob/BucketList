@@ -48,16 +48,22 @@ namespace BucketListApp
                             VerticalOptions = LayoutOptions.Center,
                             TextColor = Color.White
                         };
-                        checkBox.CheckedChanged += async (s, e) =>
+                        if (task.Status) 
+                            checkBox.IsChecked = true;
+                        else
                         {
-                            if (checkBox.IsChecked)
+                            checkBox.CheckedChanged += async (s, e) =>
                             {
-                                await Task.Run(() =>
+                                if (checkBox.IsChecked)
                                 {
-                                    task.ChangeState();
-                                });
-                            }
-                        };
+                                    await Task.Run(() =>
+                                    {
+                                        Prog.Progress = arg.Done;
+                                        task.ChangeState();
+                                    });
+                                }
+                            };
+                        }
                         subStack.Children.Add(checkBox);
                         subStack.Children.Add(label);
                         taskContainer.Children.Add(subStack);
