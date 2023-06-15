@@ -13,6 +13,7 @@ namespace BucketListApp.Class
     {
         private string image;
         private string imageWhite;
+        private string memories;
         private string title;
         private string description;
         private Category category;
@@ -48,6 +49,22 @@ namespace BucketListApp.Class
                 {
                     imageWhite = value;
                     OnPropertyChanged("ImageWhite");
+                }
+            }
+        }
+
+        public string Memories
+        {
+            get
+            {
+                return memories;
+            }
+            set
+            {
+                if (memories != value)
+                {
+                    memories = value;
+                    OnPropertyChanged("Memories");
                 }
             }
         }
@@ -128,34 +145,30 @@ namespace BucketListApp.Class
             }
         }
         public DateTime CreationDate => creationDate;
-        public int Done
+        public double Done
         {
-            get { return (Completed() / 100); }
+            get { return Completed(); }
             private set { }
         }
-        public int InProcess
+
+        public double InProcess
         {
             get { return InProgress(); }
             private set { }
         }
-        public (int InProgress, int Completed) Statistics
-        {
-            get
-            {
-                return (InProgress(), Completed());
-            }
-        }
+
         private int SubTasksCount => SubTasks.Count;
-        public Goal(string title, string descript, Category category, List<SubTask> subTasks)
+        public Goal(string title, string description, Category category, List<SubTask> subTasks, string memories = null)
         {
             Image = category.Icon;
             ImageWhite = category.IconWhite;
             Title = title;
-            Description = descript;
+            Description = description;
             Category = category;
             SubTasks = subTasks;
             Status = false;
             creationDate = DateTime.Now;
+            Memories = memories;
         }
 
         public override int GetHashCode()
@@ -185,24 +198,25 @@ namespace BucketListApp.Class
             SubTasks.Remove(subtask);
         }
 
-        public void ChangeCompletionState()
+        public bool ChangeCompletionState()
         {
-            if (SubTasksCount == 0 || Statistics.InProgress == 0)
-                Status = true;
+            if (SubTasksCount == 0 || InProcess == 0)
+                status = true;
+            return Status;
         }
 
-        private int Completed()
+        private double Completed()
         {
             if (!SubTasks.Any())
                 return 0;
-            return SubTasks.Where(subTask => subTask.Status == true).Count();
+            return (double) SubTasks.Where(subTask => subTask.Status == true).Count() / SubTasks.Count;
         }
 
-        private int InProgress()
+        private double InProgress()
         {
             if (!SubTasks.Any())
                 return 0;
-            return SubTasks.Where(subTask => subTask.Status == false).Count();
+            return (double) SubTasks.Where(subTask => subTask.Status == false).Count() / SubTasks.Count;
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

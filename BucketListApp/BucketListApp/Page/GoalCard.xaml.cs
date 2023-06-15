@@ -50,20 +50,14 @@ namespace BucketListApp
                         };
                         if (task.Status) 
                             checkBox.IsChecked = true;
-                        else
+                        checkBox.CheckedChanged += async (s, e) =>
                         {
-                            checkBox.CheckedChanged += async (s, e) =>
-                            {
-                                if (checkBox.IsChecked)
+                                await Task.Run(() =>
                                 {
-                                    await Task.Run(() =>
-                                    {
-                                        Prog.Progress = arg.Done;
-                                        task.ChangeState();
-                                    });
-                                }
-                            };
-                        }
+                                    task.ChangeState();
+                                    Prog.Progress = arg.Done;
+                                });
+                        };
                         subStack.Children.Add(checkBox);
                         subStack.Children.Add(label);
                         taskContainer.Children.Add(subStack);
