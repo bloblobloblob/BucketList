@@ -127,7 +127,8 @@ namespace BucketListApp.Page
             if (Pod5.IsVisible == true) tasks.Add(new SubTask(Pod4.Text));
             if (Pod6.IsVisible == true) tasks.Add(new SubTask(Pod5.Text));
 
-            Goal goal = new Goal(title, desc, cat, tasks, "Цель пока не завершена");
+            Goal goal = new Goal(title, desc, cat, tasks);
+            goal.Memories = CurrGoal.Memories;
             var list = AppInitials.Goals;
             if (list.goals.Contains(CurrGoal))
             {

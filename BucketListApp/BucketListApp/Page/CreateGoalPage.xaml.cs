@@ -144,7 +144,7 @@ namespace BucketListApp
             if (Pod5.IsVisible == true) tasks.Add(new SubTask(Pod4.Text));
             if (Pod6.IsVisible == true) tasks.Add(new SubTask(Pod5.Text));
 
-            Goal goal = new Goal(title, desc, cat, tasks, "Цель еще не выполнена");
+            Goal goal = new Goal(title, desc, cat, tasks);
             MessagingCenter.Send<CreateGoalPage, Goal>(this, "AddGoal", goal);
             Clear();
             OnBackButtonPressed();

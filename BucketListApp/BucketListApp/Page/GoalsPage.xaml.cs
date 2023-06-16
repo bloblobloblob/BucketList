@@ -26,6 +26,7 @@ namespace BucketListApp
             MessagingCenter.Subscribe<CreateGoalPage, Goal>(this, "AddGoal", (sender, arg) =>
             {
                 GoalList.AddCustomGoal(arg.Title, arg.Description, arg.Category, arg.SubTasks);
+                GoalList.goals[GoalList.goals.Count - 1].Memories = "Цель еще не выполнена";
             });
 
             BindingContext = GoalList;

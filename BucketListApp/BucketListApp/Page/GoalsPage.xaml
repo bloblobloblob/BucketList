@@ -56,7 +56,8 @@
                                                  HeightRequest="12" 
                                                  WidthRequest="12"  
                                                  Progress="{Binding Done}"
-                                                 Margin="8, 0, 0, 0"/>
+                                                 Margin="8, 0, 0, 0"
+                                                 x:Name="Prog"/>
                                 </Grid>
                             </Frame>
                         </StackLayout>

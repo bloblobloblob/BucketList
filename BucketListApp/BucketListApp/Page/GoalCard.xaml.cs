@@ -64,18 +64,25 @@ namespace BucketListApp
                         taskContainer.Children.Add(subStack);
                     }
                 }
+                TextMem.Text = arg.Memories;
+                if (arg.Status == true) EndGoal.Text = "Изменить впечатление";
             });
-
-            MessagingCenter.Subscribe<AddMemory, string>(this, "GetMemory", (sender2, arg2) =>
+            MessagingCenter.Subscribe<AddMemory, string>(this, "GetMemory", (sender, arg) =>
             {
-                TitleMem.Text = "Впечатления:";
-                TextMem.Text = arg2;
-                CurrGoal.Memories = arg2;
+                CurrGoal.Status = true;
+                CurrGoal.Memories = arg;
+                TextMem.Text = arg;
             });
         }
 
-        public void RetutnToGoalsPage(object sender, EventArgs e)
+        public void ReturnToGoalsPage(object sender, EventArgs e)
         {
+            OnBackButtonPressed();
+        }
+
+        public void DeleteGoal(object sender, EventArgs e)
+        {
+            AppInitials.Goals.DeleteGoal(CurrGoal);
             OnBackButtonPressed();
         }
 
@@ -90,17 +97,6 @@ namespace BucketListApp
         {
             await Navigation.PushModalAsync(new AddMemory());
             var list = AppInitials.Goals;
-            if (list.goals.Contains(CurrGoal))
-            {
-                CurrGoal.Status = true;
-            }
-            else
-            {
-                var ap = new AlertPage();
-                ap.ErrTxt.Text = "Ошибка";
-                ap.Txt.Text = "Ошибка при завершении цели";
-                await Navigation.PushModalAsync(ap);
-            }
         }
     }
 }

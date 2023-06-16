@@ -6734,7 +6734,6 @@ C:\Users\Nikita\Documents\GitHub\BL\BucketListApp\BucketListApp.Android\obj\Debu
 C:\Users\Nikita\Documents\GitHub\BL\BucketListApp\BucketListApp.Android\obj\Debug\130\android\src\mono\MonoPackageManager_Resources.java
 C:\Users\Nikita\Documents\GitHub\BL\BucketListApp\BucketListApp.Android\obj\Debug\130\android\src\xamarin\essentials\fileProvider.java
 C:\Users\Nikita\Documents\GitHub\BL\BucketListApp\BucketListApp.Android\obj\Debug\130\android\bin\packaged_resources
-C:\Users\Nikita\Documents\GitHub\BL\BucketListApp\BucketListApp.Android\obj\Debug\130\android\src\com\companyname\bucketlistapp\R.java
 C:\Users\Nikita\Documents\GitHub\BL\BucketListApp\BucketListApp.Android\obj\Debug\130\android\compressed_assemblies.arm64-v8a.ll
 C:\Users\Nikita\Documents\GitHub\BL\BucketListApp\BucketListApp.Android\obj\Debug\130\android\compressed_assemblies.armeabi-v7a.ll
 C:\Users\Nikita\Documents\GitHub\BL\BucketListApp\BucketListApp.Android\obj\Debug\130\android\compressed_assemblies.x86.ll
@@ -6768,16 +6767,6 @@ C:\Users\Nikita\Documents\GitHub\BL\BucketListApp\BucketListApp.Android\obj\Debu
 C:\Users\Nikita\Documents\GitHub\BL\BucketListApp\BucketListApp.Android\obj\Debug\130\stamp\_GenerateJavaStubs.stamp
 C:\Users\Nikita\Documents\GitHub\BL\BucketListApp\BucketListApp.Android\obj\Debug\130\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Nikita\Documents\GitHub\BL\BucketListApp\BucketListApp.Android\obj\Debug\130\stamp\_ResolveLibraryProjectImports.stamp
-C:\Users\Nikita\Documents\GitHub\BL\BucketListApp\BucketListApp.Android\obj\Debug\130\android\src\com\companyname\x1\bucketlistapp\R.java
-C:\Users\Nikita\Documents\GitHub\BL\BucketListApp\BucketListApp.Android\obj\Debug\130\android\src\com\companyname\x2\bucketlistapp\R.java
-C:\Users\Nikita\Documents\GitHub\BL\BucketListApp\BucketListApp.Android\bin\Debug\com.companyname.x3.bucketlistapp.apk
-C:\Users\Nikita\Documents\GitHub\BL\BucketListApp\BucketListApp.Android\bin\Debug\com.companyname.x3.bucketlistapp.aab
-C:\Users\Nikita\Documents\GitHub\BL\BucketListApp\BucketListApp.Android\bin\Debug\com.companyname.x3.bucketlistapp-Signed.aab
-C:\Users\Nikita\Documents\GitHub\BL\BucketListApp\BucketListApp.Android\bin\Debug\com.companyname.x3.bucketlistapp-Signed.apk
-C:\Users\Nikita\Documents\GitHub\BL\BucketListApp\BucketListApp.Android\bin\Debug\com.companyname.x3.bucketlistapp-Signed.apk.idsig
-C:\Users\Nikita\Documents\GitHub\BL\BucketListApp\BucketListApp.Android\obj\Debug\130\android\bin\com.companyname.x3.bucketlistapp.apk
-C:\Users\Nikita\Documents\GitHub\BL\BucketListApp\BucketListApp.Android\obj\Debug\130\android\bin\com.companyname.x3.bucketlistapp.aab
-C:\Users\Nikita\Documents\GitHub\BL\BucketListApp\BucketListApp.Android\obj\Debug\130\android\bin\com.companyname.x3.bucketlistapp.apks
 C:\Users\Nikita\Documents\GitHub\BL\BucketListApp\BucketListApp.Android\obj\Debug\130\android\src\com\companyname\x3\bucketlistapp\R.java
 D:\GitHub Repository\BucketList\BucketListApp\BucketListApp.Android\bin\Debug\com.companyname.x3.bucketlistapp.apk
 D:\GitHub Repository\BucketList\BucketListApp\BucketListApp.Android\bin\Debug\com.companyname.x3.bucketlistapp.aab
@@ -6789,3 +6778,13 @@ D:\GitHub Repository\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\13
 D:\GitHub Repository\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\android\bin\com.companyname.x3.bucketlistapp.apks
 D:\GitHub Repository\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\res\drawable\myicon.png
 D:\GitHub Repository\BucketList\BucketListApp\BucketListApp.Android\obj\Debug\130\android\src\com\companyname\x3\bucketlistapp\R.java
+C:\Users\Nikita\Documents\GitHub\BL\BucketListApp\BucketListApp.Android\obj\Debug\130\android\src\com\companyname\x4\bucketlistapp\R.java
+C:\Users\Nikita\Documents\GitHub\BL\BucketListApp\BucketListApp.Android\bin\Debug\com.companyname.x5.bucketlistapp.apk
+C:\Users\Nikita\Documents\GitHub\BL\BucketListApp\BucketListApp.Android\bin\Debug\com.companyname.x5.bucketlistapp.aab
+C:\Users\Nikita\Documents\GitHub\BL\BucketListApp\BucketListApp.Android\bin\Debug\com.companyname.x5.bucketlistapp-Signed.aab
+C:\Users\Nikita\Documents\GitHub\BL\BucketListApp\BucketListApp.Android\bin\Debug\com.companyname.x5.bucketlistapp-Signed.apk
+C:\Users\Nikita\Documents\GitHub\BL\BucketListApp\BucketListApp.Android\bin\Debug\com.companyname.x5.bucketlistapp-Signed.apk.idsig
+C:\Users\Nikita\Documents\GitHub\BL\BucketListApp\BucketListApp.Android\obj\Debug\130\android\bin\com.companyname.x5.bucketlistapp.apk
+C:\Users\Nikita\Documents\GitHub\BL\BucketListApp\BucketListApp.Android\obj\Debug\130\android\bin\com.companyname.x5.bucketlistapp.aab
+C:\Users\Nikita\Documents\GitHub\BL\BucketListApp\BucketListApp.Android\obj\Debug\130\android\bin\com.companyname.x5.bucketlistapp.apks
+C:\Users\Nikita\Documents\GitHub\BL\BucketListApp\BucketListApp.Android\obj\Debug\130\android\src\com\companyname\x5\bucketlistapp\R.java

@@ -4,7 +4,7 @@
              x:Class="BucketListApp.AddMemory"
              Background="#FFF3E2">
     <ContentPage.Content>
-        <StackLayout Margin="16, 0, 16, 0" HorizontalOptions="Center" VerticalOptions="Center">
+        <StackLayout Margin="16, 0, 16, 110" HorizontalOptions="Center" VerticalOptions="Center">
             <Frame HeightRequest="170"
                    WidthRequest="340"
                    BackgroundColor="#33312d"
@@ -13,10 +13,11 @@
                    HasShadow="False">
                 <StackLayout>
                     <Label Text="Здесь вы можете поделиться своими впечатлениями после выполнения цели" 
-                           TextColor="#FFF3E2"
+                           TextColor="#FFFFFF"
                            FontSize="16"/>
                     <custom:CustomEntry
                         x:Name="textMem"
+                        Keyboard="Text"
                         CornerRadius="10"
                         BorderColor=" #FFF3E2"
                         HeightRequest="50"

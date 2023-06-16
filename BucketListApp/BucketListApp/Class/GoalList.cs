@@ -22,7 +22,7 @@ namespace BucketListApp.Class
 
         public void AddCustomGoal(string title, string descript, Category category, List<SubTask> subTasks)
         {
-            goals.Add(new Goal(title, descript, category, subTasks, "Цель еще не выполнена"));
+            goals.Add(new Goal(title, descript, category, subTasks));
         }
 
         public void AddExampleGoal(Goal exampleGoal, string customTitle,
@@ -32,7 +32,7 @@ namespace BucketListApp.Class
             var description = customDescript ?? exampleGoal.Description;
             var category = customCategory ?? exampleGoal.Category;
             var subTasks = customSubTasks ?? exampleGoal.SubTasks;
-            goals.Add(new Goal(title, description, category, subTasks, "Цель еще не выполнена"));
+            goals.Add(new Goal(title, description, category, subTasks));
         }
 
         public static void ChangeGoal(Goal goal, string customTitle,
