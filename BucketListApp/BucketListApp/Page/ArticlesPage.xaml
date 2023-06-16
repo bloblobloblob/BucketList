@@ -15,7 +15,7 @@
                    FontFamily="Inter"/>
             <StackLayout>
                 <CollectionView x:DataType="local:ArticlesPage" ItemsSource="{Binding Articles}"
-                            SelectionMode="Single"
+                            SelectionMode="Single" x:Name="CollView"
                             SelectionChanged="CollectionView_SelectionChanged">
                     <CollectionView.ItemTemplate>
                         <DataTemplate

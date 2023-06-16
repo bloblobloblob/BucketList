@@ -36,12 +36,14 @@ namespace BucketListApp
 
         async void OnCollectionViewSelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+            if (CollView.SelectedItem == null) return;
             var ap = new CreateGoalPage();
             Goal curr = e.CurrentSelection.FirstOrDefault() as Goal;
             MessagingCenter.Send<AddGoalPage, Goal>(this, "CreateGoal", curr);
             //CollView.SelectionMode = SelectionMode.None;
             //CollView.SelectionMode = SelectionMode.Single;
             await Navigation.PushModalAsync(ap);
+            CollView.SelectedItem = null;
             return;
         }
     }

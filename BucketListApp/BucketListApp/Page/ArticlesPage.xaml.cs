@@ -142,9 +142,11 @@ namespace BucketListApp
 
         async void CollectionView_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+            if (CollView.SelectedItem == null) return;
             var InfoP = new TextInfo();
             var curr = e.CurrentSelection.FirstOrDefault() as Article;
             MessagingCenter.Send<ArticlesPage, Article>(this, "currInfo", curr);
+            CollView.SelectedItem = null;
             await Navigation.PushAsync(InfoP);
         }
     }

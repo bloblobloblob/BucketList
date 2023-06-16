@@ -158,7 +158,8 @@ namespace BucketListApp.Class
         }
 
         private int SubTasksCount => SubTasks.Count;
-        public Goal(string title, string description, Category category, List<SubTask> subTasks, string memories = null)
+
+        public Goal(string title, string description, Category category, List<SubTask> subTasks, string memories)
         {
             Image = category.Icon;
             ImageWhite = category.IconWhite;

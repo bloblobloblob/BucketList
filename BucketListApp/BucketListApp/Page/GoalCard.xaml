@@ -41,8 +41,8 @@
                                FontSize="22" FontAttributes="Bold" TextColor="#FFF3E2" Margin="4, 0, 0, 0"/>
                     </StackLayout>
                     <Label x:Name="Lbl2" Margin="0, -25, 0, 0" FontSize="16" TextColor="#FFF3E2" Text=""/>
-                    <Label x:Name="Lbl3" Margin="0, -20, 0, 0" FontSize="16" FontAttributes="Bold" TextColor="#FFF3E2" Text="Если вы видите эту надпись, то что-то сломалось :("/>
-                    <Label x:Name="Lbl4" Margin="0, -20, 0, 0" FontSize="16" TextColor="#FFF3E2"></Label>
+                    <Label x:Name="Lbl3" Margin="0, -20, 0, 0" FontSize="18" FontAttributes="Bold" TextColor="#FFF3E2" Text="Если вы видите эту надпись, то что-то сломалось :("/>
+                    <Label x:Name="Lbl4" Margin="0, -10, 0, 0" FontSize="16" TextColor="#FFF3E2"></Label>
                     <ProgressBar x:Name="Prog" Margin="0, -10, 0, 0" ProgressColor="#FBAB57" HeightRequest="16" WidthRequest="16"  Progress="0.5"/>
                     <Label x:Name="Lbl5" Margin="0, -10, 0, 0" FontSize="16" FontAttributes="Bold" TextColor="#FFF3E2" Text="Подзадачи:"/>
                     <Frame x:Name="Frm" Margin="0, 0, 0, 10" CornerRadius="20" BackgroundColor="#3D3C38">

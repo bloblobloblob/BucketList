@@ -13,8 +13,6 @@ namespace BucketListApp.Custom
     //ap.ErrTxt.Text = "Название ошибки";
     //ap.Txt.Text = "Текст ошибки";
     //await Navigation.PushModalAsync(ap);
-    //return;
-// Строка выше - опциональна
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class AlertPage : ContentPage

@@ -15,8 +15,7 @@ namespace BucketListApp.Page
     public partial class EditGoal : ContentPage
     {
         Category cat;
-        string Tit;
-        DateTime creatDate;
+        Goal CurrGoal;
 
         public EditGoal()
         {
@@ -24,8 +23,8 @@ namespace BucketListApp.Page
             NavigationPage.SetHasNavigationBar(this, false);
             MessagingCenter.Subscribe<GoalCard, Goal>(this, "edit", (sender, arg) =>
             {
-                Tit = arg.Title;
-                creatDate = arg.CreationDate;
+                CurrGoal = arg;
+                cat = arg.Category;
                 Name.Text = arg.Title;
                 ButCat.Text = arg.Category.Name;
                 About.Text = arg.Description;
@@ -128,10 +127,23 @@ namespace BucketListApp.Page
             if (Pod5.IsVisible == true) tasks.Add(new SubTask(Pod4.Text));
             if (Pod6.IsVisible == true) tasks.Add(new SubTask(Pod5.Text));
 
-            Goal goal = new Goal(title, desc, cat, tasks);
-            MessagingCenter.Send<EditGoal, Goal>(this, "Edit", goal);
-            //GoalsPage.GoalList.ChangeGoal();
+            Goal goal = new Goal(title, desc, cat, tasks, "Цель пока не завершена");
+            var list = AppInitials.Goals;
+            if (list.goals.Contains(CurrGoal))
+            {
+                var index = list.goals.IndexOf(CurrGoal);
+                list.goals.RemoveAt(index);
+                list.goals.Insert(index, goal);
+            }
+            else
+            {
+                var ap = new AlertPage();
+                ap.ErrTxt.Text = "Ошибка";
+                ap.Txt.Text = "Ошибка при изменении цели";
+                await Navigation.PushModalAsync(ap);
+            }
             Clear();
+            OnBackButtonPressed();
             OnBackButtonPressed();
         }
     }

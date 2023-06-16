@@ -33,10 +33,6 @@ namespace BucketListApp
             {
                 ItemSpacing = 8
             };
-            MessagingCenter.Subscribe<EditGoal, Goal>(this, "Edit", (sender, arg) =>
-            {
-                GoalList.AddCustomGoal(arg.Title, arg.Description, arg.Category, arg.SubTasks);
-            });
         }
         protected override void OnAppearing()
         {
@@ -54,12 +50,14 @@ namespace BucketListApp
 
         async void OnCollectionViewSelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+            if (CollView.SelectedItem == null) return;
             var ap = new GoalCard();
             Goal curr = e.CurrentSelection.FirstOrDefault() as Goal;
             MessagingCenter.Send<GoalsPage, Goal>(this, "OpenGoalCard", curr);
             //CollView.SelectionMode = SelectionMode.None;
             //CollView.SelectionMode = SelectionMode.Single;
             await Navigation.PushModalAsync(ap);
+            CollView.SelectedItem = null;
             return;
         }
     }

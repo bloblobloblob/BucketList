@@ -27,6 +27,7 @@ namespace BucketListApp
         }
         private void GetComplited()
         {
+            //ComplG.Text = string.Format("{0}%", ((AppInitials.CompletedGoals / AppInitials.TotalGoals) * 100).ToString());
             ComplG.Text = string.Format("{0}%",(AppInitials.TotalCompletedRatio * 100).ToString());
             progressRing.Progress = AppInitials.TotalCompletedRatio;
             DiffrentCompAndProgress.Text = string.Format("{0}/{1}", AppInitials.CompletedGoals, AppInitials.TotalGoals);
