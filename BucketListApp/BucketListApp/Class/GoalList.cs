@@ -67,7 +67,7 @@ namespace BucketListApp.Class
         {
             if (!goals.Any())
                 return 0;
-            return goals.Where(goal => goal.Status == true).Count() / goals.Count;
+            return (double) goals.Where(goal => goal.Status == true).Count() / goals.Count;
         }
 
         public int Completed()

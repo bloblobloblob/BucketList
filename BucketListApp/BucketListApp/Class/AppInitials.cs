@@ -169,7 +169,7 @@ namespace BucketListApp.Class
 
         private static GoalList LoadGoals()
         {
-            var path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "GoalsData.json");
+            var path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "GoalsData2.json");
             if (!System.IO.File.Exists(path))
                 System.IO.File.Create(path).Close();
             var stringData = System.IO.File.ReadAllText(path);
@@ -178,7 +178,7 @@ namespace BucketListApp.Class
 
         public static void SaveGoals()
         {
-            var path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "GoalsData.json");
+            var path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "GoalsData2.json");
             var stringData = JsonConvert.SerializeObject(goals);
             System.IO.File.WriteAllText(path, stringData);
         }
